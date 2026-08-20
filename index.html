@@ -4,6 +4,19 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Pizdez 2026/27 — League Dashboard</title>
+<meta name="description" content="Pizdez 2026/27 — Ligat HaKafkafim FPL league: live standings, weekly winners, prizes, cup and hall of fame."/>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"/>
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Pizdez 2026/27 — Ligat HaKafkafim"/>
+<meta property="og:description" content="Live FPL league dashboard: standings, weekly winners, prizes (₪7,500 pot), cup bracket and hall of fame. Updated automatically every gameweek."/>
+<meta property="og:url" content="https://michaelpeleg1.github.io/fplfantasy-pizdez/"/>
+<meta property="og:image" content="https://michaelpeleg1.github.io/fplfantasy-pizdez/assets/og.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://michaelpeleg1.github.io/fplfantasy-pizdez/assets/og.jpg"/>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
@@ -23,16 +36,17 @@
   ::-webkit-scrollbar-thumb{background:var(--violet);border-radius:3px}
   a{color:var(--green)}
 
-  header{position:relative;overflow:hidden;background:linear-gradient(90deg,var(--purple),var(--purple-mid),var(--purple));
-    border-bottom:3px solid var(--green);padding:22px 28px;display:flex;align-items:center;gap:16px;
+  header{position:relative;overflow:hidden;
+    background:linear-gradient(rgba(26,0,32,.55), rgba(26,0,32,.72)), url("assets/hero.webp") center 35%/cover no-repeat, var(--purple);
+    border-bottom:3px solid var(--green);padding:38px 28px;display:flex;align-items:center;gap:18px;
     box-shadow:0 4px 40px rgba(0,255,135,.14);flex-wrap:wrap}
   header::after{content:"";position:absolute;inset:0;pointer-events:none;
-    background:radial-gradient(600px 120px at 50% 0%, rgba(255,255,255,.07), transparent 70%)}
-  .logo{width:52px;height:52px;border-radius:50%;background:radial-gradient(circle at 30% 30%, #7dffc0, var(--green));
-    display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0;
-    box-shadow:0 0 24px rgba(0,255,135,.5)}
-  h1{font-family:'Bebas Neue',cursive;font-size:2.1rem;letter-spacing:5px;color:#fff;
-    text-shadow:0 0 30px rgba(0,255,135,.35)}
+    background:radial-gradient(700px 140px at 50% 100%, rgba(0,255,135,.10), transparent 70%)}
+  .logo{width:64px;height:64px;border-radius:50%;flex-shrink:0;overflow:hidden;
+    box-shadow:0 0 28px rgba(0,255,135,.55);border:2px solid var(--green)}
+  .logo img{width:100%;height:100%;display:block}
+  h1{font-family:'Bebas Neue',cursive;font-size:2.4rem;letter-spacing:6px;color:#fff;
+    text-shadow:0 2px 18px rgba(0,0,0,.8), 0 0 30px rgba(0,255,135,.35)}
   .subtitle{font-size:.75rem;color:var(--green);letter-spacing:3px;font-family:'Bebas Neue',cursive}
   .header-stats{margin-left:auto;display:flex;gap:22px}
   .stat-box{text-align:center;background:rgba(0,0,0,.25);border:1px solid rgba(0,255,135,.25);
@@ -144,7 +158,7 @@
 <body>
 
 <header>
-  <div class="logo">🩴</div>
+  <div class="logo"><img src="assets/logo.webp" alt="Pizdez league emblem"/></div>
   <div>
     <h1>PIZDEZ 2026/27</h1>
     <div class="subtitle">LIGAT HAKAFKAFIM · FANTASY PREMIER LEAGUE</div>
