@@ -1,6 +1,7 @@
 # Sprint S1 — Pizdez 2026/27 League Dashboard
 
-**Status:** DRAFT (awaiting LOCK)
+**Status:** DRAFT v2 (awaiting LOCK)
+**Linear project:** https://linear.app/pilotorch/project/pizdez-fpl-dashboard-202627-f221c2705162 (PIL-241…PIL-248)
 **Date:** 2026-08-20
 **Mode:** ORCH_MODE
 
@@ -31,7 +32,10 @@ static `data.json` consumed by the page.
 1. **Standings** — cumulative league table as-of selected GW, prize badges,
    tie-split handling
 2. **Weekly** — per-GW winner + runners-up (bragging rights)
-3. **Monthly** — month groups per 2026/27 GW calendar, top-5 per month
+3. **Monthly** — month groups derived from real 2026/27 deadlines (verified
+   via bootstrap-static): Aug GW1-2, Sep 3-5, Oct 6-9, Nov 10-12, Dec 13-18,
+   Jan 19-23, Feb 24-27, Mar 28-30, Apr 31-33, May 34-38 — computed from
+   data.json, never hardcoded
 4. **Cup** — FPL built-in cup: qualification tracker (GW33), then live
    bracket from `/api/leagues-h2h-matches/league/{cup_league}/`
 5. **Hall of Fame** — past champions: 2024/25 & 2023/24 Roman Samoilenko,
@@ -42,12 +46,40 @@ static `data.json` consumed by the page.
 
 ## PRs
 
-| PR | Title | Scope | Est. LOC | Status |
-|----|-------|-------|----------|--------|
-| PR-1 | Static dashboard (index.html) | Adapted single-page app: theme, tabs 1–3 + 5, config block (prizes, links), reads `data/data.json` | ~700 | open |
-| PR-2 | Data pipeline (fetch-fpl.mjs) | Node script: league standings → roster auto-discovery → per-entry history → `data/data.json`; GitHub Action cron (2× daily) + manual trigger | ~200 | open |
-| PR-3 | Cup tab | Qualification tracker pre-GW33; bracket renderer from h2h-matches API once `cup_league` activates | ~150 | open |
-| PR-4 | Deploy | Netlify site (drag-free: netlify.toml), Action commits refreshed data.json → auto redeploy | ~30 | open |
+| PR | Linear | Title | Priority | Status |
+|----|--------|-------|----------|--------|
+| PR-1 | PIL-241 | Dashboard SPA (index.html, tabs 1-3+5, config block) | Urgent | open |
+| PR-2 | PIL-242 | Data pipeline (fetch-fpl.mjs + GitHub Action cron) | Urgent | open |
+| PR-3 | PIL-243 | Prize engine — tie-split rule, config-driven amounts | High | open |
+| PR-4 | PIL-244 | Netlify deploy + auto-redeploy on data refresh | High | open |
+| PR-5 | PIL-245 | Cup tab — FPL built-in cup (qual GW33, rounds GW34-38) | Medium | open |
+| PR-6 | PIL-246 | Chip badges + Hall of Fame content | Medium | open |
+| — | PIL-247 | Post-registration: lock roster + final prizes (due 22/08) | High | open |
+| — | PIL-248 | Post-GW1 verification: data accuracy check (due 25/08) | Medium | open |
+
+## Research round 2 (answered 2026-08-20)
+
+- **GW→month calendar**: pulled from live bootstrap-static (see Monthly tab
+  above). The original app's hardcoded groups were for 2025/26 — ours is
+  derived from data.
+- **Chips 2026/27**: 8 chips — Wildcard/Free Hit/Bench Boost/Triple Captain,
+  one of each per half; first set expires at GW19 deadline (premierleague.com
+  official announcement). Entry history API exposes chips played → chip
+  badges in Weekly tab (PR-6).
+- **Cup**: cup-status API confirms "Pizdez 2026/27 Cup" exists —
+  qualification GW33, 32 slots (all managers qualify), random draw, byes,
+  rounds GW34-38. Match data via leagues-h2h-matches once cup_league
+  activates (404 until then). Dashboard displays FPL's declared winners;
+  no tie-break logic on our side.
+- **GitHub Actions viability**: community FPL pipelines run on Actions with
+  a browser User-Agent (e.g. ARW4/FPL_Project). Residential fetch verified
+  working here. Residual risk: FPL 403s some datacenter IPs — first Action
+  run is the acceptance test; fallbacks: run locally / Netlify scheduled
+  function.
+- **Tie rule**: league rule (not FPL's display order) governs prizes —
+  tied managers split the sum of prizes their positions span (PIL-243).
+- **Prize/pot gap**: prizes total 7,500 vs 6,300 collected at 21 players →
+  breakeven 25; amounts are config-only, finalized Friday (PIL-247).
 
 ## Cost Gate
 
