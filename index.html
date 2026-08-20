@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Pizdez 2026/27 — League Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --purple-deep:#1a0020; --purple:#38003c; --purple-mid:#5e0066; --violet:#7c2d8e;
+    --green:#00ff87; --gold:#ffd700; --ink:#f0e6f6; --ink-dim:rgba(240,230,246,.55);
+    --card:rgba(20,0,25,.55); --card-border:rgba(124,45,142,.5);
+  }
+  body{min-height:100vh;font-family:'Nunito',sans-serif;color:var(--ink);
+    background:
+      radial-gradient(1200px 500px at 15% -10%, rgba(0,255,135,.10), transparent 60%),
+      radial-gradient(900px 500px at 85% 0%, rgba(124,45,142,.35), transparent 60%),
+      linear-gradient(160deg, var(--purple-deep) 0%, var(--purple) 45%, var(--purple-deep) 100%);
+    background-attachment: fixed;
+  }
+  ::-webkit-scrollbar{width:5px;height:5px}
+  ::-webkit-scrollbar-thumb{background:var(--violet);border-radius:3px}
+  a{color:var(--green)}
+
+  header{position:relative;overflow:hidden;background:linear-gradient(90deg,var(--purple),var(--purple-mid),var(--purple));
+    border-bottom:3px solid var(--green);padding:22px 28px;display:flex;align-items:center;gap:16px;
+    box-shadow:0 4px 40px rgba(0,255,135,.14);flex-wrap:wrap}
+  header::after{content:"";position:absolute;inset:0;pointer-events:none;
+    background:radial-gradient(600px 120px at 50% 0%, rgba(255,255,255,.07), transparent 70%)}
+  .logo{width:52px;height:52px;border-radius:50%;background:radial-gradient(circle at 30% 30%, #7dffc0, var(--green));
+    display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0;
+    box-shadow:0 0 24px rgba(0,255,135,.5)}
+  h1{font-family:'Bebas Neue',cursive;font-size:2.1rem;letter-spacing:5px;color:#fff;
+    text-shadow:0 0 30px rgba(0,255,135,.35)}
+  .subtitle{font-size:.75rem;color:var(--green);letter-spacing:3px;font-family:'Bebas Neue',cursive}
+  .header-stats{margin-left:auto;display:flex;gap:22px}
+  .stat-box{text-align:center;background:rgba(0,0,0,.25);border:1px solid rgba(0,255,135,.25);
+    border-radius:10px;padding:8px 16px;backdrop-filter:blur(4px)}
+  .stat-num{font-family:'Bebas Neue',cursive;font-size:1.7rem;color:var(--green);line-height:1}
+  .stat-label{font-size:.62rem;color:var(--ink-dim);letter-spacing:1px;text-transform:uppercase}
+
+  .container{max-width:1100px;margin:0 auto;padding:28px 18px}
+  .reg-banner{background:linear-gradient(90deg, rgba(0,255,135,.12), rgba(0,255,135,.04));
+    border:1px solid var(--green);border-radius:12px;padding:15px 20px;margin-bottom:22px;
+    font-size:.93rem;line-height:1.8;box-shadow:0 0 30px rgba(0,255,135,.08)}
+  .reg-banner b{color:var(--green)}
+
+  .tabs{display:flex;gap:10px;margin-bottom:24px;flex-wrap:wrap}
+  .tab-btn{padding:10px 20px;border-radius:8px;cursor:pointer;border:2px solid var(--violet);
+    background:rgba(20,0,25,.4);color:var(--ink);font-family:'Bebas Neue',cursive;font-size:1.02rem;
+    letter-spacing:2px;transition:all .18s}
+  .tab-btn:hover{border-color:var(--green);transform:translateY(-1px)}
+  .tab-btn.active{background:var(--green);border-color:var(--green);color:var(--purple);
+    box-shadow:0 4px 20px rgba(0,255,135,.35)}
+  .view{display:none}
+  .view.active{display:block;animation:fadeIn .25s ease}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+  .card{background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:22px;
+    margin-bottom:20px;backdrop-filter:blur(6px);box-shadow:0 10px 40px rgba(0,0,0,.35)}
+  .card-title{font-family:'Bebas Neue',cursive;font-size:1.35rem;letter-spacing:3px;color:var(--green);margin-bottom:14px}
+
+  table{width:100%;border-collapse:collapse}
+  th{font-family:'Bebas Neue',cursive;letter-spacing:2px;font-weight:400;color:var(--ink-dim);
+    text-align:left;padding:8px 10px;border-bottom:2px solid var(--violet);font-size:.95rem}
+  td{padding:10px;border-bottom:1px solid rgba(124,45,142,.3);font-size:.92rem}
+  tr:hover td{background:rgba(124,45,142,.12)}
+  tr.podium-1 td{background:linear-gradient(90deg, rgba(255,215,0,.08), transparent 60%)}
+  .td-rank{width:44px;text-align:center}
+  .td-num{text-align:right;font-variant-numeric:tabular-nums}
+  .td-green{color:var(--green);font-weight:800}
+  .td-dim{color:rgba(240,230,246,.6)}
+  .name-first{color:var(--gold);font-weight:800}
+  .team-name{color:rgba(240,230,246,.45);font-size:.78rem}
+  .prize-badge{background:rgba(255,215,0,.14);border:1px solid var(--gold);color:var(--gold);
+    border-radius:6px;padding:2px 9px;font-size:.78rem;font-weight:800;white-space:nowrap}
+  .chip-badge{font-size:.68rem;border:1px solid var(--violet);border-radius:4px;padding:1px 6px;
+    margin-left:6px;color:#e0b3ff;vertical-align:middle;background:rgba(124,45,142,.15)}
+  .hit{color:#ff5470;font-size:.78rem}
+
+  select{background:#2a012f;color:var(--ink);border:2px solid var(--violet);border-radius:8px;
+    padding:7px 12px;font-family:'Nunito',sans-serif;margin-left:auto;cursor:pointer}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+  .week-card{background:rgba(20,0,25,.65);border:1px solid var(--card-border);border-radius:12px;
+    padding:15px;transition:transform .15s, box-shadow .15s}
+  .week-card:hover{transform:translateY(-2px);box-shadow:0 8px 26px rgba(0,255,135,.10)}
+  .week-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+  .gw-label{font-family:'Bebas Neue',cursive;letter-spacing:2px;color:var(--green);font-size:1.05rem}
+  .pts-badge{background:var(--green);color:var(--purple);border-radius:6px;padding:2px 9px;font-weight:800;font-size:.82rem}
+  .winner-name{font-weight:800;color:var(--gold);margin-bottom:8px}
+  .runner-row{display:flex;justify-content:space-between;font-size:.85rem;color:rgba(240,230,246,.75);padding:2px 0}
+  .runner-score{color:rgba(240,230,246,.5)}
+  .pagination{display:flex;gap:6px;margin-top:16px;justify-content:center}
+  .page-btn{width:34px;height:34px;border-radius:8px;border:2px solid var(--violet);background:transparent;
+    color:var(--ink);cursor:pointer;font-weight:700}
+  .page-btn.active{background:var(--green);border-color:var(--green);color:var(--purple)}
+
+  .month-card{background:rgba(20,0,25,.65);border:1px solid var(--card-border);border-radius:12px;padding:15px}
+  .month-title{font-family:'Bebas Neue',cursive;font-size:1.15rem;letter-spacing:2px;color:var(--green)}
+  .month-range{font-size:.72rem;color:rgba(240,230,246,.45);margin-bottom:10px}
+  .month-row{display:flex;justify-content:space-between;align-items:center;padding:4px 0}
+  .month-player{display:flex;align-items:center;gap:6px}
+  .month-pts{color:var(--green);font-weight:800;font-variant-numeric:tabular-nums}
+
+  .hof-row{display:flex;align-items:center;gap:16px;padding:14px 8px;border-bottom:1px solid rgba(124,45,142,.3)}
+  .hof-row:first-child{background:linear-gradient(90deg, rgba(255,215,0,.06), transparent);border-radius:8px}
+  .hof-season{font-family:'Bebas Neue',cursive;letter-spacing:2px;color:var(--green);font-size:1.15rem;min-width:92px}
+  .hof-champ{font-weight:800;font-size:1.05rem}
+  .hof-note{color:rgba(240,230,246,.5);font-size:.8rem;margin-left:auto}
+
+  .bracket-scroll{overflow-x:auto;padding-bottom:8px}
+  .bracket{display:flex;gap:18px;align-items:flex-start}
+  .bracket-round{min-width:210px}
+  .bracket-round-title{font-family:'Bebas Neue',cursive;letter-spacing:2px;color:var(--green);
+    font-size:.95rem;margin-bottom:10px;text-align:center}
+  .match{background:rgba(20,0,25,.75);border:1px solid var(--card-border);border-radius:10px;margin-bottom:10px;overflow:hidden}
+  .match.upcoming{border-style:dashed}
+  .match-team{display:flex;justify-content:space-between;padding:8px 11px;font-size:.85rem}
+  .match-team.winner{color:var(--green);font-weight:800}
+  .match-team.tbd{color:rgba(240,230,246,.35);font-style:italic}
+  .match-score.loser{color:rgba(240,230,246,.45)}
+
+  .empty-state{text-align:center;padding:50px 20px;color:rgba(240,230,246,.6);line-height:2}
+  .empty-state .big{font-size:2.8rem;filter:drop-shadow(0 0 18px rgba(0,255,135,.35))}
+  #loading{text-align:center;padding:80px 0;font-family:'Bebas Neue',cursive;letter-spacing:3px;font-size:1.3rem;color:var(--green)}
+  #errorBox{display:none;background:rgba(255,84,112,.1);border:1px solid #ff5470;color:#ff9db0;
+    border-radius:12px;padding:16px;margin:30px auto;max-width:600px}
+  footer{text-align:center;padding:22px;font-size:.72rem;color:rgba(240,230,246,.35)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🩴</div>
+  <div>
+    <h1>PIZDEZ 2026/27</h1>
+    <div class="subtitle">LIGAT HAKAFKAFIM · FANTASY PREMIER LEAGUE</div>
+  </div>
+  <div class="header-stats" id="headerStats" style="display:none">
+    <div class="stat-box"><div class="stat-num" id="statManagers">–</div><div class="stat-label">Managers</div></div>
+    <div class="stat-box"><div class="stat-num" id="statGWs">–</div><div class="stat-label">GWs Played</div></div>
+    <div class="stat-box"><div class="stat-num" id="statPot">–</div><div class="stat-label">Prize Pot</div></div>
+  </div>
+</header>
+
+<div class="container">
+  <div id="loading">LOADING LEAGUE DATA…</div>
+  <div id="errorBox"></div>
+
+  <div id="app" style="display:none">
+    <div class="reg-banner" id="regBanner" style="display:none">
+      🚨 <b>Registration is open until the GW1 deadline (Fri 21/08, 20:30 IL time)!</b><br/>
+      Join the league: <a href="https://fantasy.premierleague.com/leagues/auto-join/gkorug" target="_blank" rel="noopener">auto-join link</a> (code: <b>gkorug</b>)
+      &nbsp;·&nbsp; Pay the ₪300 buy-in: <a href="https://links.payboxapp.com/lUfBA3fJC5b" target="_blank" rel="noopener">PayBox</a>
+    </div>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showTab('standings',this)">📊 Standings</button>
+      <button class="tab-btn" onclick="showTab('weekly',this)">⚡ Weekly</button>
+      <button class="tab-btn" onclick="showTab('monthly',this)">📅 Monthly</button>
+      <button class="tab-btn" onclick="showTab('cup',this)">🏆 Cup</button>
+      <button class="tab-btn" onclick="showTab('hof',this)">👑 Hall of Fame</button>
+    </div>
+
+    <div id="view-standings" class="view active">
+      <div class="card">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px">
+          <div class="card-title" style="margin-bottom:0">League Standings</div>
+          <select id="gwSelect" onchange="renderStandings()"></select>
+        </div>
+        <div style="overflow-x:auto">
+        <table>
+          <thead><tr><th>#</th><th>Manager</th><th class="td-num" id="gwScoreHeader">GW</th><th class="td-num">Total</th><th class="td-num">Prize</th></tr></thead>
+          <tbody id="standingsBody"></tbody>
+        </table>
+        </div>
+        <div style="font-size:.75rem;color:rgba(240,230,246,.4);margin-top:10px">
+          Prizes: 1st ₪3,600 · 2nd ₪2,100 · 3rd ₪1,300 · Cup winner ₪500. Tied managers split the sum of their positions' prizes.
+        </div>
+      </div>
+    </div>
+
+    <div id="view-weekly" class="view">
+      <div class="card">
+        <div class="card-title">Weekly Winners</div>
+        <div class="grid" id="weeklyGrid"></div>
+        <div class="pagination" id="weeklyPagination"></div>
+      </div>
+    </div>
+
+    <div id="view-monthly" class="view">
+      <div class="card">
+        <div class="card-title">Manager of the Month</div>
+        <div class="grid" id="monthlyGrid"></div>
+      </div>
+    </div>
+
+    <div id="view-cup" class="view">
+      <div class="card" id="cupCard"></div>
+    </div>
+
+    <div id="view-hof" class="view">
+      <div class="card">
+        <div class="card-title">Hall of Fame — League Champions</div>
+        <div id="hofList"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer id="footer"></footer>
+
+<script>
+// ===================== CONFIG =====================
+const CONFIG = {
+  dataUrl: "data/data.json",
+  buyIn: 300,
+  prizes: [3600, 2100, 1300],   // league positions 1..n — finalize after registration closes
+  cupPrize: 500,
+  currency: "₪",
+  champions: [
+    { season: "2024/25", name: "Roman Samoilenko", note: "back-to-back 🔁" },
+    { season: "2023/24", name: "Roman Samoilenko", note: "" },
+    { season: "2022/23", name: "Eliel Hurovich", note: "" },
+    { season: "2021/22", name: "Evgeny Friedman", note: "" },
+    { season: "2020/21", name: "Ran Meltzer", note: "" },
+    { season: "2019/20", name: "Michael Peleg", note: "" },
+    { season: "2018/19", name: "Yogev Balilti", note: "the first champion" },
+  ],
+};
+const CHIP_LABELS = { wildcard: "🃏 WC", freehit: "🎯 FH", bboost: "📈 BB", "3xc": "©×3 TC", manager: "🧑‍💼 AM" };
+// ==================================================
+
+let DATA = null, finishedGWs = [];
+
+const fmt = (n) => CONFIG.currency + n.toLocaleString(undefined, { maximumFractionDigits: 2 });
+const medal = (r) => r === 1 ? "🥇" : r === 2 ? "🥈" : r === 3 ? "🥉" : `<span style="font-weight:700">${r}</span>`;
+
+function netPoints(g) { return g.points - (g.hit_cost || 0); }
+function chipAt(m, gw) { const c = m.chips.find((c) => c.gw === gw); return c ? (CHIP_LABELS[c.name] || c.name) : null; }
+
+// Prize engine (PIL-243): tied managers split the sum of the prizes their positions span.
+function computePrizes(rows, prizes) {
+  const assign = {};
+  let i = 0;
+  while (i < rows.length && i < prizes.length) {
+    let j = i;
+    while (j + 1 < rows.length && rows[j + 1].total === rows[i].total) j++;
+    const pot = prizes.slice(i, j + 1).reduce((s, p) => s + p, 0); // positions beyond prize list contribute 0
+    const each = pot / (j - i + 1);
+    if (each > 0) for (let k = i; k <= j; k++) assign[rows[k].name] = each;
+    i = j + 1;
+  }
+  return assign;
+}
+
+function showTab(name, btn) {
+  document.querySelectorAll(".view").forEach((v) => v.classList.remove("active"));
+  document.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
+  document.getElementById("view-" + name).classList.add("active");
+  btn.classList.add("active");
+}
+
+function emptySeason(msg) {
+  return `<div class="empty-state"><div class="big">🩴</div>${msg}</div>`;
+}
+
+// ---- STANDINGS ----
+function renderStandings() {
+  const sel = document.getElementById("gwSelect");
+  const body = document.getElementById("standingsBody");
+  if (!finishedGWs.length) {
+    body.innerHTML = `<tr><td colspan="5">${emptySeason("Season hasn&rsquo;t started yet — standings appear after GW1 finishes.<br/>Good luck everyone! 🍀")}</td></tr>`;
+    document.getElementById("gwScoreHeader").textContent = "GW";
+    return;
+  }
+  const gw = parseInt(sel.value);
+  document.getElementById("gwScoreHeader").textContent = `GW${gw}`;
+  const rows = DATA.managers.map((m) => {
+    const upTo = m.gws.filter((g) => g.gw <= gw);
+    const cur = m.gws.find((g) => g.gw === gw);
+    return {
+      name: m.player_name, team: m.team_name,
+      total: upTo.reduce((s, g) => s + netPoints(g), 0),
+      gwScore: cur ? netPoints(cur) : null, hit: cur ? cur.hit_cost : 0,
+      chip: chipAt(m, gw),
+    };
+  }).sort((a, b) => b.total - a.total);
+  const assign = computePrizes(rows, CONFIG.prizes);
+  body.innerHTML = rows.map((r, i) => `
+    <tr class="${i === 0 ? "podium-1" : ""}">
+      <td class="td-rank">${medal(i + 1)}</td>
+      <td><span class="${i === 0 ? "name-first" : ""}">${r.name}</span>${r.chip ? `<span class="chip-badge">${r.chip}</span>` : ""}<div class="team-name">${r.team}</div></td>
+      <td class="td-num td-dim">${r.gwScore ?? "—"}${r.hit ? ` <span class="hit">(-${r.hit})</span>` : ""}</td>
+      <td class="td-num td-green">${r.total}</td>
+      <td class="td-num">${assign[r.name] ? `<span class="prize-badge">${fmt(assign[r.name])}</span>` : ""}</td>
+    </tr>`).join("");
+}
+
+// ---- WEEKLY ----
+const PAGE_SIZE = 12;
+function buildWeekly() {
+  const grid = document.getElementById("weeklyGrid");
+  if (!finishedGWs.length) { grid.innerHTML = emptySeason("Weekly winners will appear here after GW1."); return; }
+  const weeks = finishedGWs.map((gw) => {
+    const scores = DATA.managers.map((m) => {
+      const g = m.gws.find((x) => x.gw === gw);
+      return g ? { name: m.player_name, score: netPoints(g), chip: chipAt(m, gw) } : null;
+    }).filter(Boolean).sort((a, b) => b.score - a.score);
+    return { gw, top: scores[0], runners: scores.slice(1, 4) };
+  }).reverse(); // newest first
+  function renderPage(page) {
+    grid.innerHTML = weeks.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE).map(({ gw, top, runners }) => `
+      <div class="week-card">
+        <div class="week-header"><span class="gw-label">GW ${gw}</span><span class="pts-badge">${top?.score} pts</span></div>
+        <div class="winner-name">🏆 ${top?.name}${top?.chip ? `<span class="chip-badge">${top.chip}</span>` : ""}</div>
+        <div>${runners.map((r) => `<div class="runner-row"><span>${r.name}</span><span class="runner-score">${r.score}</span></div>`).join("")}</div>
+      </div>`).join("");
+    const pages = Math.ceil(weeks.length / PAGE_SIZE);
+    document.getElementById("weeklyPagination").innerHTML = pages > 1
+      ? Array.from({ length: pages }, (_, i) => `<button class="page-btn ${i === page ? "active" : ""}" onclick="goWeeklyPage(${i})">${i + 1}</button>`).join("") : "";
+  }
+  window.goWeeklyPage = renderPage;
+  renderPage(0);
+}
+
+// ---- MONTHLY (derived from real deadlines, never hardcoded) ----
+function buildMonthly() {
+  const grid = document.getElementById("monthlyGrid");
+  if (!finishedGWs.length) { grid.innerHTML = emptySeason("Manager of the Month standings appear after the first GW."); return; }
+  const groups = new Map();
+  for (const e of DATA.events) {
+    if (!finishedGWs.includes(e.id)) continue;
+    const d = new Date(e.deadline_time);
+    const label = d.toLocaleString("en-GB", { month: "long", year: "numeric" });
+    if (!groups.has(label)) groups.set(label, []);
+    groups.get(label).push(e.id);
+  }
+  grid.innerHTML = [...groups.entries()].map(([label, gws]) => {
+    const rows = DATA.managers.map((m) => ({
+      name: m.player_name,
+      total: m.gws.filter((g) => gws.includes(g.gw)).reduce((s, g) => s + netPoints(g), 0),
+    })).sort((a, b) => b.total - a.total);
+    return `
+      <div class="month-card">
+        <div class="month-title">${label}</div>
+        <div class="month-range">GW${gws[0]} – GW${gws[gws.length - 1]}</div>
+        ${rows.slice(0, 5).map((p, i) => `
+          <div class="month-row">
+            <div class="month-player"><span style="width:22px;text-align:center">${medal(i + 1)}</span>
+            <span style="font-size:.9rem;${i === 0 ? "color:#ffd700;font-weight:800" : ""}">${p.name}</span></div>
+            <span class="month-pts">${p.total}</span>
+          </div>`).join("")}
+      </div>`;
+  }).join("");
+}
+
+// ---- CUP ----
+function buildCup() {
+  const card = document.getElementById("cupCard");
+  const cup = DATA.cup;
+  if (!cup) { card.innerHTML = emptySeason("Cup details not available yet."); return; }
+  if (!cup.matches || !cup.matches.length) {
+    card.innerHTML = `
+      <div class="card-title">${cup.name || "League Cup"}</div>
+      <div style="line-height:2;font-size:.95rem">
+        🏆 Prize: <b style="color:var(--gold)">${fmt(CONFIG.cupPrize)}</b><br/>
+        📋 <b>How it works:</b> FPL&rsquo;s official league cup. Qualification is decided by your
+        <b style="color:var(--green)">GW${cup.qualification_event}</b> score, then it&rsquo;s a random-draw knockout
+        (byes included) over the final gameweeks — GW${cup.qualification_event + 1}–38.<br/>
+        👥 With our league size, <b>everyone qualifies</b> — the draw is where fate begins.<br/>
+        <span style="color:rgba(240,230,246,.5)">The bracket will appear here automatically once FPL activates the cup.</span>
+      </div>`;
+    return;
+  }
+  // Active cup: group matches by event, render bracket columns
+  const byEvent = new Map();
+  for (const m of cup.matches) { if (!byEvent.has(m.event)) byEvent.set(m.event, []); byEvent.get(m.event).push(m); }
+  const cols = [...byEvent.entries()].sort((a, b) => a[0] - b[0]).map(([ev, ms]) => `
+    <div class="bracket-round">
+      <div class="bracket-round-title">GW${ev}</div>
+      ${ms.map((m) => {
+        const hWin = m.winner === m.entry_1_entry, aWin = m.winner === m.entry_2_entry, played = !!m.winner;
+        return `<div class="match ${played ? "" : "upcoming"}">
+          <div class="match-team ${hWin ? "winner" : ""} ${m.entry_1_player_name ? "" : "tbd"}"><span>${m.entry_1_player_name || "TBD"}</span><span class="match-score ${played && !hWin ? "loser" : ""}">${m.entry_1_points ?? ""}</span></div>
+          <div class="match-team ${aWin ? "winner" : ""} ${m.entry_2_player_name ? "" : "tbd"}"><span>${m.entry_2_player_name || "TBD"}</span><span class="match-score ${played && !aWin ? "loser" : ""}">${m.entry_2_points ?? ""}</span></div>
+        </div>`;
+      }).join("")}
+    </div>`).join("");
+  card.innerHTML = `<div class="card-title">${cup.name || "League Cup"} — ${fmt(CONFIG.cupPrize)}</div><div class="bracket-scroll"><div class="bracket">${cols}</div></div>`;
+}
+
+// ---- HALL OF FAME ----
+function buildHof() {
+  document.getElementById("hofList").innerHTML = CONFIG.champions.map((c) => `
+    <div class="hof-row">
+      <span class="hof-season">${c.season}</span>
+      <span style="font-size:1.3rem">👑</span>
+      <span class="hof-champ">${c.name}</span>
+      ${c.note ? `<span class="hof-note">${c.note}</span>` : ""}
+    </div>`).join("");
+}
+
+// ---- BOOT ----
+async function loadData() {
+  try {
+    const resp = await fetch(CONFIG.dataUrl, { cache: "no-cache" });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    DATA = await resp.json();
+    finishedGWs = DATA.events.filter((e) => e.finished).map((e) => e.id);
+
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("app").style.display = "block";
+    document.getElementById("headerStats").style.display = "flex";
+    document.getElementById("statManagers").textContent = DATA.managers.length;
+    document.getElementById("statGWs").textContent = finishedGWs.length;
+    document.getElementById("statPot").textContent = fmt(CONFIG.buyIn * DATA.managers.length);
+
+    const gw1 = DATA.events.find((e) => e.id === 1);
+    if (gw1 && new Date(gw1.deadline_time) > new Date()) document.getElementById("regBanner").style.display = "block";
+
+    const sel = document.getElementById("gwSelect");
+    sel.innerHTML = finishedGWs.map((g) => `<option value="${g}">GW ${g}</option>`).join("");
+    if (finishedGWs.length) sel.value = finishedGWs[finishedGWs.length - 1]; else sel.style.display = "none";
+
+    renderStandings(); buildWeekly(); buildMonthly(); buildCup(); buildHof();
+    document.getElementById("footer").textContent =
+      `Data updated ${new Date(DATA.generated_at).toLocaleString("en-GB")} · auto-refreshed from the official FPL API every gameweek · all past rounds archived`;
+  } catch (e) {
+    document.getElementById("loading").style.display = "none";
+    const eb = document.getElementById("errorBox");
+    eb.style.display = "block";
+    eb.textContent = "⚠️ Could not load league data: " + e.message;
+  }
+}
+loadData();
+</script>
+</body>
+</html>
