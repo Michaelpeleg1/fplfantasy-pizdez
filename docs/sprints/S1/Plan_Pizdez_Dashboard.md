@@ -1,6 +1,6 @@
 # Sprint S1 — Pizdez 2026/27 League Dashboard
 
-**Status:** DRAFT v2 (awaiting LOCK)
+**Status:** LOCKED (2026-08-20, approved by Michael)
 **Linear project:** https://linear.app/pilotorch/project/pizdez-fpl-dashboard-202627-f221c2705162 (PIL-241…PIL-248)
 **Date:** 2026-08-20
 **Mode:** ORCH_MODE
@@ -95,7 +95,9 @@ static `data.json` consumed by the page.
 ## Files
 
 - `index.html` — dashboard (self-contained CSS/JS, like the original)
-- `data/data.json` — generated snapshot (roster, per-GW stats, cup)
+- `data/data.json` — generated snapshot (roster, ALL per-GW stats season-to-date, cup)
+- `data/history/gw{N}.json` — immutable per-GW archive snapshots (requirement:
+  previous round results always stored and accessible in the app)
 - `scripts/fetch-fpl.mjs` — pipeline
 - `.github/workflows/refresh-data.yml` — cron + manual trigger
 - `netlify.toml` — static deploy config
