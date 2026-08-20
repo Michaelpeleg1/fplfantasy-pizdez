@@ -109,12 +109,55 @@ async function main() {
     await sleep(250);
   }
 
+  // Weekly winner squads: for each finalized GW, fetch the winning manager's picks
+  // + live player points. Immutable once fetched — reuse from the previous data.json.
+  let prevWinners = [];
+  try { prevWinners = JSON.parse(readFileSync(OUT, "utf-8")).weekly_winners ?? []; } catch {}
+  const POS = { 1: "GKP", 2: "DEF", 3: "MID", 4: "FWD", 5: "AM" };
+  const elById = new Map(bootstrap.elements.map((e) => [e.id, e]));
+  const weeklyWinners = [];
+  for (const ev of events.filter((e) => e.finished && e.data_checked)) {
+    const cached = prevWinners.find((w) => w.gw === ev.id);
+    if (cached) { weeklyWinners.push(cached); continue; }
+    let best = null;
+    for (const m of managers) {
+      const g = m.gws.find((x) => x.gw === ev.id);
+      if (!g) continue;
+      const net = g.points - (g.hit_cost || 0);
+      if (!best || net > best.net) best = { entry: m.entry, name: m.player_name, team: m.team_name, net };
+    }
+    if (!best) continue;
+    try {
+      const picks = await get(`/entry/${best.entry}/event/${ev.id}/picks/`);
+      await sleep(250);
+      const live = await get(`/event/${ev.id}/live/`);
+      const livePts = new Map(live.elements.map((e) => [e.id, e.stats?.total_points ?? 0]));
+      const squad = (picks.picks ?? []).map((p) => {
+        const el = elById.get(p.element);
+        return {
+          name: el?.web_name ?? `#${p.element}`,
+          pos: POS[el?.element_type] ?? "?",
+          points: (livePts.get(p.element) ?? 0) * (p.multiplier || (p.position <= 11 ? 1 : 0)),
+          raw_points: livePts.get(p.element) ?? 0,
+          captain: p.is_captain, vice: p.is_vice_captain,
+          bench: p.position > 11, multiplier: p.multiplier,
+        };
+      });
+      weeklyWinners.push({ gw: ev.id, ...best, active_chip: picks.active_chip ?? null, squad });
+      console.log(`GW${ev.id} winner squad: ${best.name} (${best.net} pts)`);
+      await sleep(250);
+    } catch (e) {
+      console.warn(`Could not fetch winner squad for GW${ev.id}: ${e.message}`);
+    }
+  }
+
   const snapshot = {
     generated_at: new Date().toISOString(),
     league: { id: LEAGUE_ID, name: league.name },
     current_event: currentEvent,
     events,
     cup: cup ? { ...cup, cup_league: cupLeagueId, matches: cupMatches } : null,
+    weekly_winners: weeklyWinners,
     managers,
   };
 

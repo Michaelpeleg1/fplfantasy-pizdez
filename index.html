@@ -92,6 +92,17 @@
   .winner-name{font-weight:800;color:var(--gold);margin-bottom:8px}
   .runner-row{display:flex;justify-content:space-between;font-size:.85rem;color:rgba(240,230,246,.75);padding:2px 0}
   .runner-score{color:rgba(240,230,246,.5)}
+  .squad-details{margin-top:10px;border-top:1px solid rgba(124,45,142,.35);padding-top:8px}
+  .squad-details summary{cursor:pointer;font-size:.8rem;color:var(--green);font-weight:700;letter-spacing:.5px;list-style:none}
+  .squad-details summary::before{content:"▸ "}
+  .squad-details[open] summary::before{content:"▾ "}
+  .squad-row{display:flex;align-items:center;gap:8px;font-size:.8rem;padding:2px 0;color:rgba(240,230,246,.85)}
+  .squad-row.bench{opacity:.5}
+  .squad-pos{font-size:.62rem;color:var(--ink-dim);width:28px;letter-spacing:.5px}
+  .squad-pts{margin-left:auto;font-weight:800;color:var(--green);font-variant-numeric:tabular-nums}
+  .cap{background:var(--gold);color:var(--purple);border-radius:3px;padding:0 4px;font-size:.62rem}
+  .vc{border:1px solid var(--ink-dim);color:var(--ink-dim);border-radius:3px;padding:0 4px;font-size:.62rem}
+  .squad-bench-label{font-size:.62rem;color:var(--ink-dim);letter-spacing:1px;text-transform:uppercase;margin-top:6px;border-top:1px dashed rgba(124,45,142,.35);padding-top:5px}
   .pagination{display:flex;gap:6px;margin-top:16px;justify-content:center}
   .page-btn{width:34px;height:34px;border-radius:8px;border:2px solid var(--violet);background:transparent;
     color:var(--ink);cursor:pointer;font-weight:700}
@@ -312,12 +323,31 @@ function buildWeekly() {
     }).filter(Boolean).sort((a, b) => b.score - a.score);
     return { gw, top: scores[0], runners: scores.slice(1, 4) };
   }).reverse(); // newest first
+  function winnerSquadHTML(gw) {
+    const w = (DATA.weekly_winners ?? []).find((x) => x.gw === gw);
+    if (!w || !w.squad) return "";
+    const row = (p) => `
+      <div class="squad-row ${p.bench ? "bench" : ""}">
+        <span class="squad-pos">${p.pos}</span>
+        <span>${p.name}${p.captain ? ' <b class="cap">C</b>' : ""}${p.vice ? ' <span class="vc">V</span>' : ""}</span>
+        <span class="squad-pts">${p.points}</span>
+      </div>`;
+    const xi = w.squad.filter((p) => !p.bench).map(row).join("");
+    const bench = w.squad.filter((p) => p.bench).map(row).join("");
+    return `
+      <details class="squad-details">
+        <summary>👕 Winning team</summary>
+        ${xi}
+        ${bench ? `<div class="squad-bench-label">Bench</div>${bench}` : ""}
+      </details>`;
+  }
   function renderPage(page) {
     grid.innerHTML = weeks.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE).map(({ gw, top, runners }) => `
       <div class="week-card">
         <div class="week-header"><span class="gw-label">GW ${gw}</span><span class="pts-badge">${top?.score} pts</span></div>
         <div class="winner-name">🏆 ${top?.name}${top?.chip ? `<span class="chip-badge">${top.chip}</span>` : ""}</div>
         <div>${runners.map((r) => `<div class="runner-row"><span>${r.name}</span><span class="runner-score">${r.score}</span></div>`).join("")}</div>
+        ${winnerSquadHTML(gw)}
       </div>`).join("");
     const pages = Math.ceil(weeks.length / PAGE_SIZE);
     document.getElementById("weeklyPagination").innerHTML = pages > 1
