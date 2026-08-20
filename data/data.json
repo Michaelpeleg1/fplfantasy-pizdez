@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T06:44:28.905Z",
+ "generated_at": "2026-08-20T22:55:58.486Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -288,6 +288,39 @@
   "matches": null
  },
  "managers": [
+  {
+   "entry": 7137365,
+   "player_name": "Alex Haikov",
+   "team_name": "Haikov",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2025/26",
+     "total": 2235,
+     "rank": 569298
+    }
+   ]
+  },
+  {
+   "entry": 6916741,
+   "player_name": "YANIV NISSIM",
+   "team_name": "yanivvvv7",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2023/24",
+     "total": 2108,
+     "rank": 3430174
+    },
+    {
+     "season": "2024/25",
+     "total": 1918,
+     "rank": 6345291
+    }
+   ]
+  },
   {
    "entry": 6316401,
    "player_name": "Ran Meltser",
