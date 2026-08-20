@@ -1,0 +1,1220 @@
+{
+ "generated_at": "2026-08-20T06:30:30.875Z",
+ "league": {
+  "id": 237688,
+  "name": "Pizdez 2026/27"
+ },
+ "current_event": null,
+ "events": [
+  {
+   "id": 1,
+   "deadline_time": "2026-08-21T17:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 2,
+   "deadline_time": "2026-08-28T17:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 3,
+   "deadline_time": "2026-09-04T17:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 4,
+   "deadline_time": "2026-09-12T12:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 5,
+   "deadline_time": "2026-09-18T17:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 6,
+   "deadline_time": "2026-10-10T10:00:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 7,
+   "deadline_time": "2026-10-17T10:00:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 8,
+   "deadline_time": "2026-10-23T17:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 9,
+   "deadline_time": "2026-10-31T11:00:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 10,
+   "deadline_time": "2026-11-07T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 11,
+   "deadline_time": "2026-11-21T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 12,
+   "deadline_time": "2026-11-28T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 13,
+   "deadline_time": "2026-12-02T18:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 14,
+   "deadline_time": "2026-12-05T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 15,
+   "deadline_time": "2026-12-12T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 16,
+   "deadline_time": "2026-12-19T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 17,
+   "deadline_time": "2026-12-26T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 18,
+   "deadline_time": "2026-12-30T18:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 19,
+   "deadline_time": "2027-01-02T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 20,
+   "deadline_time": "2027-01-06T18:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 21,
+   "deadline_time": "2027-01-16T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 22,
+   "deadline_time": "2027-01-23T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 23,
+   "deadline_time": "2027-01-30T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 24,
+   "deadline_time": "2027-02-06T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 25,
+   "deadline_time": "2027-02-10T18:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 26,
+   "deadline_time": "2027-02-20T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 27,
+   "deadline_time": "2027-02-27T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 28,
+   "deadline_time": "2027-03-03T18:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 29,
+   "deadline_time": "2027-03-13T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 30,
+   "deadline_time": "2027-03-20T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 31,
+   "deadline_time": "2027-04-10T12:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 32,
+   "deadline_time": "2027-04-17T12:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 33,
+   "deadline_time": "2027-04-24T12:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 34,
+   "deadline_time": "2027-05-01T12:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 35,
+   "deadline_time": "2027-05-08T12:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 36,
+   "deadline_time": "2027-05-15T12:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 37,
+   "deadline_time": "2027-05-23T12:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  },
+  {
+   "id": 38,
+   "deadline_time": "2027-05-30T13:30:00Z",
+   "finished": false,
+   "is_current": false,
+   "data_checked": false
+  }
+ ],
+ "cup": {
+  "qualifying_league": 237688,
+  "qualifying_method": "e",
+  "draw_type": "r",
+  "league": null,
+  "qualification_event": 33,
+  "qualification_numbers": 32,
+  "name": "Pizdez 2026/27 Cup",
+  "has_byes": true,
+  "is_large": false,
+  "pulse_article_id": null,
+  "cup_league": null,
+  "matches": null
+ },
+ "managers": [
+  {
+   "entry": 6316401,
+   "player_name": "Ran Meltser",
+   "team_name": "Bruno Cunha Bruno",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 1774,
+     "rank": 4262889
+    },
+    {
+     "season": "2019/20",
+     "total": 2235,
+     "rank": 173008
+    },
+    {
+     "season": "2020/21",
+     "total": 2480,
+     "rank": 14201
+    },
+    {
+     "season": "2021/22",
+     "total": 2502,
+     "rank": 104150
+    },
+    {
+     "season": "2022/23",
+     "total": 2444,
+     "rank": 397020
+    },
+    {
+     "season": "2023/24",
+     "total": 2492,
+     "rank": 90241
+    },
+    {
+     "season": "2024/25",
+     "total": 2376,
+     "rank": 750379
+    },
+    {
+     "season": "2025/26",
+     "total": 2078,
+     "rank": 2637355
+    }
+   ]
+  },
+  {
+   "entry": 4742791,
+   "player_name": "yoan stoyanov",
+   "team_name": "yoanst27",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2019/20",
+     "total": 1834,
+     "rank": 3878255
+    },
+    {
+     "season": "2020/21",
+     "total": 1927,
+     "rank": 3323987
+    },
+    {
+     "season": "2021/22",
+     "total": 1801,
+     "rank": 4790793
+    },
+    {
+     "season": "2022/23",
+     "total": 1882,
+     "rank": 6648293
+    },
+    {
+     "season": "2023/24",
+     "total": 2023,
+     "rank": 4508469
+    },
+    {
+     "season": "2024/25",
+     "total": 2239,
+     "rank": 2291314
+    },
+    {
+     "season": "2025/26",
+     "total": 2183,
+     "rank": 1088283
+    }
+   ]
+  },
+  {
+   "entry": 4730817,
+   "player_name": "ron hoffman",
+   "team_name": "Hoffmanheim",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 1845,
+     "rank": 3669411
+    },
+    {
+     "season": "2019/20",
+     "total": 1896,
+     "rank": 3133920
+    },
+    {
+     "season": "2020/21",
+     "total": 2064,
+     "rank": 2018720
+    },
+    {
+     "season": "2021/22",
+     "total": 2176,
+     "rank": 1357728
+    },
+    {
+     "season": "2022/23",
+     "total": 2449,
+     "rank": 370096
+    },
+    {
+     "season": "2023/24",
+     "total": 2349,
+     "rank": 647579
+    },
+    {
+     "season": "2024/25",
+     "total": 2476,
+     "rank": 194117
+    },
+    {
+     "season": "2025/26",
+     "total": 2238,
+     "rank": 545267
+    }
+   ]
+  },
+  {
+   "entry": 4698980,
+   "player_name": "Yogev Balilti",
+   "team_name": "Red Devils",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 2130,
+     "rank": 624889
+    },
+    {
+     "season": "2019/20",
+     "total": 2155,
+     "rank": 523814
+    },
+    {
+     "season": "2020/21",
+     "total": 2335,
+     "rank": 237862
+    },
+    {
+     "season": "2021/22",
+     "total": 2592,
+     "rank": 22372
+    },
+    {
+     "season": "2022/23",
+     "total": 2483,
+     "rank": 228976
+    },
+    {
+     "season": "2023/24",
+     "total": 2420,
+     "rank": 282611
+    },
+    {
+     "season": "2024/25",
+     "total": 2496,
+     "rank": 137396
+    },
+    {
+     "season": "2025/26",
+     "total": 2128,
+     "rank": 1833039
+    }
+   ]
+  },
+  {
+   "entry": 4467392,
+   "player_name": "daniel sagiants",
+   "team_name": "chakito",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2019/20",
+     "total": 2174,
+     "rank": 416010
+    },
+    {
+     "season": "2020/21",
+     "total": 1964,
+     "rank": 2966463
+    },
+    {
+     "season": "2023/24",
+     "total": 2229,
+     "rank": 1817397
+    },
+    {
+     "season": "2024/25",
+     "total": 2409,
+     "rank": 515991
+    },
+    {
+     "season": "2025/26",
+     "total": 2288,
+     "rank": 237193
+    }
+   ]
+  },
+  {
+   "entry": 4302037,
+   "player_name": "Gena Shulik",
+   "team_name": "FPL Galácticos",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2017/18",
+     "total": 1979,
+     "rank": 1351309
+    },
+    {
+     "season": "2018/19",
+     "total": 2083,
+     "rank": 995180
+    },
+    {
+     "season": "2019/20",
+     "total": 2201,
+     "rank": 292168
+    },
+    {
+     "season": "2020/21",
+     "total": 2342,
+     "rank": 216724
+    },
+    {
+     "season": "2021/22",
+     "total": 2555,
+     "rank": 46069
+    },
+    {
+     "season": "2022/23",
+     "total": 2151,
+     "rank": 3330185
+    },
+    {
+     "season": "2023/24",
+     "total": 2277,
+     "rank": 1267092
+    },
+    {
+     "season": "2024/25",
+     "total": 2328,
+     "rank": 1198267
+    },
+    {
+     "season": "2025/26",
+     "total": 2149,
+     "rank": 1528643
+    }
+   ]
+  },
+  {
+   "entry": 3258010,
+   "player_name": "Liran Uzal",
+   "team_name": "Maccabi Uzal",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2023/24",
+     "total": 2449,
+     "rank": 187738
+    },
+    {
+     "season": "2024/25",
+     "total": 2454,
+     "rank": 278183
+    },
+    {
+     "season": "2025/26",
+     "total": 2069,
+     "rank": 2792279
+    }
+   ]
+  },
+  {
+   "entry": 2517682,
+   "player_name": "Guy Mizrahi",
+   "team_name": "Miz Gunners",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2020/21",
+     "total": 697,
+     "rank": 7949489
+    },
+    {
+     "season": "2021/22",
+     "total": 2008,
+     "rank": 2717375
+    },
+    {
+     "season": "2022/23",
+     "total": 2339,
+     "rank": 1145289
+    },
+    {
+     "season": "2023/24",
+     "total": 2476,
+     "rank": 120677
+    },
+    {
+     "season": "2024/25",
+     "total": 2238,
+     "rank": 2310156
+    },
+    {
+     "season": "2025/26",
+     "total": 2162,
+     "rank": 1346753
+    }
+   ]
+  },
+  {
+   "entry": 2437541,
+   "player_name": "andrey lisovoy",
+   "team_name": "lisovoy",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2024/25",
+     "total": 1454,
+     "rank": 10076707
+    },
+    {
+     "season": "2025/26",
+     "total": 2304,
+     "rank": 168566
+    }
+   ]
+  },
+  {
+   "entry": 1347199,
+   "player_name": "Pavel Dubinsky",
+   "team_name": "A.C Narkomoney",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2022/23",
+     "total": 2253,
+     "rank": 2055867
+    },
+    {
+     "season": "2023/24",
+     "total": 2250,
+     "rank": 1565275
+    },
+    {
+     "season": "2024/25",
+     "total": 2364,
+     "rank": 852185
+    },
+    {
+     "season": "2025/26",
+     "total": 2122,
+     "rank": 1916465
+    }
+   ]
+  },
+  {
+   "entry": 554235,
+   "player_name": "Ran Harel",
+   "team_name": "The one Andoni",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2022/23",
+     "total": 2386,
+     "rank": 756290
+    },
+    {
+     "season": "2023/24",
+     "total": 2388,
+     "rank": 421032
+    },
+    {
+     "season": "2024/25",
+     "total": 2346,
+     "rank": 1017022
+    },
+    {
+     "season": "2025/26",
+     "total": 2268,
+     "rank": 341048
+    }
+   ]
+  },
+  {
+   "entry": 693925,
+   "player_name": "Tal Arbeli",
+   "team_name": "Sir Alex",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2022/23",
+     "total": 2337,
+     "rank": 1164145
+    },
+    {
+     "season": "2023/24",
+     "total": 2204,
+     "rank": 2136275
+    },
+    {
+     "season": "2024/25",
+     "total": 2558,
+     "rank": 33786
+    },
+    {
+     "season": "2025/26",
+     "total": 2359,
+     "rank": 39837
+    }
+   ]
+  },
+  {
+   "entry": 667429,
+   "player_name": "Eliel Hurovich",
+   "team_name": "AFA",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2021/22",
+     "total": 2097,
+     "rank": 1952000
+    },
+    {
+     "season": "2022/23",
+     "total": 2606,
+     "rank": 10244
+    },
+    {
+     "season": "2023/24",
+     "total": 2270,
+     "rank": 1342531
+    },
+    {
+     "season": "2024/25",
+     "total": 2571,
+     "rank": 23997
+    },
+    {
+     "season": "2025/26",
+     "total": 2274,
+     "rank": 304898
+    }
+   ]
+  },
+  {
+   "entry": 109603,
+   "player_name": "Roma Samoilenko",
+   "team_name": "FC ROMANO",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2021/22",
+     "total": 2209,
+     "rank": 1144735
+    },
+    {
+     "season": "2022/23",
+     "total": 2582,
+     "rank": 23642
+    },
+    {
+     "season": "2023/24",
+     "total": 2553,
+     "rank": 19724
+    },
+    {
+     "season": "2024/25",
+     "total": 2612,
+     "rank": 6470
+    },
+    {
+     "season": "2025/26",
+     "total": 2421,
+     "rank": 3769
+    }
+   ]
+  },
+  {
+   "entry": 317510,
+   "player_name": "Michael Rosenberg",
+   "team_name": "Karma Tzolis",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2021/22",
+     "total": 1964,
+     "rank": 3133242
+    },
+    {
+     "season": "2024/25",
+     "total": 2482,
+     "rank": 175783
+    },
+    {
+     "season": "2025/26",
+     "total": 2148,
+     "rank": 1535431
+    }
+   ]
+  },
+  {
+   "entry": 122371,
+   "player_name": "Avi Zilka",
+   "team_name": "ZILKA F.C",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2020/21",
+     "total": 2216,
+     "rank": 806581
+    },
+    {
+     "season": "2021/22",
+     "total": 2523,
+     "rank": 76378
+    },
+    {
+     "season": "2022/23",
+     "total": 2246,
+     "rank": 2139564
+    },
+    {
+     "season": "2023/24",
+     "total": 2294,
+     "rank": 1093642
+    },
+    {
+     "season": "2024/25",
+     "total": 2191,
+     "rank": 2982348
+    },
+    {
+     "season": "2025/26",
+     "total": 2075,
+     "rank": 2693719
+    }
+   ]
+  },
+  {
+   "entry": 1205445,
+   "player_name": "Shai Zamir",
+   "team_name": "Beko United",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 2221,
+     "rank": 203195
+    },
+    {
+     "season": "2019/20",
+     "total": 1833,
+     "rank": 3898331
+    },
+    {
+     "season": "2020/21",
+     "total": 2191,
+     "rank": 973101
+    },
+    {
+     "season": "2021/22",
+     "total": 2146,
+     "rank": 1570647
+    },
+    {
+     "season": "2022/23",
+     "total": 2319,
+     "rank": 1334018
+    },
+    {
+     "season": "2023/24",
+     "total": 2481,
+     "rank": 109292
+    },
+    {
+     "season": "2024/25",
+     "total": 2398,
+     "rank": 583288
+    },
+    {
+     "season": "2025/26",
+     "total": 2175,
+     "rank": 1182982
+    }
+   ]
+  },
+  {
+   "entry": 1223462,
+   "player_name": "Misha Shwartsman",
+   "team_name": "Vatos Locos",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 2143,
+     "rank": 541229
+    },
+    {
+     "season": "2019/20",
+     "total": 2211,
+     "rank": 252044
+    },
+    {
+     "season": "2020/21",
+     "total": 2377,
+     "rank": 128964
+    },
+    {
+     "season": "2021/22",
+     "total": 2396,
+     "rank": 320644
+    },
+    {
+     "season": "2022/23",
+     "total": 2408,
+     "rank": 604054
+    },
+    {
+     "season": "2023/24",
+     "total": 2410,
+     "rank": 320424
+    },
+    {
+     "season": "2024/25",
+     "total": 2208,
+     "rank": 2736921
+    },
+    {
+     "season": "2025/26",
+     "total": 2079,
+     "rank": 2624580
+    }
+   ]
+  },
+  {
+   "entry": 68334,
+   "player_name": "Gaash Graif",
+   "team_name": "Gaash's Team",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2015/16",
+     "total": 1944,
+     "rank": 965048
+    },
+    {
+     "season": "2016/17",
+     "total": 1853,
+     "rank": 1472596
+    },
+    {
+     "season": "2017/18",
+     "total": 1825,
+     "rank": 2616145
+    },
+    {
+     "season": "2018/19",
+     "total": 2032,
+     "rank": 1507336
+    },
+    {
+     "season": "2019/20",
+     "total": 1943,
+     "rank": 2555079
+    },
+    {
+     "season": "2020/21",
+     "total": 2115,
+     "rank": 1564743
+    },
+    {
+     "season": "2021/22",
+     "total": 2371,
+     "rank": 392697
+    },
+    {
+     "season": "2022/23",
+     "total": 2386,
+     "rank": 754646
+    },
+    {
+     "season": "2023/24",
+     "total": 2282,
+     "rank": 1213466
+    },
+    {
+     "season": "2024/25",
+     "total": 2297,
+     "rank": 1543081
+    },
+    {
+     "season": "2025/26",
+     "total": 2107,
+     "rank": 2157060
+    }
+   ]
+  },
+  {
+   "entry": 466921,
+   "player_name": "David Kravinsky",
+   "team_name": "RUN&GUN",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2014/15",
+     "total": 1544,
+     "rank": 2367081
+    },
+    {
+     "season": "2017/18",
+     "total": 1908,
+     "rank": 1944196
+    },
+    {
+     "season": "2018/19",
+     "total": 1986,
+     "rank": 2048197
+    },
+    {
+     "season": "2019/20",
+     "total": 2157,
+     "rank": 511730
+    },
+    {
+     "season": "2020/21",
+     "total": 2319,
+     "rank": 291726
+    },
+    {
+     "season": "2021/22",
+     "total": 2544,
+     "rank": 55503
+    },
+    {
+     "season": "2022/23",
+     "total": 2529,
+     "rank": 97405
+    },
+    {
+     "season": "2023/24",
+     "total": 2441,
+     "rank": 210828
+    },
+    {
+     "season": "2024/25",
+     "total": 2532,
+     "rank": 65160
+    },
+    {
+     "season": "2025/26",
+     "total": 2361,
+     "rank": 38397
+    }
+   ]
+  },
+  {
+   "entry": 130809,
+   "player_name": "Evgeny Friedman",
+   "team_name": "Evgeny M.U",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2014/15",
+     "total": 1585,
+     "rank": 2179011
+    },
+    {
+     "season": "2015/16",
+     "total": 1438,
+     "rank": 3099315
+    },
+    {
+     "season": "2017/18",
+     "total": 1675,
+     "rank": 3745601
+    },
+    {
+     "season": "2018/19",
+     "total": 2158,
+     "rank": 455360
+    },
+    {
+     "season": "2019/20",
+     "total": 2010,
+     "rank": 1786719
+    },
+    {
+     "season": "2020/21",
+     "total": 2055,
+     "rank": 2101807
+    },
+    {
+     "season": "2021/22",
+     "total": 2607,
+     "rank": 15811
+    },
+    {
+     "season": "2022/23",
+     "total": 2559,
+     "rank": 46292
+    },
+    {
+     "season": "2023/24",
+     "total": 2337,
+     "rank": 732016
+    },
+    {
+     "season": "2024/25",
+     "total": 2588,
+     "rank": 14394
+    },
+    {
+     "season": "2025/26",
+     "total": 2451,
+     "rank": 850
+    }
+   ]
+  },
+  {
+   "entry": 1245099,
+   "player_name": "Michael Peleg",
+   "team_name": "call me V",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2015/16",
+     "total": 1811,
+     "rank": 1731800
+    },
+    {
+     "season": "2016/17",
+     "total": 1779,
+     "rank": 1973681
+    },
+    {
+     "season": "2017/18",
+     "total": 2068,
+     "rank": 679622
+    },
+    {
+     "season": "2018/19",
+     "total": 2113,
+     "rank": 745991
+    },
+    {
+     "season": "2019/20",
+     "total": 2321,
+     "rank": 29813
+    },
+    {
+     "season": "2020/21",
+     "total": 2465,
+     "rank": 21164
+    },
+    {
+     "season": "2021/22",
+     "total": 2296,
+     "rank": 678350
+    },
+    {
+     "season": "2022/23",
+     "total": 2250,
+     "rank": 2091194
+    },
+    {
+     "season": "2023/24",
+     "total": 2241,
+     "rank": 1670287
+    },
+    {
+     "season": "2024/25",
+     "total": 2538,
+     "rank": 56788
+    },
+    {
+     "season": "2025/26",
+     "total": 2082,
+     "rank": 2575074
+    }
+   ]
+  }
+ ]
+}
