@@ -60,6 +60,12 @@
     font-size:.93rem;line-height:1.8;box-shadow:0 0 30px rgba(0,255,135,.08)}
   .reg-banner b{color:var(--green)}
 
+  .poster-wrap{border-radius:14px;overflow:hidden;margin-bottom:22px;border:1px solid var(--card-border);
+    box-shadow:0 10px 40px rgba(0,0,0,.45), 0 0 30px rgba(0,255,135,.08);line-height:0}
+  .poster-video{width:100%;height:auto;display:block}
+  @media (prefers-reduced-motion: reduce){.poster-video{display:none}
+    .poster-wrap{background:url("assets/og.jpg") center/cover;aspect-ratio:1200/630}}
+
   .tabs{display:flex;gap:10px;margin-bottom:24px;flex-wrap:wrap}
   .tab-btn{padding:10px 20px;border-radius:8px;cursor:pointer;border:2px solid var(--violet);
     background:rgba(20,0,25,.4);color:var(--ink);font-family:'Bebas Neue',cursive;font-size:1.02rem;
@@ -179,6 +185,12 @@
       🚨 <b>Registration is open until the GW1 deadline (Fri 21/08, 20:30 IL time)!</b><br/>
       Join the league: <a href="https://fantasy.premierleague.com/leagues/auto-join/gkorug" target="_blank" rel="noopener">auto-join link</a> (code: <b>gkorug</b>)
       &nbsp;·&nbsp; Pay the ₪300 buy-in: <a href="https://links.payboxapp.com/lUfBA3fJC5b" target="_blank" rel="noopener">PayBox</a>
+    </div>
+
+    <div class="poster-wrap">
+      <video class="poster-video" autoplay muted loop playsinline preload="metadata" poster="assets/og.jpg" aria-label="Pizdez 2026/27 animated league poster">
+        <source src="assets/loop.mp4" type="video/mp4"/>
+      </video>
     </div>
 
     <div class="tabs">

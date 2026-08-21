@@ -10,3 +10,5 @@ Generated via Higgsfield MCP (nano_banana_pro → routed nano_banana_2), 2026-08
 | assets/favicon-32.png / favicon-192.png / apple-touch-icon.png | Favicons | db6929cd-b804-4df2-b239-6f9f524644cc | downscales of emblem |
 
 Source PNGs not committed (re-derivable from job UUIDs via show_generations).
+
+| assets/loop.mp4 (1284×716, 5s, 444KB, crf24 silent faststart) | Animated league poster banner (autoplay loop above tabs) | 9ae60f1d-49f9-4907-b0b8-f7ce1f311423 | kling3_0 10cr, start=end frame seamless loop from OG still 899bd58f; QC: first/last frame identical. Reduced-motion fallback: og.jpg |
