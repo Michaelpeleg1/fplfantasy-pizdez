@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T22:55:58.486Z",
+ "generated_at": "2026-08-21T05:54:29.095Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -712,35 +712,6 @@
    ]
   },
   {
-   "entry": 554235,
-   "player_name": "Ran Harel",
-   "team_name": "The one Andoni",
-   "gws": [],
-   "chips": [],
-   "past": [
-    {
-     "season": "2022/23",
-     "total": 2386,
-     "rank": 756290
-    },
-    {
-     "season": "2023/24",
-     "total": 2388,
-     "rank": 421032
-    },
-    {
-     "season": "2024/25",
-     "total": 2346,
-     "rank": 1017022
-    },
-    {
-     "season": "2025/26",
-     "total": 2268,
-     "rank": 341048
-    }
-   ]
-  },
-  {
    "entry": 693925,
    "player_name": "Tal Arbeli",
    "team_name": "Sir Alex",
@@ -766,6 +737,35 @@
      "season": "2025/26",
      "total": 2359,
      "rank": 39837
+    }
+   ]
+  },
+  {
+   "entry": 554235,
+   "player_name": "Ran Harel",
+   "team_name": "The one Andoni",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2022/23",
+     "total": 2386,
+     "rank": 756290
+    },
+    {
+     "season": "2023/24",
+     "total": 2388,
+     "rank": 421032
+    },
+    {
+     "season": "2024/25",
+     "total": 2346,
+     "rank": 1017022
+    },
+    {
+     "season": "2025/26",
+     "total": 2268,
+     "rank": 341048
     }
    ]
   },
@@ -804,36 +804,51 @@
    ]
   },
   {
-   "entry": 109603,
-   "player_name": "Roma Samoilenko",
-   "team_name": "FC ROMANO",
+   "entry": 1205445,
+   "player_name": "Shai Zamir",
+   "team_name": "Beko United",
    "gws": [],
    "chips": [],
    "past": [
     {
+     "season": "2018/19",
+     "total": 2221,
+     "rank": 203195
+    },
+    {
+     "season": "2019/20",
+     "total": 1833,
+     "rank": 3898331
+    },
+    {
+     "season": "2020/21",
+     "total": 2191,
+     "rank": 973101
+    },
+    {
      "season": "2021/22",
-     "total": 2209,
-     "rank": 1144735
+     "total": 2146,
+     "rank": 1570647
     },
     {
      "season": "2022/23",
-     "total": 2582,
-     "rank": 23642
+     "total": 2319,
+     "rank": 1334018
     },
     {
      "season": "2023/24",
-     "total": 2553,
-     "rank": 19724
+     "total": 2481,
+     "rank": 109292
     },
     {
      "season": "2024/25",
-     "total": 2612,
-     "rank": 6470
+     "total": 2398,
+     "rank": 583288
     },
     {
      "season": "2025/26",
-     "total": 2421,
-     "rank": 3769
+     "total": 2175,
+     "rank": 1182982
     }
    ]
   },
@@ -901,100 +916,164 @@
    ]
   },
   {
-   "entry": 1205445,
-   "player_name": "Shai Zamir",
-   "team_name": "Beko United",
+   "entry": 109603,
+   "player_name": "Roma Samoilenko",
+   "team_name": "FC ROMANO",
    "gws": [],
    "chips": [],
    "past": [
     {
-     "season": "2018/19",
-     "total": 2221,
-     "rank": 203195
-    },
-    {
-     "season": "2019/20",
-     "total": 1833,
-     "rank": 3898331
-    },
-    {
-     "season": "2020/21",
-     "total": 2191,
-     "rank": 973101
-    },
-    {
      "season": "2021/22",
-     "total": 2146,
-     "rank": 1570647
+     "total": 2209,
+     "rank": 1144735
     },
     {
      "season": "2022/23",
-     "total": 2319,
-     "rank": 1334018
+     "total": 2582,
+     "rank": 23642
     },
     {
      "season": "2023/24",
-     "total": 2481,
-     "rank": 109292
+     "total": 2553,
+     "rank": 19724
     },
     {
      "season": "2024/25",
-     "total": 2398,
-     "rank": 583288
+     "total": 2612,
+     "rank": 6470
     },
     {
      "season": "2025/26",
-     "total": 2175,
-     "rank": 1182982
+     "total": 2421,
+     "rank": 3769
     }
    ]
   },
   {
-   "entry": 1223462,
-   "player_name": "Misha Shwartsman",
-   "team_name": "Vatos Locos",
+   "entry": 1245099,
+   "player_name": "Michael Peleg",
+   "team_name": "call me V",
    "gws": [],
    "chips": [],
    "past": [
     {
+     "season": "2015/16",
+     "total": 1811,
+     "rank": 1731800
+    },
+    {
+     "season": "2016/17",
+     "total": 1779,
+     "rank": 1973681
+    },
+    {
+     "season": "2017/18",
+     "total": 2068,
+     "rank": 679622
+    },
+    {
      "season": "2018/19",
-     "total": 2143,
-     "rank": 541229
+     "total": 2113,
+     "rank": 745991
     },
     {
      "season": "2019/20",
-     "total": 2211,
-     "rank": 252044
+     "total": 2321,
+     "rank": 29813
     },
     {
      "season": "2020/21",
-     "total": 2377,
-     "rank": 128964
+     "total": 2465,
+     "rank": 21164
     },
     {
      "season": "2021/22",
-     "total": 2396,
-     "rank": 320644
+     "total": 2296,
+     "rank": 678350
     },
     {
      "season": "2022/23",
-     "total": 2408,
-     "rank": 604054
+     "total": 2250,
+     "rank": 2091194
     },
     {
      "season": "2023/24",
-     "total": 2410,
-     "rank": 320424
+     "total": 2241,
+     "rank": 1670287
     },
     {
      "season": "2024/25",
-     "total": 2208,
-     "rank": 2736921
+     "total": 2538,
+     "rank": 56788
     },
     {
      "season": "2025/26",
-     "total": 2079,
-     "rank": 2624580
+     "total": 2082,
+     "rank": 2575074
+    }
+   ]
+  },
+  {
+   "entry": 130809,
+   "player_name": "Evgeny Friedman",
+   "team_name": "Evgeny M.U",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2014/15",
+     "total": 1585,
+     "rank": 2179011
+    },
+    {
+     "season": "2015/16",
+     "total": 1438,
+     "rank": 3099315
+    },
+    {
+     "season": "2017/18",
+     "total": 1675,
+     "rank": 3745601
+    },
+    {
+     "season": "2018/19",
+     "total": 2158,
+     "rank": 455360
+    },
+    {
+     "season": "2019/20",
+     "total": 2010,
+     "rank": 1786719
+    },
+    {
+     "season": "2020/21",
+     "total": 2055,
+     "rank": 2101807
+    },
+    {
+     "season": "2021/22",
+     "total": 2607,
+     "rank": 15811
+    },
+    {
+     "season": "2022/23",
+     "total": 2559,
+     "rank": 46292
+    },
+    {
+     "season": "2023/24",
+     "total": 2337,
+     "rank": 732016
+    },
+    {
+     "season": "2024/25",
+     "total": 2588,
+     "rank": 14394
+    },
+    {
+     "season": "2025/26",
+     "total": 2451,
+     "rank": 850
     }
    ]
   },
@@ -1122,130 +1201,51 @@
    ]
   },
   {
-   "entry": 130809,
-   "player_name": "Evgeny Friedman",
-   "team_name": "Evgeny M.U",
+   "entry": 1223462,
+   "player_name": "Misha Shwartsman",
+   "team_name": "Vatos Locos",
    "gws": [],
    "chips": [],
    "past": [
     {
-     "season": "2014/15",
-     "total": 1585,
-     "rank": 2179011
-    },
-    {
-     "season": "2015/16",
-     "total": 1438,
-     "rank": 3099315
-    },
-    {
-     "season": "2017/18",
-     "total": 1675,
-     "rank": 3745601
-    },
-    {
      "season": "2018/19",
-     "total": 2158,
-     "rank": 455360
+     "total": 2143,
+     "rank": 541229
     },
     {
      "season": "2019/20",
-     "total": 2010,
-     "rank": 1786719
+     "total": 2211,
+     "rank": 252044
     },
     {
      "season": "2020/21",
-     "total": 2055,
-     "rank": 2101807
+     "total": 2377,
+     "rank": 128964
     },
     {
      "season": "2021/22",
-     "total": 2607,
-     "rank": 15811
+     "total": 2396,
+     "rank": 320644
     },
     {
      "season": "2022/23",
-     "total": 2559,
-     "rank": 46292
+     "total": 2408,
+     "rank": 604054
     },
     {
      "season": "2023/24",
-     "total": 2337,
-     "rank": 732016
+     "total": 2410,
+     "rank": 320424
     },
     {
      "season": "2024/25",
-     "total": 2588,
-     "rank": 14394
+     "total": 2208,
+     "rank": 2736921
     },
     {
      "season": "2025/26",
-     "total": 2451,
-     "rank": 850
-    }
-   ]
-  },
-  {
-   "entry": 1245099,
-   "player_name": "Michael Peleg",
-   "team_name": "call me V",
-   "gws": [],
-   "chips": [],
-   "past": [
-    {
-     "season": "2015/16",
-     "total": 1811,
-     "rank": 1731800
-    },
-    {
-     "season": "2016/17",
-     "total": 1779,
-     "rank": 1973681
-    },
-    {
-     "season": "2017/18",
-     "total": 2068,
-     "rank": 679622
-    },
-    {
-     "season": "2018/19",
-     "total": 2113,
-     "rank": 745991
-    },
-    {
-     "season": "2019/20",
-     "total": 2321,
-     "rank": 29813
-    },
-    {
-     "season": "2020/21",
-     "total": 2465,
-     "rank": 21164
-    },
-    {
-     "season": "2021/22",
-     "total": 2296,
-     "rank": 678350
-    },
-    {
-     "season": "2022/23",
-     "total": 2250,
-     "rank": 2091194
-    },
-    {
-     "season": "2023/24",
-     "total": 2241,
-     "rank": 1670287
-    },
-    {
-     "season": "2024/25",
-     "total": 2538,
-     "rank": 56788
-    },
-    {
-     "season": "2025/26",
-     "total": 2082,
-     "rank": 2575074
+     "total": 2079,
+     "rank": 2624580
     }
    ]
   }
