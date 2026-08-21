@@ -60,11 +60,12 @@
     font-size:.93rem;line-height:1.8;box-shadow:0 0 30px rgba(0,255,135,.08)}
   .reg-banner b{color:var(--green)}
 
-  .poster-wrap{border-radius:14px;overflow:hidden;margin-bottom:22px;border:1px solid var(--card-border);
-    box-shadow:0 10px 40px rgba(0,0,0,.45), 0 0 30px rgba(0,255,135,.08);line-height:0}
-  .poster-video{width:100%;height:auto;display:block}
-  @media (prefers-reduced-motion: reduce){.poster-video{display:none}
-    .poster-wrap{background:url("assets/og.jpg") center/cover;aspect-ratio:1200/630}}
+  .bg-video{position:fixed;inset:0;width:100vw;height:100vh;object-fit:cover;z-index:-2;
+    filter:saturate(1.05)}
+  .bg-overlay{position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background:linear-gradient(rgba(26,0,32,.78), rgba(26,0,32,.9) 55%, rgba(26,0,32,.94))}
+  @media (prefers-reduced-motion: reduce){.bg-video{display:none}
+    body{background:linear-gradient(rgba(26,0,32,.8), rgba(26,0,32,.92)), url("assets/og.jpg") center/cover fixed}}
 
   .tabs{display:flex;gap:10px;margin-bottom:24px;flex-wrap:wrap}
   .tab-btn{padding:10px 20px;border-radius:8px;cursor:pointer;border:2px solid var(--violet);
@@ -163,6 +164,11 @@
 </head>
 <body>
 
+<video class="bg-video" autoplay muted loop playsinline preload="auto" poster="assets/og.jpg" aria-hidden="true">
+  <source src="assets/loop.mp4" type="video/mp4"/>
+</video>
+<div class="bg-overlay" aria-hidden="true"></div>
+
 <header>
   <div class="logo"><img src="assets/logo.webp" alt="Pizdez league emblem"/></div>
   <div>
@@ -185,12 +191,6 @@
       🚨 <b>Registration is open until the GW1 deadline (Fri 21/08, 20:30 IL time)!</b><br/>
       Join the league: <a href="https://fantasy.premierleague.com/leagues/auto-join/gkorug" target="_blank" rel="noopener">auto-join link</a> (code: <b>gkorug</b>)
       &nbsp;·&nbsp; Pay the ₪300 buy-in: <a href="https://links.payboxapp.com/lUfBA3fJC5b" target="_blank" rel="noopener">PayBox</a>
-    </div>
-
-    <div class="poster-wrap">
-      <video class="poster-video" autoplay muted loop playsinline preload="metadata" poster="assets/og.jpg" aria-label="Pizdez 2026/27 animated league poster">
-        <source src="assets/loop.mp4" type="video/mp4"/>
-      </video>
     </div>
 
     <div class="tabs">

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T05:54:29.095Z",
+ "generated_at": "2026-08-21T17:18:13.432Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -287,7 +287,57 @@
   "cup_league": null,
   "matches": null
  },
+ "weekly_winners": [],
  "managers": [
+  {
+   "entry": 7894370,
+   "player_name": "Shlomi Anavi",
+   "team_name": "No More Pep",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 2022,
+     "rank": 1620957
+    },
+    {
+     "season": "2019/20",
+     "total": 1790,
+     "rank": 4396406
+    },
+    {
+     "season": "2020/21",
+     "total": 2249,
+     "rank": 607637
+    },
+    {
+     "season": "2021/22",
+     "total": 2417,
+     "rank": 265293
+    },
+    {
+     "season": "2022/23",
+     "total": 2440,
+     "rank": 414756
+    },
+    {
+     "season": "2023/24",
+     "total": 2359,
+     "rank": 583749
+    },
+    {
+     "season": "2024/25",
+     "total": 2530,
+     "rank": 67652
+    },
+    {
+     "season": "2025/26",
+     "total": 2272,
+     "rank": 318715
+    }
+   ]
+  },
   {
    "entry": 7137365,
    "player_name": "Alex Haikov",
@@ -712,64 +762,6 @@
    ]
   },
   {
-   "entry": 693925,
-   "player_name": "Tal Arbeli",
-   "team_name": "Sir Alex",
-   "gws": [],
-   "chips": [],
-   "past": [
-    {
-     "season": "2022/23",
-     "total": 2337,
-     "rank": 1164145
-    },
-    {
-     "season": "2023/24",
-     "total": 2204,
-     "rank": 2136275
-    },
-    {
-     "season": "2024/25",
-     "total": 2558,
-     "rank": 33786
-    },
-    {
-     "season": "2025/26",
-     "total": 2359,
-     "rank": 39837
-    }
-   ]
-  },
-  {
-   "entry": 554235,
-   "player_name": "Ran Harel",
-   "team_name": "The one Andoni",
-   "gws": [],
-   "chips": [],
-   "past": [
-    {
-     "season": "2022/23",
-     "total": 2386,
-     "rank": 756290
-    },
-    {
-     "season": "2023/24",
-     "total": 2388,
-     "rank": 421032
-    },
-    {
-     "season": "2024/25",
-     "total": 2346,
-     "rank": 1017022
-    },
-    {
-     "season": "2025/26",
-     "total": 2268,
-     "rank": 341048
-    }
-   ]
-  },
-  {
    "entry": 667429,
    "player_name": "Eliel Hurovich",
    "team_name": "AFA",
@@ -800,6 +792,35 @@
      "season": "2025/26",
      "total": 2274,
      "rank": 304898
+    }
+   ]
+  },
+  {
+   "entry": 554235,
+   "player_name": "Ran Harel",
+   "team_name": "The one Andoni",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2022/23",
+     "total": 2386,
+     "rank": 756290
+    },
+    {
+     "season": "2023/24",
+     "total": 2388,
+     "rank": 421032
+    },
+    {
+     "season": "2024/25",
+     "total": 2346,
+     "rank": 1017022
+    },
+    {
+     "season": "2025/26",
+     "total": 2268,
+     "rank": 341048
     }
    ]
   },
@@ -877,45 +898,6 @@
    ]
   },
   {
-   "entry": 122371,
-   "player_name": "Avi Zilka",
-   "team_name": "ZILKA F.C",
-   "gws": [],
-   "chips": [],
-   "past": [
-    {
-     "season": "2020/21",
-     "total": 2216,
-     "rank": 806581
-    },
-    {
-     "season": "2021/22",
-     "total": 2523,
-     "rank": 76378
-    },
-    {
-     "season": "2022/23",
-     "total": 2246,
-     "rank": 2139564
-    },
-    {
-     "season": "2023/24",
-     "total": 2294,
-     "rank": 1093642
-    },
-    {
-     "season": "2024/25",
-     "total": 2191,
-     "rank": 2982348
-    },
-    {
-     "season": "2025/26",
-     "total": 2075,
-     "rank": 2693719
-    }
-   ]
-  },
-  {
    "entry": 109603,
    "player_name": "Roma Samoilenko",
    "team_name": "FC ROMANO",
@@ -946,6 +928,94 @@
      "season": "2025/26",
      "total": 2421,
      "rank": 3769
+    }
+   ]
+  },
+  {
+   "entry": 693925,
+   "player_name": "Tal Arbeli",
+   "team_name": "Sir Alex",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2022/23",
+     "total": 2337,
+     "rank": 1164145
+    },
+    {
+     "season": "2023/24",
+     "total": 2204,
+     "rank": 2136275
+    },
+    {
+     "season": "2024/25",
+     "total": 2558,
+     "rank": 33786
+    },
+    {
+     "season": "2025/26",
+     "total": 2359,
+     "rank": 39837
+    }
+   ]
+  },
+  {
+   "entry": 466921,
+   "player_name": "David Kravinsky",
+   "team_name": "RUN&GUN",
+   "gws": [],
+   "chips": [],
+   "past": [
+    {
+     "season": "2014/15",
+     "total": 1544,
+     "rank": 2367081
+    },
+    {
+     "season": "2017/18",
+     "total": 1908,
+     "rank": 1944196
+    },
+    {
+     "season": "2018/19",
+     "total": 1986,
+     "rank": 2048197
+    },
+    {
+     "season": "2019/20",
+     "total": 2157,
+     "rank": 511730
+    },
+    {
+     "season": "2020/21",
+     "total": 2319,
+     "rank": 291726
+    },
+    {
+     "season": "2021/22",
+     "total": 2544,
+     "rank": 55503
+    },
+    {
+     "season": "2022/23",
+     "total": 2529,
+     "rank": 97405
+    },
+    {
+     "season": "2023/24",
+     "total": 2441,
+     "rank": 210828
+    },
+    {
+     "season": "2024/25",
+     "total": 2532,
+     "rank": 65160
+    },
+    {
+     "season": "2025/26",
+     "total": 2361,
+     "rank": 38397
     }
    ]
   },
@@ -1138,114 +1208,6 @@
      "season": "2025/26",
      "total": 2107,
      "rank": 2157060
-    }
-   ]
-  },
-  {
-   "entry": 466921,
-   "player_name": "David Kravinsky",
-   "team_name": "RUN&GUN",
-   "gws": [],
-   "chips": [],
-   "past": [
-    {
-     "season": "2014/15",
-     "total": 1544,
-     "rank": 2367081
-    },
-    {
-     "season": "2017/18",
-     "total": 1908,
-     "rank": 1944196
-    },
-    {
-     "season": "2018/19",
-     "total": 1986,
-     "rank": 2048197
-    },
-    {
-     "season": "2019/20",
-     "total": 2157,
-     "rank": 511730
-    },
-    {
-     "season": "2020/21",
-     "total": 2319,
-     "rank": 291726
-    },
-    {
-     "season": "2021/22",
-     "total": 2544,
-     "rank": 55503
-    },
-    {
-     "season": "2022/23",
-     "total": 2529,
-     "rank": 97405
-    },
-    {
-     "season": "2023/24",
-     "total": 2441,
-     "rank": 210828
-    },
-    {
-     "season": "2024/25",
-     "total": 2532,
-     "rank": 65160
-    },
-    {
-     "season": "2025/26",
-     "total": 2361,
-     "rank": 38397
-    }
-   ]
-  },
-  {
-   "entry": 1223462,
-   "player_name": "Misha Shwartsman",
-   "team_name": "Vatos Locos",
-   "gws": [],
-   "chips": [],
-   "past": [
-    {
-     "season": "2018/19",
-     "total": 2143,
-     "rank": 541229
-    },
-    {
-     "season": "2019/20",
-     "total": 2211,
-     "rank": 252044
-    },
-    {
-     "season": "2020/21",
-     "total": 2377,
-     "rank": 128964
-    },
-    {
-     "season": "2021/22",
-     "total": 2396,
-     "rank": 320644
-    },
-    {
-     "season": "2022/23",
-     "total": 2408,
-     "rank": 604054
-    },
-    {
-     "season": "2023/24",
-     "total": 2410,
-     "rank": 320424
-    },
-    {
-     "season": "2024/25",
-     "total": 2208,
-     "rank": 2736921
-    },
-    {
-     "season": "2025/26",
-     "total": 2079,
-     "rank": 2624580
     }
    ]
   }
