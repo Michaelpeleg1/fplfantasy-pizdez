@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T22:51:50.937Z",
+ "generated_at": "2026-08-22T05:49:35.405Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -496,6 +496,30 @@
    ]
   },
   {
+   "entry": 7137365,
+   "player_name": "Alex Haikov",
+   "team_name": "Haikov",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 21,
+     "total_points": 21,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 885437
+    }
+   ],
+   "chips": [],
+   "past": [
+    {
+     "season": "2025/26",
+     "total": 2235,
+     "rank": 569298
+    }
+   ]
+  },
+  {
    "entry": 68334,
    "player_name": "Gaash Graif",
    "team_name": "Gaash's Team",
@@ -566,30 +590,6 @@
      "season": "2025/26",
      "total": 2107,
      "rank": 2157060
-    }
-   ]
-  },
-  {
-   "entry": 7137365,
-   "player_name": "Alex Haikov",
-   "team_name": "Haikov",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 21,
-     "total_points": 21,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 885437
-    }
-   ],
-   "chips": [],
-   "past": [
-    {
-     "season": "2025/26",
-     "total": 2235,
-     "rank": 569298
     }
    ]
   },
@@ -727,55 +727,6 @@
    ]
   },
   {
-   "entry": 109603,
-   "player_name": "Roma Samoilenko",
-   "team_name": "FC ROMANO",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 20,
-     "total_points": 20,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 1381598
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    }
-   ],
-   "past": [
-    {
-     "season": "2021/22",
-     "total": 2209,
-     "rank": 1144735
-    },
-    {
-     "season": "2022/23",
-     "total": 2582,
-     "rank": 23642
-    },
-    {
-     "season": "2023/24",
-     "total": 2553,
-     "rank": 19724
-    },
-    {
-     "season": "2024/25",
-     "total": 2612,
-     "rank": 6470
-    },
-    {
-     "season": "2025/26",
-     "total": 2421,
-     "rank": 3769
-    }
-   ]
-  },
-  {
    "entry": 7894370,
    "player_name": "Shlomi Anavi",
    "team_name": "No More Pep",
@@ -831,6 +782,55 @@
      "season": "2025/26",
      "total": 2272,
      "rank": 318715
+    }
+   ]
+  },
+  {
+   "entry": 109603,
+   "player_name": "Roma Samoilenko",
+   "team_name": "FC ROMANO",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 20,
+     "total_points": 20,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 1381598
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    }
+   ],
+   "past": [
+    {
+     "season": "2021/22",
+     "total": 2209,
+     "rank": 1144735
+    },
+    {
+     "season": "2022/23",
+     "total": 2582,
+     "rank": 23642
+    },
+    {
+     "season": "2023/24",
+     "total": 2553,
+     "rank": 19724
+    },
+    {
+     "season": "2024/25",
+     "total": 2612,
+     "rank": 6470
+    },
+    {
+     "season": "2025/26",
+     "total": 2421,
+     "rank": 3769
     }
    ]
   },
@@ -900,144 +900,6 @@
      "season": "2025/26",
      "total": 2149,
      "rank": 1528643
-    }
-   ]
-  },
-  {
-   "entry": 1245099,
-   "player_name": "Michael Peleg",
-   "team_name": "call me V",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 15,
-     "total_points": 15,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 2683415
-    }
-   ],
-   "chips": [],
-   "past": [
-    {
-     "season": "2015/16",
-     "total": 1811,
-     "rank": 1731800
-    },
-    {
-     "season": "2016/17",
-     "total": 1779,
-     "rank": 1973681
-    },
-    {
-     "season": "2017/18",
-     "total": 2068,
-     "rank": 679622
-    },
-    {
-     "season": "2018/19",
-     "total": 2113,
-     "rank": 745991
-    },
-    {
-     "season": "2019/20",
-     "total": 2321,
-     "rank": 29813
-    },
-    {
-     "season": "2020/21",
-     "total": 2465,
-     "rank": 21164
-    },
-    {
-     "season": "2021/22",
-     "total": 2296,
-     "rank": 678350
-    },
-    {
-     "season": "2022/23",
-     "total": 2250,
-     "rank": 2091194
-    },
-    {
-     "season": "2023/24",
-     "total": 2241,
-     "rank": 1670287
-    },
-    {
-     "season": "2024/25",
-     "total": 2538,
-     "rank": 56788
-    },
-    {
-     "season": "2025/26",
-     "total": 2082,
-     "rank": 2575074
-    }
-   ]
-  },
-  {
-   "entry": 4698980,
-   "player_name": "Yogev Balilti",
-   "team_name": "Red Devils",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 15,
-     "total_points": 15,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 2683415
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    }
-   ],
-   "past": [
-    {
-     "season": "2018/19",
-     "total": 2130,
-     "rank": 624889
-    },
-    {
-     "season": "2019/20",
-     "total": 2155,
-     "rank": 523814
-    },
-    {
-     "season": "2020/21",
-     "total": 2335,
-     "rank": 237862
-    },
-    {
-     "season": "2021/22",
-     "total": 2592,
-     "rank": 22372
-    },
-    {
-     "season": "2022/23",
-     "total": 2483,
-     "rank": 228976
-    },
-    {
-     "season": "2023/24",
-     "total": 2420,
-     "rank": 282611
-    },
-    {
-     "season": "2024/25",
-     "total": 2496,
-     "rank": 137396
-    },
-    {
-     "season": "2025/26",
-     "total": 2128,
-     "rank": 1833039
     }
    ]
   },
@@ -1210,6 +1072,144 @@
      "season": "2025/26",
      "total": 2183,
      "rank": 1088283
+    }
+   ]
+  },
+  {
+   "entry": 1245099,
+   "player_name": "Michael Peleg",
+   "team_name": "call me V",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 15,
+     "total_points": 15,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 2683415
+    }
+   ],
+   "chips": [],
+   "past": [
+    {
+     "season": "2015/16",
+     "total": 1811,
+     "rank": 1731800
+    },
+    {
+     "season": "2016/17",
+     "total": 1779,
+     "rank": 1973681
+    },
+    {
+     "season": "2017/18",
+     "total": 2068,
+     "rank": 679622
+    },
+    {
+     "season": "2018/19",
+     "total": 2113,
+     "rank": 745991
+    },
+    {
+     "season": "2019/20",
+     "total": 2321,
+     "rank": 29813
+    },
+    {
+     "season": "2020/21",
+     "total": 2465,
+     "rank": 21164
+    },
+    {
+     "season": "2021/22",
+     "total": 2296,
+     "rank": 678350
+    },
+    {
+     "season": "2022/23",
+     "total": 2250,
+     "rank": 2091194
+    },
+    {
+     "season": "2023/24",
+     "total": 2241,
+     "rank": 1670287
+    },
+    {
+     "season": "2024/25",
+     "total": 2538,
+     "rank": 56788
+    },
+    {
+     "season": "2025/26",
+     "total": 2082,
+     "rank": 2575074
+    }
+   ]
+  },
+  {
+   "entry": 4698980,
+   "player_name": "Yogev Balilti",
+   "team_name": "Red Devils",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 15,
+     "total_points": 15,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 2683415
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    }
+   ],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 2130,
+     "rank": 624889
+    },
+    {
+     "season": "2019/20",
+     "total": 2155,
+     "rank": 523814
+    },
+    {
+     "season": "2020/21",
+     "total": 2335,
+     "rank": 237862
+    },
+    {
+     "season": "2021/22",
+     "total": 2592,
+     "rank": 22372
+    },
+    {
+     "season": "2022/23",
+     "total": 2483,
+     "rank": 228976
+    },
+    {
+     "season": "2023/24",
+     "total": 2420,
+     "rank": 282611
+    },
+    {
+     "season": "2024/25",
+     "total": 2496,
+     "rank": 137396
+    },
+    {
+     "season": "2025/26",
+     "total": 2128,
+     "rank": 1833039
     }
    ]
   },
