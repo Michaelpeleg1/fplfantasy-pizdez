@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T22:48:53.714Z",
+ "generated_at": "2026-08-24T05:59:36.255Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -772,30 +772,6 @@
    ]
   },
   {
-   "entry": 7137365,
-   "player_name": "Alex Haikov",
-   "team_name": "Haikov",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 42,
-     "total_points": 42,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 1,
-     "overall_rank": 2393930
-    }
-   ],
-   "chips": [],
-   "past": [
-    {
-     "season": "2025/26",
-     "total": 2235,
-     "rank": 569298
-    }
-   ]
-  },
-  {
    "entry": 130809,
    "player_name": "Evgeny Friedman",
    "team_name": "Evgeny M.U",
@@ -988,50 +964,6 @@
    ]
   },
   {
-   "entry": 4467392,
-   "player_name": "daniel sagiants",
-   "team_name": "chakito",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 38,
-     "total_points": 38,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 11,
-     "overall_rank": 3598164
-    }
-   ],
-   "chips": [],
-   "past": [
-    {
-     "season": "2019/20",
-     "total": 2174,
-     "rank": 416010
-    },
-    {
-     "season": "2020/21",
-     "total": 1964,
-     "rank": 2966463
-    },
-    {
-     "season": "2023/24",
-     "total": 2229,
-     "rank": 1817397
-    },
-    {
-     "season": "2024/25",
-     "total": 2409,
-     "rank": 515991
-    },
-    {
-     "season": "2025/26",
-     "total": 2288,
-     "rank": 237193
-    }
-   ]
-  },
-  {
    "entry": 1245099,
    "player_name": "Michael Peleg",
    "team_name": "call me V",
@@ -1102,6 +1034,50 @@
      "season": "2025/26",
      "total": 2082,
      "rank": 2575074
+    }
+   ]
+  },
+  {
+   "entry": 4467392,
+   "player_name": "daniel sagiants",
+   "team_name": "chakito",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 38,
+     "total_points": 38,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 11,
+     "overall_rank": 3598164
+    }
+   ],
+   "chips": [],
+   "past": [
+    {
+     "season": "2019/20",
+     "total": 2174,
+     "rank": 416010
+    },
+    {
+     "season": "2020/21",
+     "total": 1964,
+     "rank": 2966463
+    },
+    {
+     "season": "2023/24",
+     "total": 2229,
+     "rank": 1817397
+    },
+    {
+     "season": "2024/25",
+     "total": 2409,
+     "rank": 515991
+    },
+    {
+     "season": "2025/26",
+     "total": 2288,
+     "rank": 237193
     }
    ]
   },
