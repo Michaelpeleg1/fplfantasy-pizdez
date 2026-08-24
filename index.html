@@ -103,6 +103,17 @@
     font-family:'Nunito',sans-serif;font-weight:800;letter-spacing:1px;vertical-align:middle;
     animation:livePulse 1.6s ease-in-out infinite}
   @keyframes livePulse{0%,100%{opacity:1}50%{opacity:.55}}
+  .pitch{background:linear-gradient(180deg, rgba(0,90,45,.35), rgba(0,60,30,.45)),
+    repeating-linear-gradient(180deg, rgba(255,255,255,.02) 0 40px, transparent 40px 80px);
+    border:1px solid rgba(0,255,135,.25);border-radius:12px;padding:18px 8px}
+  .pitch-row{display:flex;justify-content:center;gap:10px;margin:12px 0;flex-wrap:wrap}
+  .pl-card{background:rgba(20,0,25,.8);border:1px solid var(--card-border);border-radius:10px;
+    padding:8px 12px;text-align:center;min-width:92px;cursor:default}
+  .pl-card:hover{border-color:var(--green)}
+  .pl-name{font-weight:800;font-size:.82rem}
+  .pl-club{font-size:.65rem;color:var(--ink-dim);margin:2px 0}
+  .pl-pts{display:inline-block;background:var(--green);color:var(--purple);border-radius:5px;
+    padding:0 8px;font-weight:800;font-size:.8rem}
 
   select{background:#2a012f;color:var(--ink);border:2px solid var(--violet);border-radius:8px;
     padding:7px 12px;font-family:'Nunito',sans-serif;margin-left:auto;cursor:pointer}
@@ -201,6 +212,8 @@
       <button class="tab-btn active" onclick="showTab('standings',this)">📊 Standings</button>
       <button class="tab-btn" onclick="showTab('weekly',this)">⚡ Weekly</button>
       <button class="tab-btn" onclick="showTab('monthly',this)">📅 Monthly</button>
+      <button class="tab-btn" onclick="showTab('totw',this)">🌟 TOTW</button>
+      <button class="tab-btn" onclick="showTab('summary',this)">📣 Summary</button>
       <button class="tab-btn" onclick="showTab('cup',this)">🏆 Cup</button>
       <button class="tab-btn" onclick="showTab('hof',this)">👑 Hall of Fame</button>
     </div>
@@ -217,9 +230,7 @@
           <tbody id="standingsBody"></tbody>
         </table>
         </div>
-        <div style="font-size:.75rem;color:rgba(240,230,246,.4);margin-top:10px">
-          Prizes: 1st ₪3,600 · 2nd ₪2,100 · 3rd ₪1,300 · Cup winner ₪500. Tied managers split the sum of their positions' prizes.
-        </div>
+        <div style="font-size:.75rem;color:rgba(240,230,246,.4);margin-top:10px" id="prizeNote"></div>
       </div>
     </div>
 
@@ -235,6 +246,27 @@
       <div class="card">
         <div class="card-title">Manager of the Month</div>
         <div class="grid" id="monthlyGrid"></div>
+      </div>
+    </div>
+
+    <div id="view-totw" class="view">
+      <div class="card">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px">
+          <div class="card-title" style="margin-bottom:0">Team of the Week</div>
+          <select id="totwSelect" onchange="buildTotw()"></select>
+        </div>
+        <div id="totwPitch"></div>
+      </div>
+    </div>
+
+    <div id="view-summary" class="view">
+      <div class="card" dir="rtl">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px">
+          <div class="card-title" style="margin-bottom:0">סיכום המחזור</div>
+          <select id="sumSelect" onchange="buildSummary()" style="margin-left:0;margin-right:auto"></select>
+          <button class="tab-btn" style="font-family:'Nunito',sans-serif;font-size:.8rem;letter-spacing:0;padding:7px 14px" onclick="copySummary(this)">📋 העתק לוואטסאפ</button>
+        </div>
+        <div id="summaryBody" style="white-space:pre-wrap;line-height:2;font-size:.95rem"></div>
       </div>
     </div>
 
@@ -258,8 +290,12 @@
 const CONFIG = {
   dataUrl: "data/data.json",
   buyIn: 300,
-  prizes: [3600, 2100, 1300],   // league positions 1..n — finalize after registration closes
-  cupPrize: 500,
+  // Pot = buyIn × managers. Split by weights (original 25-player design: 3600/2100/1300/500),
+  // rounded to ₪10; 1st place absorbs rounding so payouts always sum to the pot.
+  prizeWeights: [3600, 2100, 1300],
+  cupWeight: 500,
+  prizes: [],    // computed at load
+  cupPrize: 0,   // computed at load
   currency: "₪",
   champions: [
     { season: "2025/26", name: "Evgeny Friedman", note: "reigning champion" },
@@ -453,6 +489,89 @@ function buildCup() {
   card.innerHTML = `<div class="card-title">${cup.name || "League Cup"} — ${fmt(CONFIG.cupPrize)}</div><div class="bracket-scroll"><div class="bracket">${cols}</div></div>`;
 }
 
+// ---- TEAM OF THE WEEK ----
+function buildTotw() {
+  const sel = document.getElementById("totwSelect");
+  const pitch = document.getElementById("totwPitch");
+  const list = DATA.totw ?? [];
+  if (!list.length) { pitch.innerHTML = emptySeason("Team of the Week appears once the first gameweek kicks off."); sel.style.display = "none"; return; }
+  if (!sel.options.length) {
+    sel.innerHTML = list.map((t) => `<option value="${t.gw}">GW ${t.gw}${t.gw === liveGW ? " · LIVE" : ""}</option>`).join("");
+    sel.value = list[list.length - 1].gw;
+  }
+  const t = list.find((x) => x.gw === parseInt(sel.value)) ?? list[list.length - 1];
+  const rows = ["GKP", "DEF", "MID", "FWD"].map((pos) => {
+    const ps = t.players.filter((p) => p.pos === pos);
+    return `<div class="pitch-row">${ps.map((p) => `
+      <div class="pl-card" title="Owned by: ${p.owners.join(", ")}">
+        <div class="pl-name">${p.name}</div>
+        <div class="pl-club">${p.club} · ×${p.owners.length}</div>
+        <div class="pl-pts">${p.points}</div>
+      </div>`).join("")}</div>`;
+  }).join("");
+  pitch.innerHTML = `
+    <div style="display:flex;gap:14px;align-items:center;margin-bottom:10px;font-size:.85rem;color:rgba(240,230,246,.6)">
+      <span>Formation: <b style="color:#00ff87">${t.formation}</b></span>
+      <span>Total: <b style="color:#ffd700">${t.total} pts</b></span>
+      ${t.gw === liveGW ? '<span class="live-badge">LIVE</span>' : ""}
+      <span style="margin-left:auto;font-size:.72rem">best XI from players started by league managers · ×N = owners</span>
+    </div>
+    <div class="pitch">${rows}</div>`;
+}
+
+// ---- HEBREW GW SUMMARY ----
+const CHIP_HE = { wildcard: "וויילדקארד", freehit: "פרי היט", bboost: "ספסל מוגבר", "3xc": "קפטן משולש", manager: "מנהל עוזר" };
+function summaryText(gw) {
+  const isLive = gw === liveGW;
+  const rows = DATA.managers.map((m) => {
+    const g = m.gws.find((x) => x.gw === gw);
+    return g ? { name: m.player_name, score: g.points - (g.hit_cost || 0), hit: g.hit_cost || 0, bench: g.bench || 0, chip: m.chips.find((c) => c.gw === gw)?.name } : null;
+  }).filter(Boolean).sort((a, b) => b.score - a.score);
+  if (!rows.length) return "אין עדיין נתונים למחזור הזה.";
+  const top = rows[0], runnersTied = rows.filter((r) => r.score === top.score).slice(1);
+  const table = DATA.managers.map((m) => ({ name: m.player_name, total: m.gws.filter((g) => g.gw <= gw).reduce((s, g) => s + g.points - (g.hit_cost || 0), 0) })).sort((a, b) => b.total - a.total);
+  const chips = rows.filter((r) => r.chip);
+  const chipCounts = {};
+  chips.forEach((r) => { chipCounts[r.chip] = (chipCounts[r.chip] || 0) + 1; });
+  const hitters = rows.filter((r) => r.hit > 0);
+  const benchKing = [...rows].sort((a, b) => b.bench - a.bench)[0];
+  const t = (DATA.totw ?? []).find((x) => x.gw === gw);
+  const L = [];
+  L.push(`📣 סיכום מחזור ${gw} — ליגת הכפכפים${isLive ? " (בשידור חי ⏱️)" : ""}`);
+  L.push("");
+  L.push(`${isLive ? "⏱️ מוביל המחזור" : "🏆 מלך המחזור"}: ${top.name} עם ${top.score} נק'${runnersTied.length ? ` (בתיקו עם ${runnersTied.map((r) => r.name).join(", ")})` : ""}`);
+  const r2 = rows.filter((r) => r.score < top.score).slice(0, 2);
+  if (r2.length) L.push(`🥈 רודפים: ${r2.map((r) => `${r.name} (${r.score})`).join(", ")}`);
+  L.push(`👑 ${isLive ? "מוביל" : "מוביל"} הטבלה: ${table[0].name} עם ${table[0].total} נק'`);
+  L.push(`😅 נעילת המחזור: ${rows[rows.length - 1].name} עם ${rows[rows.length - 1].score} נק'`);
+  if (Object.keys(chipCounts).length) L.push(`🎲 צ'יפים: ${Object.entries(chipCounts).map(([c, n]) => `${CHIP_HE[c] ?? c} ×${n}`).join(", ")}`);
+  if (hitters.length) L.push(`🤕 חבטות: ${hitters.map((r) => `${r.name} (-${r.hit})`).join(", ")}`);
+  if (benchKing && benchKing.bench > 0) L.push(`💺 מלך הספסל: ${benchKing.name} עם ${benchKing.bench} נק' על הספסל`);
+  if (t) {
+    const star = [...t.players].sort((a, b) => b.points - a.points)[0];
+    L.push(`⭐ שחקן המחזור: ${star.name} (${star.club}) עם ${star.points} נק' — אצל ${star.owners.length} מנהלים`);
+    L.push(`🌟 הרכב המחזור (${t.formation}, ${t.total} נק'): ${["GKP","DEF","MID","FWD"].map((pos) => t.players.filter((p) => p.pos === pos).map((p) => p.name).join(", ")).join(" | ")}`);
+  }
+  L.push("");
+  L.push(`🔗 כל הפרטים: https://michaelpeleg1.github.io/fplfantasy-pizdez/`);
+  return L.join("\n");
+}
+function buildSummary() {
+  const sel = document.getElementById("sumSelect");
+  const body = document.getElementById("summaryBody");
+  if (!finishedGWs.length) { body.textContent = "הסיכום הראשון יופיע ברגע שמחזור 1 יוצא לדרך. בהצלחה! 🍀"; sel.style.display = "none"; return; }
+  if (!sel.options.length) {
+    sel.innerHTML = finishedGWs.map((g) => `<option value="${g}">מחזור ${g}${g === liveGW ? " · חי" : ""}</option>`).join("");
+    sel.value = finishedGWs[finishedGWs.length - 1];
+  }
+  body.textContent = summaryText(parseInt(sel.value));
+}
+function copySummary(btn) {
+  navigator.clipboard.writeText(document.getElementById("summaryBody").textContent).then(() => {
+    const old = btn.textContent; btn.textContent = "✅ הועתק!"; setTimeout(() => (btn.textContent = old), 1600);
+  });
+}
+
 // ---- HALL OF FAME ----
 function buildHof() {
   document.getElementById("hofList").innerHTML = CONFIG.champions.map((c) => `
@@ -481,6 +600,16 @@ async function loadData() {
     document.getElementById("loading").style.display = "none";
     document.getElementById("app").style.display = "block";
     document.getElementById("headerStats").style.display = "flex";
+    // Dynamic prize math: pot = buyIn × managers, split by weights, rounded to ₪10,
+    // 1st place absorbs rounding so payouts sum exactly to the pot.
+    const pot = CONFIG.buyIn * DATA.managers.length;
+    const wSum = CONFIG.prizeWeights.reduce((a, b) => a + b, 0) + CONFIG.cupWeight;
+    CONFIG.cupPrize = Math.round((pot * CONFIG.cupWeight) / wSum / 10) * 10;
+    CONFIG.prizes = CONFIG.prizeWeights.map((w) => Math.round((pot * w) / wSum / 10) * 10);
+    CONFIG.prizes[0] = pot - CONFIG.cupPrize - CONFIG.prizes.slice(1).reduce((a, b) => a + b, 0);
+    document.getElementById("prizeNote").textContent =
+      `Prizes (pot ${fmt(pot)} = ${DATA.managers.length} × ${fmt(CONFIG.buyIn)}): 1st ${fmt(CONFIG.prizes[0])} · 2nd ${fmt(CONFIG.prizes[1])} · 3rd ${fmt(CONFIG.prizes[2])} · Cup winner ${fmt(CONFIG.cupPrize)}. Tied managers split the sum of their positions' prizes.`;
+
     document.getElementById("statManagers").textContent = DATA.managers.length;
     document.getElementById("statGWs").textContent = finishedGWs.length;
     document.getElementById("statPot").textContent = fmt(CONFIG.buyIn * DATA.managers.length);
@@ -492,7 +621,7 @@ async function loadData() {
     sel.innerHTML = finishedGWs.map((g) => `<option value="${g}">GW ${g}${g === liveGW ? " · LIVE" : ""}</option>`).join("");
     if (finishedGWs.length) sel.value = finishedGWs[finishedGWs.length - 1]; else sel.style.display = "none";
 
-    renderStandings(); buildWeekly(); buildMonthly(); buildCup(); buildHof();
+    renderStandings(); buildWeekly(); buildMonthly(); buildTotw(); buildSummary(); buildCup(); buildHof();
     document.getElementById("footer").textContent =
       `Data updated ${new Date(DATA.generated_at).toLocaleString("en-GB")} · auto-refreshed from the official FPL API every gameweek · all past rounds archived`;
   } catch (e) {

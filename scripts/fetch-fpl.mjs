@@ -111,10 +111,21 @@ async function main() {
 
   // Weekly winner squads: for each finalized GW, fetch the winning manager's picks
   // + live player points. Immutable once fetched — reuse from the previous data.json.
-  let prevWinners = [];
-  try { prevWinners = JSON.parse(readFileSync(OUT, "utf-8")).weekly_winners ?? []; } catch {}
+  let prevData = {};
+  try { prevData = JSON.parse(readFileSync(OUT, "utf-8")); } catch {}
+  const prevWinners = prevData.weekly_winners ?? [];
   const POS = { 1: "GKP", 2: "DEF", 3: "MID", 4: "FWD", 5: "AM" };
   const elById = new Map(bootstrap.elements.map((e) => [e.id, e]));
+  const teamShort = new Map(bootstrap.teams.map((t) => [t.id, t.short_name]));
+  const liveCache = new Map();
+  async function getLivePoints(gw) {
+    if (!liveCache.has(gw)) {
+      const live = await get(`/event/${gw}/live/`);
+      liveCache.set(gw, new Map(live.elements.map((e) => [e.id, e.stats?.total_points ?? 0])));
+      await sleep(250);
+    }
+    return liveCache.get(gw);
+  }
   const weeklyWinners = [];
   for (const ev of events.filter((e) => e.finished && e.data_checked)) {
     const cached = prevWinners.find((w) => w.gw === ev.id);
@@ -130,8 +141,7 @@ async function main() {
     try {
       const picks = await get(`/entry/${best.entry}/event/${ev.id}/picks/`);
       await sleep(250);
-      const live = await get(`/event/${ev.id}/live/`);
-      const livePts = new Map(live.elements.map((e) => [e.id, e.stats?.total_points ?? 0]));
+      const livePts = await getLivePoints(ev.id);
       const squad = (picks.picks ?? []).map((p) => {
         const el = elById.get(p.element);
         return {
@@ -151,6 +161,51 @@ async function main() {
     }
   }
 
+  // TEAM OF THE WEEK: pool every player STARTED by any league manager this GW
+  // (multiplier > 0; bench-boost weeks count all 15), rank by raw player points,
+  // solve the best legal XI across all 8 valid FPL formations. Final GWs cached.
+  const prevTotw = prevData.totw ?? [];
+  const FORMATIONS = [[3,4,3],[3,5,2],[4,3,3],[4,4,2],[4,5,1],[5,2,3],[5,3,2],[5,4,1]];
+  const totw = [];
+  for (const ev of events.filter((e) => e.finished || e.is_current)) {
+    if (!managers.some((m) => m.gws.some((g) => g.gw === ev.id))) continue;
+    const cached = prevTotw.find((t) => t.gw === ev.id && t.final);
+    if (cached) { totw.push(cached); continue; }
+    const livePts = await getLivePoints(ev.id);
+    const pool = new Map(); // element id -> {points, owners:Set}
+    for (const m of managers) {
+      try {
+        const picks = await get(`/entry/${m.entry}/event/${ev.id}/picks/`, { optional: true });
+        await sleep(200);
+        if (!picks) continue;
+        for (const p of picks.picks ?? []) {
+          if (!(p.multiplier > 0)) continue; // started players only
+          if (!pool.has(p.element)) pool.set(p.element, { points: livePts.get(p.element) ?? 0, owners: new Set() });
+          pool.get(p.element).owners.add(m.player_name);
+        }
+      } catch (e) { console.warn(`picks failed for ${m.player_name} GW${ev.id}: ${e.message}`); }
+    }
+    const byPos = { GKP: [], DEF: [], MID: [], FWD: [] };
+    for (const [id, info] of pool) {
+      const el = elById.get(id);
+      const pos = POS[el?.element_type];
+      if (!byPos[pos]) continue; // skip AM chip entries
+      byPos[pos].push({ name: el.web_name, club: teamShort.get(el.team) ?? "", pos, points: info.points, owners: [...info.owners] });
+    }
+    for (const k of Object.keys(byPos)) byPos[k].sort((a, b) => b.points - a.points);
+    let best = null;
+    for (const [d, mid, f] of FORMATIONS) {
+      if (byPos.GKP.length < 1 || byPos.DEF.length < d || byPos.MID.length < mid || byPos.FWD.length < f) continue;
+      const xi = [byPos.GKP[0], ...byPos.DEF.slice(0, d), ...byPos.MID.slice(0, mid), ...byPos.FWD.slice(0, f)];
+      const total = xi.reduce((s, p) => s + p.points, 0);
+      if (!best || total > best.total) best = { formation: `${d}-${mid}-${f}`, total, players: xi };
+    }
+    if (best) {
+      totw.push({ gw: ev.id, final: ev.finished && ev.data_checked, ...best });
+      console.log(`TOTW GW${ev.id}: ${best.formation}, ${best.total} pts${ev.finished ? "" : " (live)"}`);
+    }
+  }
+
   const snapshot = {
     generated_at: new Date().toISOString(),
     league: { id: LEAGUE_ID, name: league.name },
@@ -158,6 +213,7 @@ async function main() {
     events,
     cup: cup ? { ...cup, cup_league: cupLeagueId, matches: cupMatches } : null,
     weekly_winners: weeklyWinners,
+    totw,
     managers,
   };
 
