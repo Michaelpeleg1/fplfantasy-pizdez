@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T05:59:36.255Z",
+ "generated_at": "2026-08-24T12:13:50.930Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -354,6 +354,50 @@
    ]
   },
   {
+   "entry": 693925,
+   "player_name": "Tal Arbeli",
+   "team_name": "Sir Alex",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 61,
+     "total_points": 61,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 196944
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    }
+   ],
+   "past": [
+    {
+     "season": "2022/23",
+     "total": 2337,
+     "rank": 1164145
+    },
+    {
+     "season": "2023/24",
+     "total": 2204,
+     "rank": 2136275
+    },
+    {
+     "season": "2024/25",
+     "total": 2558,
+     "rank": 33786
+    },
+    {
+     "season": "2025/26",
+     "total": 2359,
+     "rank": 39837
+    }
+   ]
+  },
+  {
    "entry": 4302037,
    "player_name": "Gena Shulik",
    "team_name": "FPL Galácticos",
@@ -419,50 +463,6 @@
      "season": "2025/26",
      "total": 2149,
      "rank": 1528643
-    }
-   ]
-  },
-  {
-   "entry": 693925,
-   "player_name": "Tal Arbeli",
-   "team_name": "Sir Alex",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 61,
-     "total_points": 61,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 196944
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    }
-   ],
-   "past": [
-    {
-     "season": "2022/23",
-     "total": 2337,
-     "rank": 1164145
-    },
-    {
-     "season": "2023/24",
-     "total": 2204,
-     "rank": 2136275
-    },
-    {
-     "season": "2024/25",
-     "total": 2558,
-     "rank": 33786
-    },
-    {
-     "season": "2025/26",
-     "total": 2359,
-     "rank": 39837
     }
    ]
   },
@@ -772,6 +772,65 @@
    ]
   },
   {
+   "entry": 4730817,
+   "player_name": "ron hoffman",
+   "team_name": "Hoffmanheim",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 42,
+     "total_points": 42,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 17,
+     "overall_rank": 2393930
+    }
+   ],
+   "chips": [],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 1845,
+     "rank": 3669411
+    },
+    {
+     "season": "2019/20",
+     "total": 1896,
+     "rank": 3133920
+    },
+    {
+     "season": "2020/21",
+     "total": 2064,
+     "rank": 2018720
+    },
+    {
+     "season": "2021/22",
+     "total": 2176,
+     "rank": 1357728
+    },
+    {
+     "season": "2022/23",
+     "total": 2449,
+     "rank": 370096
+    },
+    {
+     "season": "2023/24",
+     "total": 2349,
+     "rank": 647579
+    },
+    {
+     "season": "2024/25",
+     "total": 2476,
+     "rank": 194117
+    },
+    {
+     "season": "2025/26",
+     "total": 2238,
+     "rank": 545267
+    }
+   ]
+  },
+  {
    "entry": 130809,
    "player_name": "Evgeny Friedman",
    "team_name": "Evgeny M.U",
@@ -846,65 +905,6 @@
    ]
   },
   {
-   "entry": 4730817,
-   "player_name": "ron hoffman",
-   "team_name": "Hoffmanheim",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 42,
-     "total_points": 42,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 17,
-     "overall_rank": 2393930
-    }
-   ],
-   "chips": [],
-   "past": [
-    {
-     "season": "2018/19",
-     "total": 1845,
-     "rank": 3669411
-    },
-    {
-     "season": "2019/20",
-     "total": 1896,
-     "rank": 3133920
-    },
-    {
-     "season": "2020/21",
-     "total": 2064,
-     "rank": 2018720
-    },
-    {
-     "season": "2021/22",
-     "total": 2176,
-     "rank": 1357728
-    },
-    {
-     "season": "2022/23",
-     "total": 2449,
-     "rank": 370096
-    },
-    {
-     "season": "2023/24",
-     "total": 2349,
-     "rank": 647579
-    },
-    {
-     "season": "2024/25",
-     "total": 2476,
-     "rank": 194117
-    },
-    {
-     "season": "2025/26",
-     "total": 2238,
-     "rank": 545267
-    }
-   ]
-  },
-  {
    "entry": 4742791,
    "player_name": "yoan stoyanov",
    "team_name": "yoanst27",
@@ -960,6 +960,50 @@
      "season": "2025/26",
      "total": 2183,
      "rank": 1088283
+    }
+   ]
+  },
+  {
+   "entry": 4467392,
+   "player_name": "daniel sagiants",
+   "team_name": "chakito",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 38,
+     "total_points": 38,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 11,
+     "overall_rank": 3598164
+    }
+   ],
+   "chips": [],
+   "past": [
+    {
+     "season": "2019/20",
+     "total": 2174,
+     "rank": 416010
+    },
+    {
+     "season": "2020/21",
+     "total": 1964,
+     "rank": 2966463
+    },
+    {
+     "season": "2023/24",
+     "total": 2229,
+     "rank": 1817397
+    },
+    {
+     "season": "2024/25",
+     "total": 2409,
+     "rank": 515991
+    },
+    {
+     "season": "2025/26",
+     "total": 2288,
+     "rank": 237193
     }
    ]
   },
@@ -1034,50 +1078,6 @@
      "season": "2025/26",
      "total": 2082,
      "rank": 2575074
-    }
-   ]
-  },
-  {
-   "entry": 4467392,
-   "player_name": "daniel sagiants",
-   "team_name": "chakito",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 38,
-     "total_points": 38,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 11,
-     "overall_rank": 3598164
-    }
-   ],
-   "chips": [],
-   "past": [
-    {
-     "season": "2019/20",
-     "total": 2174,
-     "rank": 416010
-    },
-    {
-     "season": "2020/21",
-     "total": 1964,
-     "rank": 2966463
-    },
-    {
-     "season": "2023/24",
-     "total": 2229,
-     "rank": 1817397
-    },
-    {
-     "season": "2024/25",
-     "total": 2409,
-     "rank": 515991
-    },
-    {
-     "season": "2025/26",
-     "total": 2288,
-     "rank": 237193
     }
    ]
   },

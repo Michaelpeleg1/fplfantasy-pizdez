@@ -99,6 +99,10 @@
   .chip-badge{font-size:.68rem;border:1px solid var(--violet);border-radius:4px;padding:1px 6px;
     margin-left:6px;color:#e0b3ff;vertical-align:middle;background:rgba(124,45,142,.15)}
   .hit{color:#ff5470;font-size:.78rem}
+  .live-badge{background:#ff5470;color:#fff;border-radius:4px;padding:1px 7px;font-size:.62rem;
+    font-family:'Nunito',sans-serif;font-weight:800;letter-spacing:1px;vertical-align:middle;
+    animation:livePulse 1.6s ease-in-out infinite}
+  @keyframes livePulse{0%,100%{opacity:1}50%{opacity:.55}}
 
   select{background:#2a012f;color:var(--ink);border:2px solid var(--violet);border-radius:8px;
     padding:7px 12px;font-family:'Nunito',sans-serif;margin-left:auto;cursor:pointer}
@@ -271,7 +275,7 @@ const CONFIG = {
 const CHIP_LABELS = { wildcard: "🃏 WC", freehit: "🎯 FH", bboost: "📈 BB", "3xc": "©×3 TC", manager: "🧑‍💼 AM" };
 // ==================================================
 
-let DATA = null, finishedGWs = [];
+let DATA = null, finishedGWs = [], liveGW = null;
 
 const fmt = (n) => CONFIG.currency + n.toLocaleString(undefined, { maximumFractionDigits: 2 });
 const medal = (r) => r === 1 ? "🥇" : r === 2 ? "🥈" : r === 3 ? "🥉" : `<span style="font-weight:700">${r}</span>`;
@@ -370,8 +374,8 @@ function buildWeekly() {
   function renderPage(page) {
     grid.innerHTML = weeks.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE).map(({ gw, top, runners }) => `
       <div class="week-card">
-        <div class="week-header"><span class="gw-label">GW ${gw}</span><span class="pts-badge">${top?.score} pts</span></div>
-        <div class="winner-name">🏆 ${top?.name}${top?.chip ? `<span class="chip-badge">${top.chip}</span>` : ""}</div>
+        <div class="week-header"><span class="gw-label">GW ${gw}${gw === liveGW ? ' <span class="live-badge">LIVE</span>' : ""}</span><span class="pts-badge">${top?.score} pts</span></div>
+        <div class="winner-name">${gw === liveGW ? "⏱️" : "🏆"} ${top?.name}${top?.chip ? `<span class="chip-badge">${top.chip}</span>` : ""}</div>
         <div>${runners.map((r) => `<div class="runner-row"><span>${r.name}</span><span class="runner-score">${r.score}</span></div>`).join("")}</div>
         ${winnerSquadHTML(gw)}
       </div>`).join("");
@@ -467,6 +471,12 @@ async function loadData() {
     if (!resp.ok) throw new Error("HTTP " + resp.status);
     DATA = await resp.json();
     finishedGWs = DATA.events.filter((e) => e.finished).map((e) => e.id);
+    // Include the in-progress GW as soon as managers have scores for it (shown with a LIVE badge)
+    const liveEv = DATA.events.find((e) => e.is_current && !e.finished);
+    if (liveEv && DATA.managers.some((m) => m.gws.some((g) => g.gw === liveEv.id))) {
+      liveGW = liveEv.id;
+      finishedGWs = [...finishedGWs, liveGW];
+    }
 
     document.getElementById("loading").style.display = "none";
     document.getElementById("app").style.display = "block";
@@ -479,7 +489,7 @@ async function loadData() {
     if (gw1 && new Date(gw1.deadline_time) > new Date()) document.getElementById("regBanner").style.display = "block";
 
     const sel = document.getElementById("gwSelect");
-    sel.innerHTML = finishedGWs.map((g) => `<option value="${g}">GW ${g}</option>`).join("");
+    sel.innerHTML = finishedGWs.map((g) => `<option value="${g}">GW ${g}${g === liveGW ? " · LIVE" : ""}</option>`).join("");
     if (finishedGWs.length) sel.value = finishedGWs[finishedGWs.length - 1]; else sel.style.display = "none";
 
     renderStandings(); buildWeekly(); buildMonthly(); buildCup(); buildHof();
