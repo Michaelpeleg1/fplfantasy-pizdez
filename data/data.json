@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T05:54:39.383Z",
+ "generated_at": "2026-08-25T22:56:19.304Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -9,9 +9,9 @@
   {
    "id": 1,
    "deadline_time": "2026-08-21T17:30:00Z",
-   "finished": false,
+   "finished": true,
    "is_current": true,
-   "data_checked": false
+   "data_checked": true
   },
   {
    "id": 2,
@@ -287,11 +287,172 @@
   "cup_league": null,
   "matches": null
  },
- "weekly_winners": [],
+ "weekly_winners": [
+  {
+   "gw": 1,
+   "entry": 6316401,
+   "name": "Ran Meltser",
+   "team": "Bruno Cunha Bruno",
+   "net": 75,
+   "active_chip": "bboost",
+   "squad": [
+    {
+     "name": "Lammens",
+     "pos": "GKP",
+     "points": 1,
+     "raw_points": 1,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Guéhi",
+     "pos": "DEF",
+     "points": 10,
+     "raw_points": 10,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Calafiori",
+     "pos": "DEF",
+     "points": 9,
+     "raw_points": 9,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "White",
+     "pos": "DEF",
+     "points": 11,
+     "raw_points": 11,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "B.Fernandes",
+     "pos": "MID",
+     "points": 4,
+     "raw_points": 2,
+     "captain": true,
+     "vice": false,
+     "bench": false,
+     "multiplier": 2
+    },
+    {
+     "name": "Semenyo",
+     "pos": "MID",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": true,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Mbeumo",
+     "pos": "MID",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Szoboszlai",
+     "pos": "MID",
+     "points": 8,
+     "raw_points": 8,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Tzolis",
+     "pos": "MID",
+     "points": 6,
+     "raw_points": 6,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Isak",
+     "pos": "FWD",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "João Pedro",
+     "pos": "FWD",
+     "points": 11,
+     "raw_points": 11,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Kinsky",
+     "pos": "GKP",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 1
+    },
+    {
+     "name": "Calvert-Lewin",
+     "pos": "FWD",
+     "points": 1,
+     "raw_points": 1,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 1
+    },
+    {
+     "name": "N.Williams",
+     "pos": "DEF",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 1
+    },
+    {
+     "name": "O'Shea",
+     "pos": "DEF",
+     "points": 4,
+     "raw_points": 4,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 1
+    }
+   ]
+  }
+ ],
  "totw": [
   {
    "gw": 1,
-   "final": false,
+   "final": true,
    "formation": "5-3-2",
    "total": 102,
    "players": [
@@ -301,8 +462,8 @@
      "pos": "GKP",
      "points": 6,
      "owners": [
-      "Tal Arbeli",
       "Gena Shulik",
+      "Tal Arbeli",
       "David Kravinsky",
       "Yogev Balilti",
       "Shai Zamir",
@@ -317,8 +478,8 @@
      "points": 11,
      "owners": [
       "Ran Meltser",
-      "Tal Arbeli",
       "Gena Shulik",
+      "Tal Arbeli",
       "Roma Samoilenko"
      ]
     },
@@ -338,8 +499,8 @@
      "points": 9,
      "owners": [
       "Ran Meltser",
-      "Tal Arbeli",
       "Gena Shulik",
+      "Tal Arbeli",
       "David Kravinsky",
       "Yogev Balilti",
       "Guy Mizrahi",
@@ -348,8 +509,8 @@
       "Roma Samoilenko",
       "Evgeny Friedman",
       "ron hoffman",
-      "daniel sagiants",
       "Michael Peleg",
+      "daniel sagiants",
       "Eliel Hurovich",
       "Shlomi Anavi"
      ]
@@ -405,8 +566,8 @@
      "points": 8,
      "owners": [
       "Ran Meltser",
-      "Tal Arbeli",
       "Gena Shulik",
+      "Tal Arbeli",
       "Shai Zamir",
       "YANIV NISSIM"
      ]
@@ -418,8 +579,8 @@
      "points": 11,
      "owners": [
       "Ran Meltser",
-      "Tal Arbeli",
       "Gena Shulik",
+      "Tal Arbeli",
       "David Kravinsky",
       "Yogev Balilti",
       "Guy Mizrahi",
@@ -427,8 +588,8 @@
       "Shai Zamir",
       "Evgeny Friedman",
       "ron hoffman",
-      "daniel sagiants",
       "Michael Peleg",
+      "daniel sagiants",
       "Eliel Hurovich",
       "Liran Uzal"
      ]
@@ -458,7 +619,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 194316
+     "overall_rank": 238376
     }
    ],
    "chips": [
@@ -511,50 +672,6 @@
    ]
   },
   {
-   "entry": 693925,
-   "player_name": "Tal Arbeli",
-   "team_name": "Sir Alex",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 72,
-     "total_points": 72,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 325933
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    }
-   ],
-   "past": [
-    {
-     "season": "2022/23",
-     "total": 2337,
-     "rank": 1164145
-    },
-    {
-     "season": "2023/24",
-     "total": 2204,
-     "rank": 2136275
-    },
-    {
-     "season": "2024/25",
-     "total": 2558,
-     "rank": 33786
-    },
-    {
-     "season": "2025/26",
-     "total": 2359,
-     "rank": 39837
-    }
-   ]
-  },
-  {
    "entry": 4302037,
    "player_name": "Gena Shulik",
    "team_name": "FPL Galácticos",
@@ -566,7 +683,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 325933
+     "overall_rank": 398656
     }
    ],
    "chips": [
@@ -624,6 +741,50 @@
    ]
   },
   {
+   "entry": 693925,
+   "player_name": "Tal Arbeli",
+   "team_name": "Sir Alex",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 72,
+     "total_points": 72,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 398656
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    }
+   ],
+   "past": [
+    {
+     "season": "2022/23",
+     "total": 2337,
+     "rank": 1164145
+    },
+    {
+     "season": "2023/24",
+     "total": 2204,
+     "rank": 2136275
+    },
+    {
+     "season": "2024/25",
+     "total": 2558,
+     "rank": 33786
+    },
+    {
+     "season": "2025/26",
+     "total": 2359,
+     "rank": 39837
+    }
+   ]
+  },
+  {
    "entry": 466921,
    "player_name": "David Kravinsky",
    "team_name": "RUN&GUN",
@@ -635,7 +796,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 432603
+     "overall_rank": 529735
     }
    ],
    "chips": [
@@ -709,7 +870,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 728229
+     "overall_rank": 893714
     }
    ],
    "chips": [
@@ -773,7 +934,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 933083
+     "overall_rank": 1142767
     }
    ],
    "chips": [
@@ -827,7 +988,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 933083
+     "overall_rank": 1142767
     }
    ],
    "chips": [
@@ -886,7 +1047,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 1048239
+     "overall_rank": 1282717
     }
    ],
    "chips": [
@@ -950,7 +1111,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 1639201
+     "overall_rank": 1987556
     }
    ],
    "chips": [
@@ -999,7 +1160,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 4,
-     "overall_rank": 2933691
+     "overall_rank": 3482299
     }
    ],
    "chips": [],
@@ -1073,7 +1234,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 17,
-     "overall_rank": 2933691
+     "overall_rank": 3482299
     }
    ],
    "chips": [],
@@ -1121,50 +1282,6 @@
    ]
   },
   {
-   "entry": 4467392,
-   "player_name": "daniel sagiants",
-   "team_name": "chakito",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 49,
-     "total_points": 49,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 11,
-     "overall_rank": 4021104
-    }
-   ],
-   "chips": [],
-   "past": [
-    {
-     "season": "2019/20",
-     "total": 2174,
-     "rank": 416010
-    },
-    {
-     "season": "2020/21",
-     "total": 1964,
-     "rank": 2966463
-    },
-    {
-     "season": "2023/24",
-     "total": 2229,
-     "rank": 1817397
-    },
-    {
-     "season": "2024/25",
-     "total": 2409,
-     "rank": 515991
-    },
-    {
-     "season": "2025/26",
-     "total": 2288,
-     "rank": 237193
-    }
-   ]
-  },
-  {
    "entry": 1245099,
    "player_name": "Michael Peleg",
    "team_name": "call me V",
@@ -1176,7 +1293,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 10,
-     "overall_rank": 4021104
+     "overall_rank": 4673927
     }
    ],
    "chips": [],
@@ -1239,6 +1356,50 @@
    ]
   },
   {
+   "entry": 4467392,
+   "player_name": "daniel sagiants",
+   "team_name": "chakito",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 49,
+     "total_points": 49,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 11,
+     "overall_rank": 4673927
+    }
+   ],
+   "chips": [],
+   "past": [
+    {
+     "season": "2019/20",
+     "total": 2174,
+     "rank": 416010
+    },
+    {
+     "season": "2020/21",
+     "total": 1964,
+     "rank": 2966463
+    },
+    {
+     "season": "2023/24",
+     "total": 2229,
+     "rank": 1817397
+    },
+    {
+     "season": "2024/25",
+     "total": 2409,
+     "rank": 515991
+    },
+    {
+     "season": "2025/26",
+     "total": 2288,
+     "rank": 237193
+    }
+   ]
+  },
+  {
    "entry": 667429,
    "player_name": "Eliel Hurovich",
    "team_name": "AFA",
@@ -1250,7 +1411,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 9,
-     "overall_rank": 6430955
+     "overall_rank": 7094513
     }
    ],
    "chips": [],
@@ -1283,6 +1444,35 @@
    ]
   },
   {
+   "entry": 6916741,
+   "player_name": "YANIV NISSIM",
+   "team_name": "yanivvvv7",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 38,
+     "total_points": 38,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 7485068
+    }
+   ],
+   "chips": [],
+   "past": [
+    {
+     "season": "2023/24",
+     "total": 2108,
+     "rank": 3430174
+    },
+    {
+     "season": "2024/25",
+     "total": 1918,
+     "rank": 6345291
+    }
+   ]
+  },
+  {
    "entry": 3258010,
    "player_name": "Liran Uzal",
    "team_name": "Maccabi Uzal",
@@ -1294,7 +1484,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 10,
-     "overall_rank": 7068324
+     "overall_rank": 7658231
     }
    ],
    "chips": [],
@@ -1328,7 +1518,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 2,
-     "overall_rank": 7255700
+     "overall_rank": 7815956
     }
    ],
    "chips": [],
@@ -1372,35 +1562,6 @@
      "season": "2025/26",
      "total": 2272,
      "rank": 318715
-    }
-   ]
-  },
-  {
-   "entry": 6916741,
-   "player_name": "YANIV NISSIM",
-   "team_name": "yanivvvv7",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 33,
-     "total_points": 33,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 5,
-     "overall_rank": 7749980
-    }
-   ],
-   "chips": [],
-   "past": [
-    {
-     "season": "2023/24",
-     "total": 2108,
-     "rank": 3430174
-    },
-    {
-     "season": "2024/25",
-     "total": 1918,
-     "rank": 6345291
     }
    ]
   }
