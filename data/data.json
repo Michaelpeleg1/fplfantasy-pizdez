@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T05:56:18.930Z",
+ "generated_at": "2026-08-26T23:14:03.891Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -672,6 +672,50 @@
    ]
   },
   {
+   "entry": 693925,
+   "player_name": "Tal Arbeli",
+   "team_name": "Sir Alex",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 72,
+     "total_points": 72,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 398656
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    }
+   ],
+   "past": [
+    {
+     "season": "2022/23",
+     "total": 2337,
+     "rank": 1164145
+    },
+    {
+     "season": "2023/24",
+     "total": 2204,
+     "rank": 2136275
+    },
+    {
+     "season": "2024/25",
+     "total": 2558,
+     "rank": 33786
+    },
+    {
+     "season": "2025/26",
+     "total": 2359,
+     "rank": 39837
+    }
+   ]
+  },
+  {
    "entry": 4302037,
    "player_name": "Gena Shulik",
    "team_name": "FPL Galácticos",
@@ -737,50 +781,6 @@
      "season": "2025/26",
      "total": 2149,
      "rank": 1528643
-    }
-   ]
-  },
-  {
-   "entry": 693925,
-   "player_name": "Tal Arbeli",
-   "team_name": "Sir Alex",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 72,
-     "total_points": 72,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 398656
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    }
-   ],
-   "past": [
-    {
-     "season": "2022/23",
-     "total": 2337,
-     "rank": 1164145
-    },
-    {
-     "season": "2023/24",
-     "total": 2204,
-     "rank": 2136275
-    },
-    {
-     "season": "2024/25",
-     "total": 2558,
-     "rank": 33786
-    },
-    {
-     "season": "2025/26",
-     "total": 2359,
-     "rank": 39837
     }
    ]
   },
