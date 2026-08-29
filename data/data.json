@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T03:48:36.229Z",
+ "generated_at": "2026-08-29T11:42:36.712Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -608,8 +608,8 @@
   {
    "gw": 2,
    "final": false,
-   "formation": "3-4-3",
-   "total": 39,
+   "formation": "3-5-2",
+   "total": 42,
    "players": [
     {
      "name": "Kinsky",
@@ -691,26 +691,25 @@
      ]
     },
     {
-     "name": "Mbeumo",
-     "club": "MUN",
+     "name": "Szoboszlai",
+     "club": "LIV",
      "pos": "MID",
-     "points": 0,
+     "points": 1,
      "owners": [
       "Shai Zamir",
-      "Yogev Balilti",
       "Gena Shulik",
       "Ran Meltser",
-      "Michael Peleg",
-      "Guy Mizrahi",
-      "yoan stoyanov",
       "Tal Arbeli",
-      "daniel sagiants",
-      "Evgeny Friedman",
-      "Roma Samoilenko",
-      "Eliel Hurovich",
-      "ron hoffman",
-      "Liran Uzal",
-      "Shlomi Anavi"
+      "YANIV NISSIM"
+     ]
+    },
+    {
+     "name": "Gibbs-White",
+     "club": "NFO",
+     "pos": "MID",
+     "points": 1,
+     "owners": [
+      "Yogev Balilti"
      ]
     },
     {
@@ -724,43 +723,21 @@
       "David Kravinsky",
       "Gena Shulik",
       "Michael Peleg",
-      "Guy Mizrahi",
       "yoan stoyanov",
+      "Guy Mizrahi",
       "daniel sagiants",
-      "Evgeny Friedman",
       "YANIV NISSIM",
+      "Evgeny Friedman",
       "Eliel Hurovich",
       "Liran Uzal",
       "Shlomi Anavi"
      ]
     },
     {
-     "name": "João Pedro",
-     "club": "CHE",
-     "pos": "FWD",
-     "points": 0,
-     "owners": [
-      "Shai Zamir",
-      "Yogev Balilti",
-      "David Kravinsky",
-      "Gena Shulik",
-      "Ran Meltser",
-      "Michael Peleg",
-      "Guy Mizrahi",
-      "yoan stoyanov",
-      "Tal Arbeli",
-      "daniel sagiants",
-      "Evgeny Friedman",
-      "Eliel Hurovich",
-      "ron hoffman",
-      "Liran Uzal"
-     ]
-    },
-    {
      "name": "Isak",
      "club": "LIV",
      "pos": "FWD",
-     "points": 0,
+     "points": 1,
      "owners": [
       "Yogev Balilti",
       "David Kravinsky",
@@ -1238,69 +1215,6 @@
    ]
   },
   {
-   "entry": 2517682,
-   "player_name": "Guy Mizrahi",
-   "team_name": "Miz Gunners",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 64,
-     "total_points": 64,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 1142767
-    },
-    {
-     "gw": 2,
-     "points": 13,
-     "total_points": 77,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 5,
-     "overall_rank": 2639389
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    }
-   ],
-   "past": [
-    {
-     "season": "2020/21",
-     "total": 697,
-     "rank": 7949489
-    },
-    {
-     "season": "2021/22",
-     "total": 2008,
-     "rank": 2717375
-    },
-    {
-     "season": "2022/23",
-     "total": 2339,
-     "rank": 1145289
-    },
-    {
-     "season": "2023/24",
-     "total": 2476,
-     "rank": 120677
-    },
-    {
-     "season": "2024/25",
-     "total": 2238,
-     "rank": 2310156
-    },
-    {
-     "season": "2025/26",
-     "total": 2162,
-     "rank": 1346753
-    }
-   ]
-  },
-  {
    "entry": 4742791,
    "player_name": "yoan stoyanov",
    "team_name": "yoanst27",
@@ -1365,6 +1279,69 @@
      "season": "2025/26",
      "total": 2183,
      "rank": 1088283
+    }
+   ]
+  },
+  {
+   "entry": 2517682,
+   "player_name": "Guy Mizrahi",
+   "team_name": "Miz Gunners",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 64,
+     "total_points": 64,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 1142767
+    },
+    {
+     "gw": 2,
+     "points": 13,
+     "total_points": 77,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 5,
+     "overall_rank": 2639389
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    }
+   ],
+   "past": [
+    {
+     "season": "2020/21",
+     "total": 697,
+     "rank": 7949489
+    },
+    {
+     "season": "2021/22",
+     "total": 2008,
+     "rank": 2717375
+    },
+    {
+     "season": "2022/23",
+     "total": 2339,
+     "rank": 1145289
+    },
+    {
+     "season": "2023/24",
+     "total": 2476,
+     "rank": 120677
+    },
+    {
+     "season": "2024/25",
+     "total": 2238,
+     "rank": 2310156
+    },
+    {
+     "season": "2025/26",
+     "total": 2162,
+     "rank": 1346753
     }
    ]
   },
@@ -1475,6 +1452,44 @@
    ]
   },
   {
+   "entry": 6916741,
+   "player_name": "YANIV NISSIM",
+   "team_name": "yanivvvv7",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 38,
+     "total_points": 38,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 7485068
+    },
+    {
+     "gw": 2,
+     "points": 31,
+     "total_points": 69,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 2,
+     "overall_rank": 4461715
+    }
+   ],
+   "chips": [],
+   "past": [
+    {
+     "season": "2023/24",
+     "total": 2108,
+     "rank": 3430174
+    },
+    {
+     "season": "2024/25",
+     "total": 1918,
+     "rank": 6345291
+    }
+   ]
+  },
+  {
    "entry": 130809,
    "player_name": "Evgeny Friedman",
    "team_name": "Evgeny M.U",
@@ -1554,44 +1569,6 @@
      "season": "2025/26",
      "total": 2451,
      "rank": 850
-    }
-   ]
-  },
-  {
-   "entry": 6916741,
-   "player_name": "YANIV NISSIM",
-   "team_name": "yanivvvv7",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 38,
-     "total_points": 38,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 7485068
-    },
-    {
-     "gw": 2,
-     "points": 31,
-     "total_points": 69,
-     "transfers": 1,
-     "hit_cost": 0,
-     "bench": 2,
-     "overall_rank": 4461715
-    }
-   ],
-   "chips": [],
-   "past": [
-    {
-     "season": "2023/24",
-     "total": 2108,
-     "rank": 3430174
-    },
-    {
-     "season": "2024/25",
-     "total": 1918,
-     "rank": 6345291
     }
    ]
   },
