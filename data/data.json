@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T11:41:35.743Z",
+ "generated_at": "2026-09-01T01:21:48.622Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -609,7 +609,7 @@
    "gw": 2,
    "final": false,
    "formation": "3-5-2",
-   "total": 119,
+   "total": 124,
    "players": [
     {
      "name": "Roefs",
@@ -622,31 +622,47 @@
      ]
     },
     {
+     "name": "Calafiori",
+     "club": "ARS",
+     "pos": "DEF",
+     "points": 11,
+     "owners": [
+      "Gena Shulik",
+      "Tal Arbeli",
+      "Ran Meltser",
+      "David Kravinsky",
+      "Roma Samoilenko",
+      "daniel sagiants",
+      "Evgeny Friedman",
+      "Yogev Balilti",
+      "ron hoffman",
+      "Shlomi Anavi",
+      "Eliel Hurovich",
+      "yoan stoyanov",
+      "Michael Peleg",
+      "Shai Zamir",
+      "Guy Mizrahi"
+     ]
+    },
+    {
+     "name": "Gabriel",
+     "club": "ARS",
+     "pos": "DEF",
+     "points": 8,
+     "owners": [
+      "Tal Arbeli",
+      "Shlomi Anavi",
+      "Guy Mizrahi",
+      "Liran Uzal"
+     ]
+    },
+    {
      "name": "Ballard",
      "club": "SUN",
      "pos": "DEF",
      "points": 8,
      "owners": [
       "yoan stoyanov"
-     ]
-    },
-    {
-     "name": "Thomas",
-     "club": "COV",
-     "pos": "DEF",
-     "points": 8,
-     "owners": [
-      "Liran Uzal"
-     ]
-    },
-    {
-     "name": "Hume",
-     "club": "SUN",
-     "pos": "DEF",
-     "points": 6,
-     "owners": [
-      "Eliel Hurovich",
-      "Guy Mizrahi"
      ]
     },
     {
@@ -657,14 +673,14 @@
      "owners": [
       "Gena Shulik",
       "Tal Arbeli",
-      "David Kravinsky",
       "Ran Meltser",
+      "David Kravinsky",
       "Roma Samoilenko",
       "daniel sagiants",
       "Evgeny Friedman",
       "ron hoffman",
-      "Eliel Hurovich",
       "Shlomi Anavi",
+      "Eliel Hurovich",
       "Michael Peleg"
      ]
     },
@@ -702,13 +718,13 @@
       "Evgeny Friedman",
       "Yogev Balilti",
       "ron hoffman",
+      "Shlomi Anavi",
       "Eliel Hurovich",
       "yoan stoyanov",
-      "Shlomi Anavi",
       "Michael Peleg",
       "Shai Zamir",
-      "Liran Uzal",
-      "Guy Mizrahi"
+      "Guy Mizrahi",
+      "Liran Uzal"
      ]
     },
     {
@@ -733,13 +749,13 @@
       "daniel sagiants",
       "Evgeny Friedman",
       "Yogev Balilti",
+      "Shlomi Anavi",
       "Eliel Hurovich",
       "yoan stoyanov",
-      "Shlomi Anavi",
       "Michael Peleg",
       "Shai Zamir",
-      "Liran Uzal",
       "Guy Mizrahi",
+      "Liran Uzal",
       "YANIV NISSIM"
      ]
     },
@@ -751,8 +767,8 @@
      "owners": [
       "Gena Shulik",
       "Tal Arbeli",
-      "David Kravinsky",
       "Ran Meltser",
+      "David Kravinsky",
       "daniel sagiants",
       "Evgeny Friedman",
       "Yogev Balilti",
@@ -761,8 +777,8 @@
       "yoan stoyanov",
       "Michael Peleg",
       "Shai Zamir",
-      "Liran Uzal",
-      "Guy Mizrahi"
+      "Guy Mizrahi",
+      "Liran Uzal"
      ]
     }
    ]
@@ -785,12 +801,12 @@
     },
     {
      "gw": 2,
-     "points": 109,
-     "total_points": 181,
+     "points": 127,
+     "total_points": 199,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 7,
-     "overall_rank": 17014
+     "overall_rank": 9587
     }
    ],
    "chips": [
@@ -863,12 +879,12 @@
     },
     {
      "gw": 2,
-     "points": 96,
-     "total_points": 168,
+     "points": 122,
+     "total_points": 194,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 13,
-     "overall_rank": 137980
+     "bench": 15,
+     "overall_rank": 25618
     }
    ],
    "chips": [
@@ -901,6 +917,79 @@
    ]
   },
   {
+   "entry": 6316401,
+   "player_name": "Ran Meltser",
+   "team_name": "Bruno Cunha Bruno",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 75,
+     "total_points": 75,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 238376
+    },
+    {
+     "gw": 2,
+     "points": 105,
+     "total_points": 180,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 15,
+     "overall_rank": 187814
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    }
+   ],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 1774,
+     "rank": 4262889
+    },
+    {
+     "season": "2019/20",
+     "total": 2235,
+     "rank": 173008
+    },
+    {
+     "season": "2020/21",
+     "total": 2480,
+     "rank": 14201
+    },
+    {
+     "season": "2021/22",
+     "total": 2502,
+     "rank": 104150
+    },
+    {
+     "season": "2022/23",
+     "total": 2444,
+     "rank": 397020
+    },
+    {
+     "season": "2023/24",
+     "total": 2492,
+     "rank": 90241
+    },
+    {
+     "season": "2024/25",
+     "total": 2376,
+     "rank": 750379
+    },
+    {
+     "season": "2025/26",
+     "total": 2078,
+     "rank": 2637355
+    }
+   ]
+  },
+  {
    "entry": 466921,
    "player_name": "David Kravinsky",
    "team_name": "RUN&GUN",
@@ -916,12 +1005,12 @@
     },
     {
      "gw": 2,
-     "points": 95,
-     "total_points": 165,
+     "points": 106,
+     "total_points": 176,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 7,
-     "overall_rank": 190971
+     "overall_rank": 275036
     }
    ],
    "chips": [
@@ -984,79 +1073,6 @@
    ]
   },
   {
-   "entry": 6316401,
-   "player_name": "Ran Meltser",
-   "team_name": "Bruno Cunha Bruno",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 75,
-     "total_points": 75,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 238376
-    },
-    {
-     "gw": 2,
-     "points": 87,
-     "total_points": 162,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 15,
-     "overall_rank": 263111
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    }
-   ],
-   "past": [
-    {
-     "season": "2018/19",
-     "total": 1774,
-     "rank": 4262889
-    },
-    {
-     "season": "2019/20",
-     "total": 2235,
-     "rank": 173008
-    },
-    {
-     "season": "2020/21",
-     "total": 2480,
-     "rank": 14201
-    },
-    {
-     "season": "2021/22",
-     "total": 2502,
-     "rank": 104150
-    },
-    {
-     "season": "2022/23",
-     "total": 2444,
-     "rank": 397020
-    },
-    {
-     "season": "2023/24",
-     "total": 2492,
-     "rank": 90241
-    },
-    {
-     "season": "2024/25",
-     "total": 2376,
-     "rank": 750379
-    },
-    {
-     "season": "2025/26",
-     "total": 2078,
-     "rank": 2637355
-    }
-   ]
-  },
-  {
    "entry": 109603,
    "player_name": "Roma Samoilenko",
    "team_name": "FC ROMANO",
@@ -1072,12 +1088,12 @@
     },
     {
      "gw": 2,
-     "points": 90,
-     "total_points": 149,
+     "points": 108,
+     "total_points": 167,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 21,
-     "overall_rank": 811991
+     "overall_rank": 599491
     }
    ],
    "chips": [
@@ -1130,12 +1146,12 @@
     },
     {
      "gw": 2,
-     "points": 98,
-     "total_points": 147,
+     "points": 115,
+     "total_points": 164,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 9,
-     "overall_rank": 949848
+     "overall_rank": 758025
     }
    ],
    "chips": [],
@@ -1183,12 +1199,12 @@
     },
     {
      "gw": 2,
-     "points": 93,
-     "total_points": 146,
+     "points": 110,
+     "total_points": 163,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 4,
-     "overall_rank": 1022313
+     "overall_rank": 816941
     }
    ],
    "chips": [],
@@ -1266,12 +1282,12 @@
     },
     {
      "gw": 2,
-     "points": 78,
-     "total_points": 144,
+     "points": 89,
+     "total_points": 155,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 13,
-     "overall_rank": 1180197
+     "overall_rank": 1414175
     }
    ],
    "chips": [
@@ -1339,12 +1355,12 @@
     },
     {
      "gw": 2,
-     "points": 88,
-     "total_points": 141,
+     "points": 101,
+     "total_points": 154,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 15,
-     "overall_rank": 1442647
+     "overall_rank": 1503322
     }
    ],
    "chips": [],
@@ -1392,127 +1408,6 @@
    ]
   },
   {
-   "entry": 667429,
-   "player_name": "Eliel Hurovich",
-   "team_name": "AFA",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 40,
-     "total_points": 40,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 9,
-     "overall_rank": 7094513
-    },
-    {
-     "gw": 2,
-     "points": 99,
-     "total_points": 139,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 10,
-     "overall_rank": 1634392
-    }
-   ],
-   "chips": [],
-   "past": [
-    {
-     "season": "2021/22",
-     "total": 2097,
-     "rank": 1952000
-    },
-    {
-     "season": "2022/23",
-     "total": 2606,
-     "rank": 10244
-    },
-    {
-     "season": "2023/24",
-     "total": 2270,
-     "rank": 1342531
-    },
-    {
-     "season": "2024/25",
-     "total": 2571,
-     "rank": 23997
-    },
-    {
-     "season": "2025/26",
-     "total": 2274,
-     "rank": 304898
-    }
-   ]
-  },
-  {
-   "entry": 4742791,
-   "player_name": "yoan stoyanov",
-   "team_name": "yoanst27",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 64,
-     "total_points": 64,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 1142767
-    },
-    {
-     "gw": 2,
-     "points": 69,
-     "total_points": 133,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 20,
-     "overall_rank": 2289671
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    }
-   ],
-   "past": [
-    {
-     "season": "2019/20",
-     "total": 1834,
-     "rank": 3878255
-    },
-    {
-     "season": "2020/21",
-     "total": 1927,
-     "rank": 3323987
-    },
-    {
-     "season": "2021/22",
-     "total": 1801,
-     "rank": 4790793
-    },
-    {
-     "season": "2022/23",
-     "total": 1882,
-     "rank": 6648293
-    },
-    {
-     "season": "2023/24",
-     "total": 2023,
-     "rank": 4508469
-    },
-    {
-     "season": "2024/25",
-     "total": 2239,
-     "rank": 2291314
-    },
-    {
-     "season": "2025/26",
-     "total": 2183,
-     "rank": 1088283
-    }
-   ]
-  },
-  {
    "entry": 7894370,
    "player_name": "Shlomi Anavi",
    "team_name": "No More Pep",
@@ -1528,12 +1423,12 @@
     },
     {
      "gw": 2,
-     "points": 96,
-     "total_points": 132,
+     "points": 115,
+     "total_points": 151,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 13,
-     "overall_rank": 2408800
+     "bench": 11,
+     "overall_rank": 1792546
     }
    ],
    "chips": [],
@@ -1581,6 +1476,127 @@
    ]
   },
   {
+   "entry": 667429,
+   "player_name": "Eliel Hurovich",
+   "team_name": "AFA",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 40,
+     "total_points": 40,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 9,
+     "overall_rank": 7094513
+    },
+    {
+     "gw": 2,
+     "points": 110,
+     "total_points": 150,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 10,
+     "overall_rank": 1893463
+    }
+   ],
+   "chips": [],
+   "past": [
+    {
+     "season": "2021/22",
+     "total": 2097,
+     "rank": 1952000
+    },
+    {
+     "season": "2022/23",
+     "total": 2606,
+     "rank": 10244
+    },
+    {
+     "season": "2023/24",
+     "total": 2270,
+     "rank": 1342531
+    },
+    {
+     "season": "2024/25",
+     "total": 2571,
+     "rank": 23997
+    },
+    {
+     "season": "2025/26",
+     "total": 2274,
+     "rank": 304898
+    }
+   ]
+  },
+  {
+   "entry": 4742791,
+   "player_name": "yoan stoyanov",
+   "team_name": "yoanst27",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 64,
+     "total_points": 64,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 1142767
+    },
+    {
+     "gw": 2,
+     "points": 82,
+     "total_points": 146,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 20,
+     "overall_rank": 2327207
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    }
+   ],
+   "past": [
+    {
+     "season": "2019/20",
+     "total": 1834,
+     "rank": 3878255
+    },
+    {
+     "season": "2020/21",
+     "total": 1927,
+     "rank": 3323987
+    },
+    {
+     "season": "2021/22",
+     "total": 1801,
+     "rank": 4790793
+    },
+    {
+     "season": "2022/23",
+     "total": 1882,
+     "rank": 6648293
+    },
+    {
+     "season": "2023/24",
+     "total": 2023,
+     "rank": 4508469
+    },
+    {
+     "season": "2024/25",
+     "total": 2239,
+     "rank": 2291314
+    },
+    {
+     "season": "2025/26",
+     "total": 2183,
+     "rank": 1088283
+    }
+   ]
+  },
+  {
    "entry": 1245099,
    "player_name": "Michael Peleg",
    "team_name": "call me V",
@@ -1596,12 +1612,12 @@
     },
     {
      "gw": 2,
-     "points": 82,
-     "total_points": 131,
+     "points": 93,
+     "total_points": 142,
      "transfers": 1,
      "hit_cost": 0,
      "bench": 11,
-     "overall_rank": 2601009
+     "overall_rank": 2873708
     }
    ],
    "chips": [],
@@ -1679,12 +1695,12 @@
     },
     {
      "gw": 2,
-     "points": 63,
-     "total_points": 126,
+     "points": 77,
+     "total_points": 140,
      "transfers": 1,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 3249967
+     "overall_rank": 3126626
     }
    ],
    "chips": [
@@ -1737,54 +1753,6 @@
    ]
   },
   {
-   "entry": 3258010,
-   "player_name": "Liran Uzal",
-   "team_name": "Maccabi Uzal",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 37,
-     "total_points": 37,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 10,
-     "overall_rank": 7658231
-    },
-    {
-     "gw": 2,
-     "points": 88,
-     "total_points": 125,
-     "transfers": 1,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 3385410
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 2
-    }
-   ],
-   "past": [
-    {
-     "season": "2023/24",
-     "total": 2449,
-     "rank": 187738
-    },
-    {
-     "season": "2024/25",
-     "total": 2454,
-     "rank": 278183
-    },
-    {
-     "season": "2025/26",
-     "total": 2069,
-     "rank": 2792279
-    }
-   ]
-  },
-  {
    "entry": 2517682,
    "player_name": "Guy Mizrahi",
    "team_name": "Miz Gunners",
@@ -1800,12 +1768,12 @@
     },
     {
      "gw": 2,
-     "points": 58,
-     "total_points": 122,
+     "points": 77,
+     "total_points": 141,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 13,
-     "overall_rank": 3722306
+     "overall_rank": 2927607
     }
    ],
    "chips": [
@@ -1848,6 +1816,54 @@
    ]
   },
   {
+   "entry": 3258010,
+   "player_name": "Liran Uzal",
+   "team_name": "Maccabi Uzal",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 37,
+     "total_points": 37,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 10,
+     "overall_rank": 7658231
+    },
+    {
+     "gw": 2,
+     "points": 96,
+     "total_points": 133,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 4045898
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 2
+    }
+   ],
+   "past": [
+    {
+     "season": "2023/24",
+     "total": 2449,
+     "rank": 187738
+    },
+    {
+     "season": "2024/25",
+     "total": 2454,
+     "rank": 278183
+    },
+    {
+     "season": "2025/26",
+     "total": 2069,
+     "rank": 2792279
+    }
+   ]
+  },
+  {
    "entry": 6916741,
    "player_name": "YANIV NISSIM",
    "team_name": "yanivvvv7",
@@ -1863,12 +1879,12 @@
     },
     {
      "gw": 2,
-     "points": 41,
-     "total_points": 79,
+     "points": 43,
+     "total_points": 81,
      "transfers": 1,
      "hit_cost": 0,
      "bench": 6,
-     "overall_rank": 8448925
+     "overall_rank": 8878749
     }
    ],
    "chips": [],
