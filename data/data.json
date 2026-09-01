@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T01:21:48.622Z",
+ "generated_at": "2026-09-01T10:15:47.369Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -639,8 +639,8 @@
       "Shlomi Anavi",
       "Eliel Hurovich",
       "yoan stoyanov",
-      "Michael Peleg",
       "Shai Zamir",
+      "Michael Peleg",
       "Guy Mizrahi"
      ]
     },
@@ -721,8 +721,8 @@
       "Shlomi Anavi",
       "Eliel Hurovich",
       "yoan stoyanov",
-      "Michael Peleg",
       "Shai Zamir",
+      "Michael Peleg",
       "Guy Mizrahi",
       "Liran Uzal"
      ]
@@ -752,8 +752,8 @@
       "Shlomi Anavi",
       "Eliel Hurovich",
       "yoan stoyanov",
-      "Michael Peleg",
       "Shai Zamir",
+      "Michael Peleg",
       "Guy Mizrahi",
       "Liran Uzal",
       "YANIV NISSIM"
@@ -775,8 +775,8 @@
       "ron hoffman",
       "Eliel Hurovich",
       "yoan stoyanov",
-      "Michael Peleg",
       "Shai Zamir",
+      "Michael Peleg",
       "Guy Mizrahi",
       "Liran Uzal"
      ]
@@ -806,7 +806,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 7,
-     "overall_rank": 9587
+     "overall_rank": 9839
     }
    ],
    "chips": [
@@ -884,7 +884,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 15,
-     "overall_rank": 25618
+     "overall_rank": 26228
     }
    ],
    "chips": [
@@ -937,7 +937,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 15,
-     "overall_rank": 187814
+     "overall_rank": 191231
     }
    ],
    "chips": [
@@ -1010,7 +1010,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 7,
-     "overall_rank": 275036
+     "overall_rank": 280868
     }
    ],
    "chips": [
@@ -1093,7 +1093,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 21,
-     "overall_rank": 599491
+     "overall_rank": 618053
     }
    ],
    "chips": [
@@ -1151,7 +1151,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 9,
-     "overall_rank": 758025
+     "overall_rank": 783760
     }
    ],
    "chips": [],
@@ -1204,7 +1204,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 4,
-     "overall_rank": 816941
+     "overall_rank": 845574
     }
    ],
    "chips": [],
@@ -1287,7 +1287,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 13,
-     "overall_rank": 1414175
+     "overall_rank": 1474311
     }
    ],
    "chips": [
@@ -1360,7 +1360,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 15,
-     "overall_rank": 1503322
+     "overall_rank": 1568336
     }
    ],
    "chips": [],
@@ -1428,7 +1428,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 11,
-     "overall_rank": 1792546
+     "overall_rank": 1873792
     }
    ],
    "chips": [],
@@ -1496,7 +1496,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 10,
-     "overall_rank": 1893463
+     "overall_rank": 1980790
     }
    ],
    "chips": [],
@@ -1549,7 +1549,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 20,
-     "overall_rank": 2327207
+     "overall_rank": 2439660
     }
    ],
    "chips": [
@@ -1597,6 +1597,79 @@
    ]
   },
   {
+   "entry": 1205445,
+   "player_name": "Shai Zamir",
+   "team_name": "Beko United",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 63,
+     "total_points": 63,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 1282717
+    },
+    {
+     "gw": 2,
+     "points": 79,
+     "total_points": 142,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 3019222
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    }
+   ],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 2221,
+     "rank": 203195
+    },
+    {
+     "season": "2019/20",
+     "total": 1833,
+     "rank": 3898331
+    },
+    {
+     "season": "2020/21",
+     "total": 2191,
+     "rank": 973101
+    },
+    {
+     "season": "2021/22",
+     "total": 2146,
+     "rank": 1570647
+    },
+    {
+     "season": "2022/23",
+     "total": 2319,
+     "rank": 1334018
+    },
+    {
+     "season": "2023/24",
+     "total": 2481,
+     "rank": 109292
+    },
+    {
+     "season": "2024/25",
+     "total": 2398,
+     "rank": 583288
+    },
+    {
+     "season": "2025/26",
+     "total": 2175,
+     "rank": 1182982
+    }
+   ]
+  },
+  {
    "entry": 1245099,
    "player_name": "Michael Peleg",
    "team_name": "call me V",
@@ -1617,7 +1690,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 11,
-     "overall_rank": 2873708
+     "overall_rank": 3019222
     }
    ],
    "chips": [],
@@ -1680,79 +1753,6 @@
    ]
   },
   {
-   "entry": 1205445,
-   "player_name": "Shai Zamir",
-   "team_name": "Beko United",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 63,
-     "total_points": 63,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 1282717
-    },
-    {
-     "gw": 2,
-     "points": 77,
-     "total_points": 140,
-     "transfers": 1,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 3126626
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    }
-   ],
-   "past": [
-    {
-     "season": "2018/19",
-     "total": 2221,
-     "rank": 203195
-    },
-    {
-     "season": "2019/20",
-     "total": 1833,
-     "rank": 3898331
-    },
-    {
-     "season": "2020/21",
-     "total": 2191,
-     "rank": 973101
-    },
-    {
-     "season": "2021/22",
-     "total": 2146,
-     "rank": 1570647
-    },
-    {
-     "season": "2022/23",
-     "total": 2319,
-     "rank": 1334018
-    },
-    {
-     "season": "2023/24",
-     "total": 2481,
-     "rank": 109292
-    },
-    {
-     "season": "2024/25",
-     "total": 2398,
-     "rank": 583288
-    },
-    {
-     "season": "2025/26",
-     "total": 2175,
-     "rank": 1182982
-    }
-   ]
-  },
-  {
    "entry": 2517682,
    "player_name": "Guy Mizrahi",
    "team_name": "Miz Gunners",
@@ -1773,7 +1773,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 13,
-     "overall_rank": 2927607
+     "overall_rank": 3075903
     }
    ],
    "chips": [
@@ -1836,7 +1836,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 4045898
+     "overall_rank": 4258087
     }
    ],
    "chips": [
@@ -1879,12 +1879,12 @@
     },
     {
      "gw": 2,
-     "points": 43,
-     "total_points": 81,
+     "points": 47,
+     "total_points": 85,
      "transfers": 1,
      "hit_cost": 0,
-     "bench": 6,
-     "overall_rank": 8878749
+     "bench": 2,
+     "overall_rank": 8858010
     }
    ],
    "chips": [],
