@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T11:53:25.487Z",
+ "generated_at": "2026-09-02T00:25:23.607Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -16,9 +16,9 @@
   {
    "id": 2,
    "deadline_time": "2026-08-28T17:30:00Z",
-   "finished": false,
+   "finished": true,
    "is_current": true,
-   "data_checked": false
+   "data_checked": true
   },
   {
    "id": 3,
@@ -447,6 +447,166 @@
      "multiplier": 1
     }
    ]
+  },
+  {
+   "gw": 2,
+   "entry": 4302037,
+   "name": "Gena Shulik",
+   "team": "FPL Galácticos",
+   "net": 127,
+   "active_chip": null,
+   "squad": [
+    {
+     "name": "Kinsky",
+     "pos": "GKP",
+     "points": 1,
+     "raw_points": 1,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Calafiori",
+     "pos": "DEF",
+     "points": 11,
+     "raw_points": 11,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Maguire",
+     "pos": "DEF",
+     "points": 4,
+     "raw_points": 4,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "White",
+     "pos": "DEF",
+     "points": 7,
+     "raw_points": 7,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "B.Fernandes",
+     "pos": "MID",
+     "points": 46,
+     "raw_points": 23,
+     "captain": true,
+     "vice": false,
+     "bench": false,
+     "multiplier": 2
+    },
+    {
+     "name": "Szoboszlai",
+     "pos": "MID",
+     "points": 4,
+     "raw_points": 4,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Mbeumo",
+     "pos": "MID",
+     "points": 11,
+     "raw_points": 11,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Groß",
+     "pos": "MID",
+     "points": 13,
+     "raw_points": 13,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Haaland",
+     "pos": "FWD",
+     "points": 13,
+     "raw_points": 13,
+     "captain": false,
+     "vice": true,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "João Pedro",
+     "pos": "FWD",
+     "points": 9,
+     "raw_points": 9,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Calvert-Lewin",
+     "pos": "FWD",
+     "points": 8,
+     "raw_points": 8,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Verbruggen",
+     "pos": "GKP",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Gomez",
+     "pos": "MID",
+     "points": 0,
+     "raw_points": 5,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Aina",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Diop",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    }
+   ]
   }
  ],
  "totw": [
@@ -607,7 +767,7 @@
   },
   {
    "gw": 2,
-   "final": false,
+   "final": true,
    "formation": "3-5-2",
    "total": 124,
    "players": [
