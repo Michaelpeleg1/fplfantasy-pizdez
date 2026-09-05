@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T00:16:46.925Z",
+ "generated_at": "2026-09-05T09:10:55.437Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -978,8 +978,8 @@
       "Tal Arbeli",
       "David Kravinsky",
       "Roma Samoilenko",
-      "Yogev Balilti",
       "Evgeny Friedman",
+      "Yogev Balilti",
       "daniel sagiants",
       "Shlomi Anavi",
       "Eliel Hurovich",
@@ -996,8 +996,8 @@
      "points": 0,
      "owners": [
       "Gena Shulik",
-      "Yogev Balilti",
-      "Evgeny Friedman"
+      "Evgeny Friedman",
+      "Yogev Balilti"
      ]
     },
     {
@@ -1073,8 +1073,8 @@
       "David Kravinsky",
       "ron hoffman",
       "Roma Samoilenko",
-      "Yogev Balilti",
       "Evgeny Friedman",
+      "Yogev Balilti",
       "daniel sagiants",
       "yoan stoyanov",
       "Shlomi Anavi",
@@ -1095,8 +1095,8 @@
       "Gena Shulik",
       "Ran Meltser",
       "David Kravinsky",
-      "Yogev Balilti",
       "Evgeny Friedman",
+      "Yogev Balilti",
       "daniel sagiants",
       "Eliel Hurovich",
       "Shai Zamir",
@@ -1602,92 +1602,6 @@
    ]
   },
   {
-   "entry": 4698980,
-   "player_name": "Yogev Balilti",
-   "team_name": "Red Devils",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 66,
-     "total_points": 66,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 893714
-    },
-    {
-     "gw": 2,
-     "points": 89,
-     "total_points": 155,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 13,
-     "overall_rank": 1474311
-    },
-    {
-     "gw": 3,
-     "points": 13,
-     "total_points": 168,
-     "transfers": 2,
-     "hit_cost": 0,
-     "bench": 3,
-     "overall_rank": 978520
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    },
-    {
-     "name": "3xc",
-     "gw": 3
-    }
-   ],
-   "past": [
-    {
-     "season": "2018/19",
-     "total": 2130,
-     "rank": 624889
-    },
-    {
-     "season": "2019/20",
-     "total": 2155,
-     "rank": 523814
-    },
-    {
-     "season": "2020/21",
-     "total": 2335,
-     "rank": 237862
-    },
-    {
-     "season": "2021/22",
-     "total": 2592,
-     "rank": 22372
-    },
-    {
-     "season": "2022/23",
-     "total": 2483,
-     "rank": 228976
-    },
-    {
-     "season": "2023/24",
-     "total": 2420,
-     "rank": 282611
-    },
-    {
-     "season": "2024/25",
-     "total": 2496,
-     "rank": 137396
-    },
-    {
-     "season": "2025/26",
-     "total": 2128,
-     "rank": 1833039
-    }
-   ]
-  },
-  {
    "entry": 130809,
    "player_name": "Evgeny Friedman",
    "team_name": "Evgeny M.U",
@@ -1781,6 +1695,92 @@
      "season": "2025/26",
      "total": 2451,
      "rank": 850
+    }
+   ]
+  },
+  {
+   "entry": 4698980,
+   "player_name": "Yogev Balilti",
+   "team_name": "Red Devils",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 66,
+     "total_points": 66,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 893714
+    },
+    {
+     "gw": 2,
+     "points": 89,
+     "total_points": 155,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 13,
+     "overall_rank": 1474311
+    },
+    {
+     "gw": 3,
+     "points": 13,
+     "total_points": 168,
+     "transfers": 2,
+     "hit_cost": 0,
+     "bench": 3,
+     "overall_rank": 978520
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    },
+    {
+     "name": "3xc",
+     "gw": 3
+    }
+   ],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 2130,
+     "rank": 624889
+    },
+    {
+     "season": "2019/20",
+     "total": 2155,
+     "rank": 523814
+    },
+    {
+     "season": "2020/21",
+     "total": 2335,
+     "rank": 237862
+    },
+    {
+     "season": "2021/22",
+     "total": 2592,
+     "rank": 22372
+    },
+    {
+     "season": "2022/23",
+     "total": 2483,
+     "rank": 228976
+    },
+    {
+     "season": "2023/24",
+     "total": 2420,
+     "rank": 282611
+    },
+    {
+     "season": "2024/25",
+     "total": 2496,
+     "rank": 137396
+    },
+    {
+     "season": "2025/26",
+     "total": 2128,
+     "rank": 1833039
     }
    ]
   },
