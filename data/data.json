@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T00:08:13.775Z",
+ "generated_at": "2026-09-06T09:32:23.048Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -1002,8 +1002,8 @@
       "Yogev Balilti",
       "Roma Samoilenko",
       "yoan stoyanov",
-      "Shai Zamir",
       "daniel sagiants",
+      "Shai Zamir",
       "Eliel Hurovich",
       "Michael Peleg",
       "Guy Mizrahi"
@@ -1077,8 +1077,8 @@
       "Roma Samoilenko",
       "Evgeny Friedman",
       "yoan stoyanov",
-      "Shai Zamir",
       "daniel sagiants",
+      "Shai Zamir",
       "Shlomi Anavi",
       "Eliel Hurovich",
       "Michael Peleg",
@@ -1848,6 +1848,68 @@
    ]
   },
   {
+   "entry": 4467392,
+   "player_name": "daniel sagiants",
+   "team_name": "chakito",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 49,
+     "total_points": 49,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 11,
+     "overall_rank": 4673927
+    },
+    {
+     "gw": 2,
+     "points": 115,
+     "total_points": 164,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 9,
+     "overall_rank": 783760
+    },
+    {
+     "gw": 3,
+     "points": 30,
+     "total_points": 194,
+     "transfers": 2,
+     "hit_cost": 0,
+     "bench": 4,
+     "overall_rank": 1518591
+    }
+   ],
+   "chips": [],
+   "past": [
+    {
+     "season": "2019/20",
+     "total": 2174,
+     "rank": 416010
+    },
+    {
+     "season": "2020/21",
+     "total": 1964,
+     "rank": 2966463
+    },
+    {
+     "season": "2023/24",
+     "total": 2229,
+     "rank": 1817397
+    },
+    {
+     "season": "2024/25",
+     "total": 2409,
+     "rank": 515991
+    },
+    {
+     "season": "2025/26",
+     "total": 2288,
+     "rank": 237193
+    }
+   ]
+  },
+  {
    "entry": 1205445,
    "player_name": "Shai Zamir",
    "team_name": "Beko United",
@@ -1930,68 +1992,6 @@
      "season": "2025/26",
      "total": 2175,
      "rank": 1182982
-    }
-   ]
-  },
-  {
-   "entry": 4467392,
-   "player_name": "daniel sagiants",
-   "team_name": "chakito",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 49,
-     "total_points": 49,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 11,
-     "overall_rank": 4673927
-    },
-    {
-     "gw": 2,
-     "points": 115,
-     "total_points": 164,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 9,
-     "overall_rank": 783760
-    },
-    {
-     "gw": 3,
-     "points": 30,
-     "total_points": 194,
-     "transfers": 2,
-     "hit_cost": 0,
-     "bench": 4,
-     "overall_rank": 1518591
-    }
-   ],
-   "chips": [],
-   "past": [
-    {
-     "season": "2019/20",
-     "total": 2174,
-     "rank": 416010
-    },
-    {
-     "season": "2020/21",
-     "total": 1964,
-     "rank": 2966463
-    },
-    {
-     "season": "2023/24",
-     "total": 2229,
-     "rank": 1817397
-    },
-    {
-     "season": "2024/25",
-     "total": 2409,
-     "rank": 515991
-    },
-    {
-     "season": "2025/26",
-     "total": 2288,
-     "rank": 237193
     }
    ]
   },
