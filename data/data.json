@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T00:12:25.578Z",
+ "generated_at": "2026-09-07T10:32:15.761Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -1042,6 +1042,7 @@
      "points": 5,
      "owners": [
       "David Kravinsky",
+      "Yogev Balilti",
       "Evgeny Friedman",
       "Shlomi Anavi",
       "Eliel Hurovich",
@@ -1056,8 +1057,8 @@
      "owners": [
       "Ran Meltser",
       "David Kravinsky",
-      "ron hoffman",
       "Yogev Balilti",
+      "ron hoffman",
       "yoan stoyanov"
      ]
     },
@@ -1071,8 +1072,8 @@
       "Ran Meltser",
       "Tal Arbeli",
       "David Kravinsky",
-      "ron hoffman",
       "Yogev Balilti",
+      "ron hoffman",
       "Evgeny Friedman",
       "Shlomi Anavi",
       "daniel sagiants",
@@ -1115,12 +1116,12 @@
     },
     {
      "gw": 3,
-     "points": 36,
-     "total_points": 235,
+     "points": 53,
+     "total_points": 252,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 11,
-     "overall_rank": 53249
+     "overall_rank": 15048
     }
    ],
    "chips": [
@@ -1206,12 +1207,12 @@
     },
     {
      "gw": 3,
-     "points": 57,
-     "total_points": 237,
+     "points": 60,
+     "total_points": 240,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 8,
-     "overall_rank": 42943
+     "bench": 12,
+     "overall_rank": 86926
     }
    ],
    "chips": [
@@ -1292,12 +1293,12 @@
     },
     {
      "gw": 3,
-     "points": 39,
-     "total_points": 233,
+     "points": 45,
+     "total_points": 239,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 66561
+     "bench": 11,
+     "overall_rank": 97993
     }
    ],
    "chips": [
@@ -1358,12 +1359,12 @@
     },
     {
      "gw": 3,
-     "points": 55,
-     "total_points": 231,
+     "points": 63,
+     "total_points": 239,
      "transfers": 2,
      "hit_cost": 0,
      "bench": 12,
-     "overall_rank": 88897
+     "overall_rank": 105666
     }
    ],
    "chips": [
@@ -1430,88 +1431,6 @@
    ]
   },
   {
-   "entry": 4730817,
-   "player_name": "ron hoffman",
-   "team_name": "Hoffmanheim",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 53,
-     "total_points": 53,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 17,
-     "overall_rank": 3482299
-    },
-    {
-     "gw": 2,
-     "points": 101,
-     "total_points": 154,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 15,
-     "overall_rank": 1568336
-    },
-    {
-     "gw": 3,
-     "points": 62,
-     "total_points": 216,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 7,
-     "overall_rank": 342010
-    }
-   ],
-   "chips": [
-    {
-     "name": "freehit",
-     "gw": 3
-    }
-   ],
-   "past": [
-    {
-     "season": "2018/19",
-     "total": 1845,
-     "rank": 3669411
-    },
-    {
-     "season": "2019/20",
-     "total": 1896,
-     "rank": 3133920
-    },
-    {
-     "season": "2020/21",
-     "total": 2064,
-     "rank": 2018720
-    },
-    {
-     "season": "2021/22",
-     "total": 2176,
-     "rank": 1357728
-    },
-    {
-     "season": "2022/23",
-     "total": 2449,
-     "rank": 370096
-    },
-    {
-     "season": "2023/24",
-     "total": 2349,
-     "rank": 647579
-    },
-    {
-     "season": "2024/25",
-     "total": 2476,
-     "rank": 194117
-    },
-    {
-     "season": "2025/26",
-     "total": 2238,
-     "rank": 545267
-    }
-   ]
-  },
-  {
    "entry": 4698980,
    "player_name": "Yogev Balilti",
    "team_name": "Red Devils",
@@ -1536,12 +1455,12 @@
     },
     {
      "gw": 3,
-     "points": 55,
-     "total_points": 210,
+     "points": 65,
+     "total_points": 220,
      "transfers": 2,
      "hit_cost": 0,
      "bench": 12,
-     "overall_rank": 555490
+     "overall_rank": 664410
     }
    ],
    "chips": [
@@ -1598,6 +1517,88 @@
    ]
   },
   {
+   "entry": 4730817,
+   "player_name": "ron hoffman",
+   "team_name": "Hoffmanheim",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 53,
+     "total_points": 53,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 17,
+     "overall_rank": 3482299
+    },
+    {
+     "gw": 2,
+     "points": 101,
+     "total_points": 154,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 15,
+     "overall_rank": 1568336
+    },
+    {
+     "gw": 3,
+     "points": 65,
+     "total_points": 219,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 6,
+     "overall_rank": 689559
+    }
+   ],
+   "chips": [
+    {
+     "name": "freehit",
+     "gw": 3
+    }
+   ],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 1845,
+     "rank": 3669411
+    },
+    {
+     "season": "2019/20",
+     "total": 1896,
+     "rank": 3133920
+    },
+    {
+     "season": "2020/21",
+     "total": 2064,
+     "rank": 2018720
+    },
+    {
+     "season": "2021/22",
+     "total": 2176,
+     "rank": 1357728
+    },
+    {
+     "season": "2022/23",
+     "total": 2449,
+     "rank": 370096
+    },
+    {
+     "season": "2023/24",
+     "total": 2349,
+     "rank": 647579
+    },
+    {
+     "season": "2024/25",
+     "total": 2476,
+     "rank": 194117
+    },
+    {
+     "season": "2025/26",
+     "total": 2238,
+     "rank": 545267
+    }
+   ]
+  },
+  {
    "entry": 130809,
    "player_name": "Evgeny Friedman",
    "team_name": "Evgeny M.U",
@@ -1622,12 +1623,12 @@
     },
     {
      "gw": 3,
-     "points": 36,
-     "total_points": 199,
+     "points": 51,
+     "total_points": 214,
      "transfers": 2,
      "hit_cost": 0,
      "bench": 6,
-     "overall_rank": 1138762
+     "overall_rank": 1029798
     }
    ],
    "chips": [
@@ -1719,12 +1720,12 @@
     },
     {
      "gw": 3,
-     "points": 37,
-     "total_points": 188,
+     "points": 60,
+     "total_points": 211,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 8,
-     "overall_rank": 2024977
+     "overall_rank": 1218162
     }
    ],
    "chips": [
@@ -1801,12 +1802,12 @@
     },
     {
      "gw": 3,
-     "points": 30,
-     "total_points": 194,
+     "points": 47,
+     "total_points": 211,
      "transfers": 2,
      "hit_cost": 0,
      "bench": 4,
-     "overall_rank": 1518591
+     "overall_rank": 1258756
     }
    ],
    "chips": [],
@@ -1863,12 +1864,12 @@
     },
     {
      "gw": 3,
-     "points": 52,
-     "total_points": 194,
+     "points": 68,
+     "total_points": 210,
      "transfers": 1,
      "hit_cost": 0,
-     "bench": 7,
-     "overall_rank": 1518591
+     "bench": 11,
+     "overall_rank": 1341247
     }
    ],
    "chips": [
@@ -1949,12 +1950,12 @@
     },
     {
      "gw": 3,
-     "points": 36,
-     "total_points": 203,
+     "points": 41,
+     "total_points": 208,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 861651
+     "bench": 11,
+     "overall_rank": 1472197
     }
    ],
    "chips": [
@@ -2020,12 +2021,12 @@
     },
     {
      "gw": 3,
-     "points": 50,
-     "total_points": 196,
+     "points": 59,
+     "total_points": 205,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 1,
-     "overall_rank": 1320910
+     "bench": 0,
+     "overall_rank": 1756946
     }
    ],
    "chips": [
@@ -2101,12 +2102,12 @@
     },
     {
      "gw": 3,
-     "points": 34,
-     "total_points": 184,
+     "points": 48,
+     "total_points": 198,
      "transfers": 2,
      "hit_cost": 0,
      "bench": 7,
-     "overall_rank": 2495161
+     "overall_rank": 2580351
     }
    ],
    "chips": [],
@@ -2163,12 +2164,12 @@
     },
     {
      "gw": 3,
-     "points": 41,
-     "total_points": 174,
+     "points": 64,
+     "total_points": 197,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 16,
-     "overall_rank": 3660922
+     "bench": 11,
+     "overall_rank": 2674667
     }
    ],
    "chips": [
@@ -2224,12 +2225,12 @@
     },
     {
      "gw": 3,
-     "points": 31,
-     "total_points": 172,
+     "points": 48,
+     "total_points": 189,
      "transfers": 2,
      "hit_cost": 0,
-     "bench": 15,
-     "overall_rank": 3937811
+     "bench": 16,
+     "overall_rank": 3713941
     }
    ],
    "chips": [
@@ -2296,12 +2297,12 @@
     },
     {
      "gw": 3,
-     "points": 37,
-     "total_points": 179,
+     "points": 42,
+     "total_points": 184,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 8,
-     "overall_rank": 3048732
+     "bench": 12,
+     "overall_rank": 4342120
     }
    ],
    "chips": [
@@ -2393,12 +2394,12 @@
     },
     {
      "gw": 3,
-     "points": 58,
-     "total_points": 143,
+     "points": 66,
+     "total_points": 151,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 12,
-     "overall_rank": 7202259
+     "overall_rank": 7819777
     }
    ],
    "chips": [
