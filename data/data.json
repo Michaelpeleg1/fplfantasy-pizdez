@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T12:35:21.260Z",
+ "generated_at": "2026-09-08T00:36:36.216Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -23,9 +23,9 @@
   {
    "id": 3,
    "deadline_time": "2026-09-04T17:30:00Z",
-   "finished": false,
+   "finished": true,
    "is_current": true,
-   "data_checked": false
+   "data_checked": true
   },
   {
    "id": 4,
@@ -607,6 +607,166 @@
      "multiplier": 0
     }
    ]
+  },
+  {
+   "gw": 3,
+   "entry": 1205445,
+   "name": "Shai Zamir",
+   "team": "Beko United",
+   "net": 68,
+   "active_chip": "3xc",
+   "squad": [
+    {
+     "name": "Verbruggen",
+     "pos": "GKP",
+     "points": 3,
+     "raw_points": 3,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Gvardiol",
+     "pos": "DEF",
+     "points": 8,
+     "raw_points": 8,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Calafiori",
+     "pos": "DEF",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "De Cuyper",
+     "pos": "DEF",
+     "points": 4,
+     "raw_points": 4,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Mbeumo",
+     "pos": "MID",
+     "points": 8,
+     "raw_points": 8,
+     "captain": false,
+     "vice": true,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Rice",
+     "pos": "MID",
+     "points": 5,
+     "raw_points": 5,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Szoboszlai",
+     "pos": "MID",
+     "points": 3,
+     "raw_points": 3,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Semenyo",
+     "pos": "MID",
+     "points": 6,
+     "raw_points": 6,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Wissa",
+     "pos": "FWD",
+     "points": 1,
+     "raw_points": 1,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "João Pedro",
+     "pos": "FWD",
+     "points": 1,
+     "raw_points": 1,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Haaland",
+     "pos": "FWD",
+     "points": 27,
+     "raw_points": 9,
+     "captain": true,
+     "vice": false,
+     "bench": false,
+     "multiplier": 3
+    },
+    {
+     "name": "Kinsky",
+     "pos": "GKP",
+     "points": 0,
+     "raw_points": 6,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Shaw",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 4,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Aina",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 1,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Sarr",
+     "pos": "MID",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    }
+   ]
   }
  ],
  "totw": [
@@ -945,7 +1105,7 @@
   },
   {
    "gw": 3,
-   "final": false,
+   "final": true,
    "formation": "3-5-2",
    "total": 86,
    "players": [
