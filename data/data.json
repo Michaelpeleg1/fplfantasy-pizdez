@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T09:53:10.185Z",
+ "generated_at": "2026-09-11T00:22:50.492Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -120,28 +120,28 @@
   },
   {
    "id": 17,
-   "deadline_time": "2026-12-26T13:30:00Z",
+   "deadline_time": "2026-12-26T11:00:00Z",
    "finished": false,
    "is_current": false,
    "data_checked": false
   },
   {
    "id": 18,
-   "deadline_time": "2026-12-30T18:30:00Z",
+   "deadline_time": "2026-12-29T18:00:00Z",
    "finished": false,
    "is_current": false,
    "data_checked": false
   },
   {
    "id": 19,
-   "deadline_time": "2027-01-02T13:30:00Z",
+   "deadline_time": "2027-01-01T18:30:00Z",
    "finished": false,
    "is_current": false,
    "data_checked": false
   },
   {
    "id": 20,
-   "deadline_time": "2027-01-06T18:30:00Z",
+   "deadline_time": "2027-01-05T18:00:00Z",
    "finished": false,
    "is_current": false,
    "data_checked": false
