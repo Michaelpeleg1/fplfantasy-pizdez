@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T10:13:03.568Z",
+ "generated_at": "2026-09-16T00:41:10.463Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -30,9 +30,9 @@
   {
    "id": 4,
    "deadline_time": "2026-09-12T12:30:00Z",
-   "finished": false,
+   "finished": true,
    "is_current": true,
-   "data_checked": false
+   "data_checked": true
   },
   {
    "id": 5,
@@ -767,6 +767,166 @@
      "multiplier": 0
     }
    ]
+  },
+  {
+   "gw": 4,
+   "entry": 109603,
+   "name": "Roma Samoilenko",
+   "team": "FC ROMANO",
+   "net": 103,
+   "active_chip": "3xc",
+   "squad": [
+    {
+     "name": "Raya",
+     "pos": "GKP",
+     "points": 14,
+     "raw_points": 14,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Calafiori",
+     "pos": "DEF",
+     "points": 6,
+     "raw_points": 6,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Konsa",
+     "pos": "DEF",
+     "points": 6,
+     "raw_points": 6,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "De Cuyper",
+     "pos": "DEF",
+     "points": 11,
+     "raw_points": 11,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Szoboszlai",
+     "pos": "MID",
+     "points": 3,
+     "raw_points": 3,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Palmer",
+     "pos": "MID",
+     "points": 15,
+     "raw_points": 5,
+     "captain": true,
+     "vice": false,
+     "bench": false,
+     "multiplier": 3
+    },
+    {
+     "name": "Rogers",
+     "pos": "MID",
+     "points": 8,
+     "raw_points": 8,
+     "captain": false,
+     "vice": true,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Groß",
+     "pos": "MID",
+     "points": 17,
+     "raw_points": 17,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "João Pedro",
+     "pos": "FWD",
+     "points": 12,
+     "raw_points": 12,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Haaland",
+     "pos": "FWD",
+     "points": 9,
+     "raw_points": 9,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Wissa",
+     "pos": "FWD",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Dubravka",
+     "pos": "GKP",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Gvardiol",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 11,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Thiaw",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "M.Sangaré",
+     "pos": "MID",
+     "points": 0,
+     "raw_points": 4,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    }
+   ]
   }
  ],
  "totw": [
@@ -1251,7 +1411,7 @@
   },
   {
    "gw": 4,
-   "final": false,
+   "final": true,
    "formation": "4-3-3",
    "total": 125,
    "players": [
@@ -1275,8 +1435,8 @@
      "points": 11,
      "owners": [
       "Tal Arbeli",
-      "Roma Samoilenko",
       "Ran Meltser",
+      "Roma Samoilenko",
       "Shai Zamir",
       "Eliel Hurovich",
       "ron hoffman",
@@ -1347,8 +1507,8 @@
      "owners": [
       "Tal Arbeli",
       "Gena Shulik",
-      "Roma Samoilenko",
       "Ran Meltser",
+      "Roma Samoilenko",
       "Shlomi Anavi",
       "Eliel Hurovich",
       "daniel sagiants",
@@ -1363,14 +1523,14 @@
      "owners": [
       "Tal Arbeli",
       "Gena Shulik",
-      "Roma Samoilenko",
       "Ran Meltser",
+      "Roma Samoilenko",
       "Shlomi Anavi",
       "Shai Zamir",
       "David Kravinsky",
       "Eliel Hurovich",
-      "Yogev Balilti",
       "ron hoffman",
+      "Yogev Balilti",
       "daniel sagiants",
       "Evgeny Friedman",
       "Guy Mizrahi",
@@ -1396,8 +1556,8 @@
      "owners": [
       "Tal Arbeli",
       "Gena Shulik",
-      "Roma Samoilenko",
       "Ran Meltser",
+      "Roma Samoilenko",
       "Shlomi Anavi",
       "Shai Zamir",
       "David Kravinsky",
@@ -1591,90 +1751,6 @@
    ]
   },
   {
-   "entry": 109603,
-   "player_name": "Roma Samoilenko",
-   "team_name": "FC ROMANO",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 59,
-     "total_points": 59,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 1987556
-    },
-    {
-     "gw": 2,
-     "points": 108,
-     "total_points": 167,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 21,
-     "overall_rank": 618053
-    },
-    {
-     "gw": 3,
-     "points": 41,
-     "total_points": 208,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 11,
-     "overall_rank": 1472197
-    },
-    {
-     "gw": 4,
-     "points": 103,
-     "total_points": 311,
-     "transfers": 1,
-     "hit_cost": 0,
-     "bench": 17,
-     "overall_rank": 349993
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    },
-    {
-     "name": "wildcard",
-     "gw": 3
-    },
-    {
-     "name": "3xc",
-     "gw": 4
-    }
-   ],
-   "past": [
-    {
-     "season": "2021/22",
-     "total": 2209,
-     "rank": 1144735
-    },
-    {
-     "season": "2022/23",
-     "total": 2582,
-     "rank": 23642
-    },
-    {
-     "season": "2023/24",
-     "total": 2553,
-     "rank": 19724
-    },
-    {
-     "season": "2024/25",
-     "total": 2612,
-     "rank": 6470
-    },
-    {
-     "season": "2025/26",
-     "total": 2421,
-     "rank": 3769
-    }
-   ]
-  },
-  {
    "entry": 6316401,
    "player_name": "Ran Meltser",
    "team_name": "Bruno Cunha Bruno",
@@ -1770,6 +1846,90 @@
      "season": "2025/26",
      "total": 2078,
      "rank": 2637355
+    }
+   ]
+  },
+  {
+   "entry": 109603,
+   "player_name": "Roma Samoilenko",
+   "team_name": "FC ROMANO",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 59,
+     "total_points": 59,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 1987556
+    },
+    {
+     "gw": 2,
+     "points": 108,
+     "total_points": 167,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 21,
+     "overall_rank": 618053
+    },
+    {
+     "gw": 3,
+     "points": 41,
+     "total_points": 208,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 11,
+     "overall_rank": 1472197
+    },
+    {
+     "gw": 4,
+     "points": 103,
+     "total_points": 311,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 17,
+     "overall_rank": 349993
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    },
+    {
+     "name": "wildcard",
+     "gw": 3
+    },
+    {
+     "name": "3xc",
+     "gw": 4
+    }
+   ],
+   "past": [
+    {
+     "season": "2021/22",
+     "total": 2209,
+     "rank": 1144735
+    },
+    {
+     "season": "2022/23",
+     "total": 2582,
+     "rank": 23642
+    },
+    {
+     "season": "2023/24",
+     "total": 2553,
+     "rank": 19724
+    },
+    {
+     "season": "2024/25",
+     "total": 2612,
+     "rank": 6470
+    },
+    {
+     "season": "2025/26",
+     "total": 2421,
+     "rank": 3769
     }
    ]
   },
@@ -2141,6 +2301,97 @@
    ]
   },
   {
+   "entry": 4730817,
+   "player_name": "ron hoffman",
+   "team_name": "Hoffmanheim",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 53,
+     "total_points": 53,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 17,
+     "overall_rank": 3482299
+    },
+    {
+     "gw": 2,
+     "points": 101,
+     "total_points": 154,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 15,
+     "overall_rank": 1568336
+    },
+    {
+     "gw": 3,
+     "points": 65,
+     "total_points": 219,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 6,
+     "overall_rank": 689559
+    },
+    {
+     "gw": 4,
+     "points": 72,
+     "total_points": 291,
+     "transfers": 2,
+     "hit_cost": 0,
+     "bench": 5,
+     "overall_rank": 1185331
+    }
+   ],
+   "chips": [
+    {
+     "name": "freehit",
+     "gw": 3
+    }
+   ],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 1845,
+     "rank": 3669411
+    },
+    {
+     "season": "2019/20",
+     "total": 1896,
+     "rank": 3133920
+    },
+    {
+     "season": "2020/21",
+     "total": 2064,
+     "rank": 2018720
+    },
+    {
+     "season": "2021/22",
+     "total": 2176,
+     "rank": 1357728
+    },
+    {
+     "season": "2022/23",
+     "total": 2449,
+     "rank": 370096
+    },
+    {
+     "season": "2023/24",
+     "total": 2349,
+     "rank": 647579
+    },
+    {
+     "season": "2024/25",
+     "total": 2476,
+     "rank": 194117
+    },
+    {
+     "season": "2025/26",
+     "total": 2238,
+     "rank": 545267
+    }
+   ]
+  },
+  {
    "entry": 4698980,
    "player_name": "Yogev Balilti",
    "team_name": "Red Devils",
@@ -2236,97 +2487,6 @@
      "season": "2025/26",
      "total": 2128,
      "rank": 1833039
-    }
-   ]
-  },
-  {
-   "entry": 4730817,
-   "player_name": "ron hoffman",
-   "team_name": "Hoffmanheim",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 53,
-     "total_points": 53,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 17,
-     "overall_rank": 3482299
-    },
-    {
-     "gw": 2,
-     "points": 101,
-     "total_points": 154,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 15,
-     "overall_rank": 1568336
-    },
-    {
-     "gw": 3,
-     "points": 65,
-     "total_points": 219,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 6,
-     "overall_rank": 689559
-    },
-    {
-     "gw": 4,
-     "points": 72,
-     "total_points": 291,
-     "transfers": 2,
-     "hit_cost": 0,
-     "bench": 5,
-     "overall_rank": 1185331
-    }
-   ],
-   "chips": [
-    {
-     "name": "freehit",
-     "gw": 3
-    }
-   ],
-   "past": [
-    {
-     "season": "2018/19",
-     "total": 1845,
-     "rank": 3669411
-    },
-    {
-     "season": "2019/20",
-     "total": 1896,
-     "rank": 3133920
-    },
-    {
-     "season": "2020/21",
-     "total": 2064,
-     "rank": 2018720
-    },
-    {
-     "season": "2021/22",
-     "total": 2176,
-     "rank": 1357728
-    },
-    {
-     "season": "2022/23",
-     "total": 2449,
-     "rank": 370096
-    },
-    {
-     "season": "2023/24",
-     "total": 2349,
-     "rank": 647579
-    },
-    {
-     "season": "2024/25",
-     "total": 2476,
-     "rank": 194117
-    },
-    {
-     "season": "2025/26",
-     "total": 2238,
-     "rank": 545267
     }
    ]
   },
