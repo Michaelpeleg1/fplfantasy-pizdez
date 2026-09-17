@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T00:47:35.490Z",
+ "generated_at": "2026-09-17T10:09:37.997Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -1751,6 +1751,90 @@
    ]
   },
   {
+   "entry": 109603,
+   "player_name": "Roma Samoilenko",
+   "team_name": "FC ROMANO",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 59,
+     "total_points": 59,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 1987556
+    },
+    {
+     "gw": 2,
+     "points": 108,
+     "total_points": 167,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 21,
+     "overall_rank": 618053
+    },
+    {
+     "gw": 3,
+     "points": 41,
+     "total_points": 208,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 11,
+     "overall_rank": 1472197
+    },
+    {
+     "gw": 4,
+     "points": 103,
+     "total_points": 311,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 17,
+     "overall_rank": 349993
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    },
+    {
+     "name": "wildcard",
+     "gw": 3
+    },
+    {
+     "name": "3xc",
+     "gw": 4
+    }
+   ],
+   "past": [
+    {
+     "season": "2021/22",
+     "total": 2209,
+     "rank": 1144735
+    },
+    {
+     "season": "2022/23",
+     "total": 2582,
+     "rank": 23642
+    },
+    {
+     "season": "2023/24",
+     "total": 2553,
+     "rank": 19724
+    },
+    {
+     "season": "2024/25",
+     "total": 2612,
+     "rank": 6470
+    },
+    {
+     "season": "2025/26",
+     "total": 2421,
+     "rank": 3769
+    }
+   ]
+  },
+  {
    "entry": 6316401,
    "player_name": "Ran Meltser",
    "team_name": "Bruno Cunha Bruno",
@@ -1846,90 +1930,6 @@
      "season": "2025/26",
      "total": 2078,
      "rank": 2637355
-    }
-   ]
-  },
-  {
-   "entry": 109603,
-   "player_name": "Roma Samoilenko",
-   "team_name": "FC ROMANO",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 59,
-     "total_points": 59,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 1987556
-    },
-    {
-     "gw": 2,
-     "points": 108,
-     "total_points": 167,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 21,
-     "overall_rank": 618053
-    },
-    {
-     "gw": 3,
-     "points": 41,
-     "total_points": 208,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 11,
-     "overall_rank": 1472197
-    },
-    {
-     "gw": 4,
-     "points": 103,
-     "total_points": 311,
-     "transfers": 1,
-     "hit_cost": 0,
-     "bench": 17,
-     "overall_rank": 349993
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    },
-    {
-     "name": "wildcard",
-     "gw": 3
-    },
-    {
-     "name": "3xc",
-     "gw": 4
-    }
-   ],
-   "past": [
-    {
-     "season": "2021/22",
-     "total": 2209,
-     "rank": 1144735
-    },
-    {
-     "season": "2022/23",
-     "total": 2582,
-     "rank": 23642
-    },
-    {
-     "season": "2023/24",
-     "total": 2553,
-     "rank": 19724
-    },
-    {
-     "season": "2024/25",
-     "total": 2612,
-     "rank": 6470
-    },
-    {
-     "season": "2025/26",
-     "total": 2421,
-     "rank": 3769
     }
    ]
   },
@@ -2567,6 +2567,87 @@
    ]
   },
   {
+   "entry": 2517682,
+   "player_name": "Guy Mizrahi",
+   "team_name": "Miz Gunners",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 64,
+     "total_points": 64,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 1142767
+    },
+    {
+     "gw": 2,
+     "points": 77,
+     "total_points": 141,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 13,
+     "overall_rank": 3075903
+    },
+    {
+     "gw": 3,
+     "points": 48,
+     "total_points": 189,
+     "transfers": 2,
+     "hit_cost": 0,
+     "bench": 16,
+     "overall_rank": 3713941
+    },
+    {
+     "gw": 4,
+     "points": 96,
+     "total_points": 285,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 7,
+     "overall_rank": 1590538
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    }
+   ],
+   "past": [
+    {
+     "season": "2020/21",
+     "total": 697,
+     "rank": 7949489
+    },
+    {
+     "season": "2021/22",
+     "total": 2008,
+     "rank": 2717375
+    },
+    {
+     "season": "2022/23",
+     "total": 2339,
+     "rank": 1145289
+    },
+    {
+     "season": "2023/24",
+     "total": 2476,
+     "rank": 120677
+    },
+    {
+     "season": "2024/25",
+     "total": 2238,
+     "rank": 2310156
+    },
+    {
+     "season": "2025/26",
+     "total": 2162,
+     "rank": 1346753
+    }
+   ]
+  },
+  {
    "entry": 130809,
    "player_name": "Evgeny Friedman",
    "team_name": "Evgeny M.U",
@@ -2669,87 +2750,6 @@
      "season": "2025/26",
      "total": 2451,
      "rank": 850
-    }
-   ]
-  },
-  {
-   "entry": 2517682,
-   "player_name": "Guy Mizrahi",
-   "team_name": "Miz Gunners",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 64,
-     "total_points": 64,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 1142767
-    },
-    {
-     "gw": 2,
-     "points": 77,
-     "total_points": 141,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 13,
-     "overall_rank": 3075903
-    },
-    {
-     "gw": 3,
-     "points": 48,
-     "total_points": 189,
-     "transfers": 2,
-     "hit_cost": 0,
-     "bench": 16,
-     "overall_rank": 3713941
-    },
-    {
-     "gw": 4,
-     "points": 96,
-     "total_points": 285,
-     "transfers": 1,
-     "hit_cost": 0,
-     "bench": 7,
-     "overall_rank": 1590538
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    }
-   ],
-   "past": [
-    {
-     "season": "2020/21",
-     "total": 697,
-     "rank": 7949489
-    },
-    {
-     "season": "2021/22",
-     "total": 2008,
-     "rank": 2717375
-    },
-    {
-     "season": "2022/23",
-     "total": 2339,
-     "rank": 1145289
-    },
-    {
-     "season": "2023/24",
-     "total": 2476,
-     "rank": 120677
-    },
-    {
-     "season": "2024/25",
-     "total": 2238,
-     "rank": 2310156
-    },
-    {
-     "season": "2025/26",
-     "total": 2162,
-     "rank": 1346753
     }
    ]
   },
