@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T00:39:03.805Z",
+ "generated_at": "2026-09-18T09:55:38.194Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -2567,87 +2567,6 @@
    ]
   },
   {
-   "entry": 2517682,
-   "player_name": "Guy Mizrahi",
-   "team_name": "Miz Gunners",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 64,
-     "total_points": 64,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 1142767
-    },
-    {
-     "gw": 2,
-     "points": 77,
-     "total_points": 141,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 13,
-     "overall_rank": 3075903
-    },
-    {
-     "gw": 3,
-     "points": 48,
-     "total_points": 189,
-     "transfers": 2,
-     "hit_cost": 0,
-     "bench": 16,
-     "overall_rank": 3713941
-    },
-    {
-     "gw": 4,
-     "points": 96,
-     "total_points": 285,
-     "transfers": 1,
-     "hit_cost": 0,
-     "bench": 7,
-     "overall_rank": 1590538
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    }
-   ],
-   "past": [
-    {
-     "season": "2020/21",
-     "total": 697,
-     "rank": 7949489
-    },
-    {
-     "season": "2021/22",
-     "total": 2008,
-     "rank": 2717375
-    },
-    {
-     "season": "2022/23",
-     "total": 2339,
-     "rank": 1145289
-    },
-    {
-     "season": "2023/24",
-     "total": 2476,
-     "rank": 120677
-    },
-    {
-     "season": "2024/25",
-     "total": 2238,
-     "rank": 2310156
-    },
-    {
-     "season": "2025/26",
-     "total": 2162,
-     "rank": 1346753
-    }
-   ]
-  },
-  {
    "entry": 130809,
    "player_name": "Evgeny Friedman",
    "team_name": "Evgeny M.U",
@@ -2750,6 +2669,87 @@
      "season": "2025/26",
      "total": 2451,
      "rank": 850
+    }
+   ]
+  },
+  {
+   "entry": 2517682,
+   "player_name": "Guy Mizrahi",
+   "team_name": "Miz Gunners",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 64,
+     "total_points": 64,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 1142767
+    },
+    {
+     "gw": 2,
+     "points": 77,
+     "total_points": 141,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 13,
+     "overall_rank": 3075903
+    },
+    {
+     "gw": 3,
+     "points": 48,
+     "total_points": 189,
+     "transfers": 2,
+     "hit_cost": 0,
+     "bench": 16,
+     "overall_rank": 3713941
+    },
+    {
+     "gw": 4,
+     "points": 96,
+     "total_points": 285,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 7,
+     "overall_rank": 1590538
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    }
+   ],
+   "past": [
+    {
+     "season": "2020/21",
+     "total": 697,
+     "rank": 7949489
+    },
+    {
+     "season": "2021/22",
+     "total": 2008,
+     "rank": 2717375
+    },
+    {
+     "season": "2022/23",
+     "total": 2339,
+     "rank": 1145289
+    },
+    {
+     "season": "2023/24",
+     "total": 2476,
+     "rank": 120677
+    },
+    {
+     "season": "2024/25",
+     "total": 2238,
+     "rank": 2310156
+    },
+    {
+     "season": "2025/26",
+     "total": 2162,
+     "rank": 1346753
     }
    ]
   },
