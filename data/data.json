@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T00:16:24.359Z",
+ "generated_at": "2026-09-20T09:53:49.874Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -1605,8 +1605,8 @@
      "points": 13,
      "owners": [
       "Tal Arbeli",
-      "Gena Shulik",
       "David Kravinsky",
+      "Gena Shulik",
       "Michael Peleg"
      ]
     },
@@ -1776,115 +1776,6 @@
    ]
   },
   {
-   "entry": 4302037,
-   "player_name": "Gena Shulik",
-   "team_name": "FPL Galácticos",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 72,
-     "total_points": 72,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 398656
-    },
-    {
-     "gw": 2,
-     "points": 127,
-     "total_points": 199,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 7,
-     "overall_rank": 9839
-    },
-    {
-     "gw": 3,
-     "points": 53,
-     "total_points": 252,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 11,
-     "overall_rank": 15048
-    },
-    {
-     "gw": 4,
-     "points": 62,
-     "total_points": 314,
-     "transfers": 3,
-     "hit_cost": 0,
-     "bench": 20,
-     "overall_rank": 289189
-    },
-    {
-     "gw": 5,
-     "points": 20,
-     "total_points": 334,
-     "transfers": 1,
-     "hit_cost": 0,
-     "bench": 19,
-     "overall_rank": 375878
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    },
-    {
-     "name": "3xc",
-     "gw": 3
-    }
-   ],
-   "past": [
-    {
-     "season": "2017/18",
-     "total": 1979,
-     "rank": 1351309
-    },
-    {
-     "season": "2018/19",
-     "total": 2083,
-     "rank": 995180
-    },
-    {
-     "season": "2019/20",
-     "total": 2201,
-     "rank": 292168
-    },
-    {
-     "season": "2020/21",
-     "total": 2342,
-     "rank": 216724
-    },
-    {
-     "season": "2021/22",
-     "total": 2555,
-     "rank": 46069
-    },
-    {
-     "season": "2022/23",
-     "total": 2151,
-     "rank": 3330185
-    },
-    {
-     "season": "2023/24",
-     "total": 2277,
-     "rank": 1267092
-    },
-    {
-     "season": "2024/25",
-     "total": 2328,
-     "rank": 1198267
-    },
-    {
-     "season": "2025/26",
-     "total": 2149,
-     "rank": 1528643
-    }
-   ]
-  },
-  {
    "entry": 466921,
    "player_name": "David Kravinsky",
    "team_name": "RUN&GUN",
@@ -1999,6 +1890,115 @@
      "season": "2025/26",
      "total": 2361,
      "rank": 38397
+    }
+   ]
+  },
+  {
+   "entry": 4302037,
+   "player_name": "Gena Shulik",
+   "team_name": "FPL Galácticos",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 72,
+     "total_points": 72,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 398656
+    },
+    {
+     "gw": 2,
+     "points": 127,
+     "total_points": 199,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 7,
+     "overall_rank": 9839
+    },
+    {
+     "gw": 3,
+     "points": 53,
+     "total_points": 252,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 11,
+     "overall_rank": 15048
+    },
+    {
+     "gw": 4,
+     "points": 62,
+     "total_points": 314,
+     "transfers": 3,
+     "hit_cost": 0,
+     "bench": 20,
+     "overall_rank": 289189
+    },
+    {
+     "gw": 5,
+     "points": 20,
+     "total_points": 334,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 19,
+     "overall_rank": 375878
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    },
+    {
+     "name": "3xc",
+     "gw": 3
+    }
+   ],
+   "past": [
+    {
+     "season": "2017/18",
+     "total": 1979,
+     "rank": 1351309
+    },
+    {
+     "season": "2018/19",
+     "total": 2083,
+     "rank": 995180
+    },
+    {
+     "season": "2019/20",
+     "total": 2201,
+     "rank": 292168
+    },
+    {
+     "season": "2020/21",
+     "total": 2342,
+     "rank": 216724
+    },
+    {
+     "season": "2021/22",
+     "total": 2555,
+     "rank": 46069
+    },
+    {
+     "season": "2022/23",
+     "total": 2151,
+     "rank": 3330185
+    },
+    {
+     "season": "2023/24",
+     "total": 2277,
+     "rank": 1267092
+    },
+    {
+     "season": "2024/25",
+     "total": 2328,
+     "rank": 1198267
+    },
+    {
+     "season": "2025/26",
+     "total": 2149,
+     "rank": 1528643
     }
    ]
   },
