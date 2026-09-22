@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T10:52:39.234Z",
+ "generated_at": "2026-09-22T01:02:30.719Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -37,9 +37,9 @@
   {
    "id": 5,
    "deadline_time": "2026-09-18T17:30:00Z",
-   "finished": false,
+   "finished": true,
    "is_current": true,
-   "data_checked": false
+   "data_checked": true
   },
   {
    "id": 6,
@@ -71,21 +71,21 @@
   },
   {
    "id": 10,
-   "deadline_time": "2026-11-07T13:30:00Z",
+   "deadline_time": "2026-11-06T18:30:00Z",
    "finished": false,
    "is_current": false,
    "data_checked": false
   },
   {
    "id": 11,
-   "deadline_time": "2026-11-21T13:30:00Z",
+   "deadline_time": "2026-11-21T11:00:00Z",
    "finished": false,
    "is_current": false,
    "data_checked": false
   },
   {
    "id": 12,
-   "deadline_time": "2026-11-28T13:30:00Z",
+   "deadline_time": "2026-11-27T18:30:00Z",
    "finished": false,
    "is_current": false,
    "data_checked": false
@@ -927,6 +927,166 @@
      "multiplier": 0
     }
    ]
+  },
+  {
+   "gw": 5,
+   "entry": 466921,
+   "name": "David Kravinsky",
+   "team": "RUN&GUN",
+   "net": 62,
+   "active_chip": "freehit",
+   "squad": [
+    {
+     "name": "Donnarumma",
+     "pos": "GKP",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Muñoz",
+     "pos": "DEF",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Tarkowski",
+     "pos": "DEF",
+     "points": 14,
+     "raw_points": 14,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Hall",
+     "pos": "DEF",
+     "points": 13,
+     "raw_points": 13,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Mbeumo",
+     "pos": "MID",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Dewsbury-Hall",
+     "pos": "MID",
+     "points": 3,
+     "raw_points": 3,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Gibbs-White",
+     "pos": "MID",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": true,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Palmer",
+     "pos": "MID",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Cherki",
+     "pos": "MID",
+     "points": 8,
+     "raw_points": 8,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Calvert-Lewin",
+     "pos": "FWD",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Haaland",
+     "pos": "FWD",
+     "points": 12,
+     "raw_points": 6,
+     "captain": true,
+     "vice": false,
+     "bench": false,
+     "multiplier": 2
+    },
+    {
+     "name": "Dubravka",
+     "pos": "GKP",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Giles",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Furlong",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Walle Egeli",
+     "pos": "FWD",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    }
+   ]
   }
  ],
  "totw": [
@@ -1575,7 +1735,7 @@
   },
   {
    "gw": 5,
-   "final": false,
+   "final": true,
    "formation": "3-5-2",
    "total": 114,
    "players": [
