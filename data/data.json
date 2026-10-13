@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T03:07:22.574Z",
+ "generated_at": "2026-10-13T12:48:56.310Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -1892,6 +1892,7 @@
      "pos": "DEF",
      "points": 15,
      "owners": [
+      "Tal Arbeli",
       "Ran Meltser",
       "ron hoffman",
       "Roma Samoilenko",
@@ -2101,12 +2102,12 @@
     },
     {
      "gw": 6,
-     "points": 67,
-     "total_points": 455,
+     "points": 82,
+     "total_points": 470,
      "transfers": 1,
      "hit_cost": 0,
-     "bench": 20,
-     "overall_rank": 56621
+     "bench": 5,
+     "overall_rank": 13545
     }
    ],
    "chips": [
@@ -2199,7 +2200,7 @@
      "transfers": 2,
      "hit_cost": 0,
      "bench": 5,
-     "overall_rank": 221487
+     "overall_rank": 241342
     }
    ],
    "chips": [
@@ -2316,7 +2317,7 @@
      "transfers": 2,
      "hit_cost": 4,
      "bench": 7,
-     "overall_rank": 372006
+     "overall_rank": 403304
     }
    ],
    "chips": [
@@ -2425,7 +2426,7 @@
      "transfers": 2,
      "hit_cost": 4,
      "bench": 15,
-     "overall_rank": 555382
+     "overall_rank": 599775
     }
    ],
    "chips": [
@@ -2552,7 +2553,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 8,
-     "overall_rank": 563157
+     "overall_rank": 608308
     }
    ],
    "chips": [
@@ -2654,7 +2655,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 8,
-     "overall_rank": 631491
+     "overall_rank": 681469
     }
    ],
    "chips": [
@@ -2776,7 +2777,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 9,
-     "overall_rank": 872069
+     "overall_rank": 938194
     }
    ],
    "chips": [
@@ -2874,7 +2875,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 4,
-     "overall_rank": 1149545
+     "overall_rank": 1233316
     }
    ],
    "chips": [
@@ -2987,7 +2988,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 16,
-     "overall_rank": 1379062
+     "overall_rank": 1476208
     }
    ],
    "chips": [
@@ -3099,12 +3100,12 @@
     },
     {
      "gw": 6,
-     "points": 56,
-     "total_points": 393,
+     "points": 58,
+     "total_points": 395,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 10,
-     "overall_rank": 1868689
+     "bench": 8,
+     "overall_rank": 1868501
     }
    ],
    "chips": [
@@ -3221,7 +3222,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 8,
-     "overall_rank": 1939378
+     "overall_rank": 2066185
     }
    ],
    "chips": [
@@ -3349,7 +3350,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 7,
-     "overall_rank": 1989445
+     "overall_rank": 2118964
     }
    ],
    "chips": [
@@ -3438,12 +3439,12 @@
     },
     {
      "gw": 6,
-     "points": 59,
-     "total_points": 385,
+     "points": 65,
+     "total_points": 391,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 8,
-     "overall_rank": 2371808
+     "bench": 2,
+     "overall_rank": 2118964
     }
    ],
    "chips": [
@@ -3551,7 +3552,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 11,
-     "overall_rank": 2950779
+     "overall_rank": 3122470
     }
    ],
    "chips": [
@@ -3643,7 +3644,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 11,
-     "overall_rank": 3063953
+     "overall_rank": 3240952
     }
    ],
    "chips": [
@@ -3746,7 +3747,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 9,
-     "overall_rank": 3920050
+     "overall_rank": 4122319
     }
    ],
    "chips": [
@@ -3874,7 +3875,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 3,
-     "overall_rank": 5666256
+     "overall_rank": 5892305
     }
    ],
    "chips": [
