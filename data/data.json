@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T12:48:56.310Z",
+ "generated_at": "2026-10-14T01:20:19.510Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -44,9 +44,9 @@
   {
    "id": 6,
    "deadline_time": "2026-10-10T10:00:00Z",
-   "finished": false,
+   "finished": true,
    "is_current": true,
-   "data_checked": false
+   "data_checked": true
   },
   {
    "id": 7,
@@ -1087,6 +1087,166 @@
      "multiplier": 0
     }
    ]
+  },
+  {
+   "gw": 6,
+   "entry": 6316401,
+   "name": "Ran Meltser",
+   "team": "Bruno Cunha Bruno",
+   "net": 83,
+   "active_chip": null,
+   "squad": [
+    {
+     "name": "Horníček",
+     "pos": "GKP",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Calafiori",
+     "pos": "DEF",
+     "points": 9,
+     "raw_points": 9,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Gvardiol",
+     "pos": "DEF",
+     "points": 4,
+     "raw_points": 4,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "De Cuyper",
+     "pos": "DEF",
+     "points": 15,
+     "raw_points": 15,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Gibbs-White",
+     "pos": "MID",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": true,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Mbeumo",
+     "pos": "MID",
+     "points": 8,
+     "raw_points": 8,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Cherki",
+     "pos": "MID",
+     "points": 10,
+     "raw_points": 10,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Rogers",
+     "pos": "MID",
+     "points": 9,
+     "raw_points": 9,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "João Pedro",
+     "pos": "FWD",
+     "points": 12,
+     "raw_points": 12,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Haaland",
+     "pos": "FWD",
+     "points": 12,
+     "raw_points": 6,
+     "captain": true,
+     "vice": false,
+     "bench": false,
+     "multiplier": 2
+    },
+    {
+     "name": "Delap",
+     "pos": "FWD",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Dovin",
+     "pos": "GKP",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Szoboszlai",
+     "pos": "MID",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Konsa",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 4,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Ajayi",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 1,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    }
+   ]
   }
  ],
  "totw": [
@@ -1871,7 +2031,7 @@
   },
   {
    "gw": 6,
-   "final": false,
+   "final": true,
    "formation": "3-5-2",
    "total": 107,
    "players": [
@@ -1922,8 +2082,8 @@
       "Shai Zamir",
       "Yogev Balilti",
       "Evgeny Friedman",
-      "daniel sagiants",
       "yoan stoyanov",
+      "daniel sagiants",
       "Liran Uzal",
       "Guy Mizrahi",
       "Michael Peleg",
@@ -1987,8 +2147,8 @@
       "David Kravinsky",
       "Roma Samoilenko",
       "Yogev Balilti",
-      "daniel sagiants",
       "yoan stoyanov",
+      "daniel sagiants",
       "Liran Uzal",
       "Guy Mizrahi",
       "Michael Peleg"
@@ -2018,8 +2178,8 @@
       "Eliel Hurovich",
       "Yogev Balilti",
       "Evgeny Friedman",
-      "daniel sagiants",
       "yoan stoyanov",
+      "daniel sagiants",
       "Liran Uzal"
      ]
     },
@@ -2038,8 +2198,8 @@
       "Shlomi Anavi",
       "Shai Zamir",
       "Evgeny Friedman",
-      "daniel sagiants",
       "yoan stoyanov",
+      "daniel sagiants",
       "Liran Uzal",
       "Guy Mizrahi",
       "Michael Peleg",
@@ -3294,100 +3454,6 @@
    ]
   },
   {
-   "entry": 4467392,
-   "player_name": "daniel sagiants",
-   "team_name": "chakito",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 49,
-     "total_points": 49,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 11,
-     "overall_rank": 4673927
-    },
-    {
-     "gw": 2,
-     "points": 115,
-     "total_points": 164,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 9,
-     "overall_rank": 783760
-    },
-    {
-     "gw": 3,
-     "points": 47,
-     "total_points": 211,
-     "transfers": 2,
-     "hit_cost": 0,
-     "bench": 4,
-     "overall_rank": 1258756
-    },
-    {
-     "gw": 4,
-     "points": 74,
-     "total_points": 285,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 9,
-     "overall_rank": 1569102
-    },
-    {
-     "gw": 5,
-     "points": 35,
-     "total_points": 320,
-     "transfers": 1,
-     "hit_cost": 0,
-     "bench": 10,
-     "overall_rank": 2660900
-    },
-    {
-     "gw": 6,
-     "points": 71,
-     "total_points": 391,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 7,
-     "overall_rank": 2118964
-    }
-   ],
-   "chips": [
-    {
-     "name": "wildcard",
-     "gw": 4
-    }
-   ],
-   "past": [
-    {
-     "season": "2019/20",
-     "total": 2174,
-     "rank": 416010
-    },
-    {
-     "season": "2020/21",
-     "total": 1964,
-     "rank": 2966463
-    },
-    {
-     "season": "2023/24",
-     "total": 2229,
-     "rank": 1817397
-    },
-    {
-     "season": "2024/25",
-     "total": 2409,
-     "rank": 515991
-    },
-    {
-     "season": "2025/26",
-     "total": 2288,
-     "rank": 237193
-    }
-   ]
-  },
-  {
    "entry": 4742791,
    "player_name": "yoan stoyanov",
    "team_name": "yoanst27",
@@ -3492,6 +3558,100 @@
      "season": "2025/26",
      "total": 2183,
      "rank": 1088283
+    }
+   ]
+  },
+  {
+   "entry": 4467392,
+   "player_name": "daniel sagiants",
+   "team_name": "chakito",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 49,
+     "total_points": 49,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 11,
+     "overall_rank": 4673927
+    },
+    {
+     "gw": 2,
+     "points": 115,
+     "total_points": 164,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 9,
+     "overall_rank": 783760
+    },
+    {
+     "gw": 3,
+     "points": 47,
+     "total_points": 211,
+     "transfers": 2,
+     "hit_cost": 0,
+     "bench": 4,
+     "overall_rank": 1258756
+    },
+    {
+     "gw": 4,
+     "points": 74,
+     "total_points": 285,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 9,
+     "overall_rank": 1569102
+    },
+    {
+     "gw": 5,
+     "points": 35,
+     "total_points": 320,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 10,
+     "overall_rank": 2660900
+    },
+    {
+     "gw": 6,
+     "points": 71,
+     "total_points": 391,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 7,
+     "overall_rank": 2118964
+    }
+   ],
+   "chips": [
+    {
+     "name": "wildcard",
+     "gw": 4
+    }
+   ],
+   "past": [
+    {
+     "season": "2019/20",
+     "total": 2174,
+     "rank": 416010
+    },
+    {
+     "season": "2020/21",
+     "total": 1964,
+     "rank": 2966463
+    },
+    {
+     "season": "2023/24",
+     "total": 2229,
+     "rank": 1817397
+    },
+    {
+     "season": "2024/25",
+     "total": 2409,
+     "rank": 515991
+    },
+    {
+     "season": "2025/26",
+     "total": 2288,
+     "rank": 237193
     }
    ]
   },
