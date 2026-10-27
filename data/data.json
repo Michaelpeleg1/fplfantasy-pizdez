@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T11:19:01.989Z",
+ "generated_at": "2026-10-27T01:34:58.933Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -58,9 +58,9 @@
   {
    "id": 8,
    "deadline_time": "2026-10-23T17:30:00Z",
-   "finished": false,
+   "finished": true,
    "is_current": true,
-   "data_checked": false
+   "data_checked": true
   },
   {
    "id": 9,
@@ -1407,6 +1407,166 @@
      "multiplier": 0
     }
    ]
+  },
+  {
+   "gw": 8,
+   "entry": 4698980,
+   "name": "Yogev Balilti",
+   "team": "Red Devils",
+   "net": 68,
+   "active_chip": null,
+   "squad": [
+    {
+     "name": "Raya",
+     "pos": "GKP",
+     "points": 7,
+     "raw_points": 7,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Calafiori",
+     "pos": "DEF",
+     "points": 1,
+     "raw_points": 1,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Konsa",
+     "pos": "DEF",
+     "points": 14,
+     "raw_points": 14,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "N.Williams",
+     "pos": "DEF",
+     "points": 8,
+     "raw_points": 8,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Barnes",
+     "pos": "MID",
+     "points": 8,
+     "raw_points": 8,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Gibbs-White",
+     "pos": "MID",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": true,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Palmer",
+     "pos": "MID",
+     "points": -1,
+     "raw_points": -1,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Tavernier",
+     "pos": "MID",
+     "points": 10,
+     "raw_points": 10,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Dewsbury-Hall",
+     "pos": "MID",
+     "points": 2,
+     "raw_points": 2,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Wissa",
+     "pos": "FWD",
+     "points": 1,
+     "raw_points": 1,
+     "captain": false,
+     "vice": false,
+     "bench": false,
+     "multiplier": 1
+    },
+    {
+     "name": "Haaland",
+     "pos": "FWD",
+     "points": 16,
+     "raw_points": 8,
+     "captain": true,
+     "vice": false,
+     "bench": false,
+     "multiplier": 2
+    },
+    {
+     "name": "Palmer",
+     "pos": "GKP",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "João Pedro",
+     "pos": "FWD",
+     "points": 0,
+     "raw_points": 0,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "De Cuyper",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 1,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    },
+    {
+     "name": "Thomas",
+     "pos": "DEF",
+     "points": 0,
+     "raw_points": 1,
+     "captain": false,
+     "vice": false,
+     "bench": true,
+     "multiplier": 0
+    }
+   ]
   }
  ],
  "totw": [
@@ -2538,7 +2698,7 @@
   },
   {
    "gw": 8,
-   "final": false,
+   "final": true,
    "formation": "4-5-1",
    "total": 94,
    "players": [
@@ -2747,12 +2907,12 @@
     },
     {
      "gw": 8,
-     "points": 42,
-     "total_points": 594,
+     "points": 47,
+     "total_points": 599,
      "transfers": 2,
      "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 2743
+     "bench": 6,
+     "overall_rank": 8332
     }
    ],
    "chips": [
@@ -2862,12 +3022,12 @@
     },
     {
      "gw": 8,
-     "points": 44,
-     "total_points": 550,
+     "points": 46,
+     "total_points": 552,
      "transfers": 1,
      "hit_cost": 0,
-     "bench": 1,
-     "overall_rank": 148770
+     "bench": 5,
+     "overall_rank": 324175
     }
    ],
    "chips": [
@@ -2997,12 +3157,12 @@
     },
     {
      "gw": 8,
-     "points": 27,
-     "total_points": 525,
+     "points": 41,
+     "total_points": 539,
      "transfers": 1,
      "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 570695
+     "bench": 7,
+     "overall_rank": 613511
     }
    ],
    "chips": [
@@ -3128,12 +3288,12 @@
     },
     {
      "gw": 8,
-     "points": 28,
-     "total_points": 522,
+     "points": 43,
+     "total_points": 537,
      "transfers": 2,
      "hit_cost": 0,
-     "bench": 6,
-     "overall_rank": 651967
+     "bench": 11,
+     "overall_rank": 669850
     }
    ],
    "chips": [
@@ -3268,12 +3428,12 @@
     },
     {
      "gw": 8,
-     "points": 42,
-     "total_points": 532,
+     "points": 45,
+     "total_points": 535,
      "transfers": 3,
      "hit_cost": 0,
-     "bench": 4,
-     "overall_rank": 409656
+     "bench": 5,
+     "overall_rank": 729257
     }
    ],
    "chips": [
@@ -3388,12 +3548,12 @@
     },
     {
      "gw": 8,
-     "points": 25,
-     "total_points": 520,
+     "points": 38,
+     "total_points": 533,
      "transfers": 2,
      "hit_cost": 0,
      "bench": 12,
-     "overall_rank": 722626
+     "overall_rank": 806583
     }
    ],
    "chips": [
@@ -3533,12 +3693,12 @@
     },
     {
      "gw": 8,
-     "points": 48,
-     "total_points": 507,
+     "points": 68,
+     "total_points": 527,
      "transfers": 1,
      "hit_cost": 0,
-     "bench": 3,
-     "overall_rank": 1172782
+     "bench": 2,
+     "overall_rank": 1010560
     }
    ],
    "chips": [
@@ -3668,12 +3828,12 @@
     },
     {
      "gw": 8,
-     "points": 31,
-     "total_points": 515,
+     "points": 41,
+     "total_points": 525,
      "transfers": 2,
      "hit_cost": 0,
      "bench": 3,
-     "overall_rank": 876113
+     "overall_rank": 1086804
     }
    ],
    "chips": [
@@ -3799,12 +3959,12 @@
     },
     {
      "gw": 8,
-     "points": 17,
-     "total_points": 510,
+     "points": 29,
+     "total_points": 522,
      "transfers": 1,
      "hit_cost": 0,
      "bench": 15,
-     "overall_rank": 1037615
+     "overall_rank": 1189500
     }
    ],
    "chips": [
@@ -3919,12 +4079,12 @@
     },
     {
      "gw": 8,
-     "points": 28,
-     "total_points": 501,
+     "points": 40,
+     "total_points": 513,
      "transfers": 1,
      "hit_cost": 0,
-     "bench": 2,
-     "overall_rank": 1415576
+     "bench": 4,
+     "overall_rank": 1600954
     }
    ],
    "chips": [
@@ -4054,12 +4214,12 @@
     },
     {
      "gw": 8,
-     "points": 42,
-     "total_points": 507,
+     "points": 46,
+     "total_points": 511,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 3,
-     "overall_rank": 1154377
+     "bench": 1,
+     "overall_rank": 1689670
     }
    ],
    "chips": [
@@ -4175,7 +4335,7 @@
      "transfers": 2,
      "hit_cost": 0,
      "bench": 3,
-     "overall_rank": 1850989
+     "overall_rank": 1850996
     }
    ],
    "chips": [
@@ -4316,12 +4476,12 @@
     },
     {
      "gw": 8,
-     "points": 27,
-     "total_points": 484,
+     "points": 42,
+     "total_points": 499,
      "transfers": 1,
      "hit_cost": 0,
      "bench": 9,
-     "overall_rank": 2265048
+     "overall_rank": 2341345
     }
    ],
    "chips": [
@@ -4446,12 +4606,12 @@
     },
     {
      "gw": 8,
-     "points": 36,
-     "total_points": 459,
+     "points": 61,
+     "total_points": 484,
      "transfers": 3,
      "hit_cost": 0,
-     "bench": 2,
-     "overall_rank": 3752824
+     "bench": 0,
+     "overall_rank": 3250100
     }
    ],
    "chips": [
@@ -4567,12 +4727,12 @@
     },
     {
      "gw": 8,
-     "points": 27,
-     "total_points": 475,
+     "points": 34,
+     "total_points": 482,
      "transfers": 2,
      "hit_cost": 0,
-     "bench": 2,
-     "overall_rank": 2790586
+     "bench": 7,
+     "overall_rank": 3390284
     }
    ],
    "chips": [
@@ -4682,7 +4842,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 14,
-     "overall_rank": 4316458
+     "overall_rank": 4316478
     }
    ],
    "chips": [
@@ -4827,12 +4987,12 @@
     },
     {
      "gw": 8,
-     "points": 23,
-     "total_points": 418,
+     "points": 46,
+     "total_points": 441,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 1,
-     "overall_rank": 6238880
+     "bench": 0,
+     "overall_rank": 6002416
     }
    ],
    "chips": [
