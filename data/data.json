@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-31T11:00:02.033Z",
+ "generated_at": "2026-11-01T01:21:39.711Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
  },
- "current_event": 8,
+ "current_event": 9,
  "events": [
   {
    "id": 1,
@@ -59,14 +59,14 @@
    "id": 8,
    "deadline_time": "2026-10-23T17:30:00Z",
    "finished": true,
-   "is_current": true,
+   "is_current": false,
    "data_checked": true
   },
   {
    "id": 9,
    "deadline_time": "2026-10-31T11:00:00Z",
    "finished": false,
-   "is_current": false,
+   "is_current": true,
    "data_checked": false
   },
   {
@@ -2834,6 +2834,147 @@
      ]
     }
    ]
+  },
+  {
+   "gw": 9,
+   "final": false,
+   "formation": "3-4-3",
+   "total": 96,
+   "players": [
+    {
+     "name": "Kelleher",
+     "club": "BRE",
+     "pos": "GKP",
+     "points": 7,
+     "owners": [
+      "ron hoffman"
+     ]
+    },
+    {
+     "name": "Van Hecke",
+     "club": "TOT",
+     "pos": "DEF",
+     "points": 15,
+     "owners": [
+      "Tal Arbeli"
+     ]
+    },
+    {
+     "name": "De Cuyper",
+     "club": "BHA",
+     "pos": "DEF",
+     "points": 9,
+     "owners": [
+      "Ran Meltser",
+      "ron hoffman",
+      "Gena Shulik",
+      "Roma Samoilenko",
+      "Eliel Hurovich",
+      "daniel sagiants"
+     ]
+    },
+    {
+     "name": "Ajer",
+     "club": "BRE",
+     "pos": "DEF",
+     "points": 8,
+     "owners": [
+      "David Kravinsky"
+     ]
+    },
+    {
+     "name": "Rogers",
+     "club": "CHE",
+     "pos": "MID",
+     "points": 9,
+     "owners": [
+      "Tal Arbeli",
+      "Ran Meltser",
+      "ron hoffman",
+      "Gena Shulik",
+      "Roma Samoilenko",
+      "David Kravinsky",
+      "Eliel Hurovich",
+      "Shai Zamir",
+      "Shlomi Anavi",
+      "daniel sagiants",
+      "Evgeny Friedman",
+      "Michael Peleg",
+      "YANIV NISSIM"
+     ]
+    },
+    {
+     "name": "Palmer",
+     "club": "CHE",
+     "pos": "MID",
+     "points": 8,
+     "owners": [
+      "Tal Arbeli",
+      "Roma Samoilenko",
+      "David Kravinsky",
+      "Eliel Hurovich",
+      "Shai Zamir",
+      "Yogev Balilti",
+      "yoan stoyanov",
+      "Guy Mizrahi",
+      "Liran Uzal",
+      "Michael Peleg"
+     ]
+    },
+    {
+     "name": "Manzambi",
+     "club": "AVL",
+     "pos": "MID",
+     "points": 7,
+     "owners": [
+      "David Kravinsky"
+     ]
+    },
+    {
+     "name": "Kluivert",
+     "club": "BOU",
+     "pos": "MID",
+     "points": 6,
+     "owners": [
+      "Guy Mizrahi"
+     ]
+    },
+    {
+     "name": "N.Jackson",
+     "club": "AVL",
+     "pos": "FWD",
+     "points": 9,
+     "owners": [
+      "Ran Meltser",
+      "ron hoffman",
+      "Shai Zamir",
+      "Shlomi Anavi",
+      "daniel sagiants",
+      "Yogev Balilti",
+      "Evgeny Friedman",
+      "yoan stoyanov"
+     ]
+    },
+    {
+     "name": "Evanilson",
+     "club": "BOU",
+     "pos": "FWD",
+     "points": 9,
+     "owners": [
+      "Gena Shulik",
+      "Liran Uzal"
+     ]
+    },
+    {
+     "name": "Thiago",
+     "club": "BRE",
+     "pos": "FWD",
+     "points": 9,
+     "owners": [
+      "Michael Peleg"
+     ]
+    }
+   ]
   }
  ],
  "managers": [
@@ -2913,6 +3054,15 @@
      "hit_cost": 0,
      "bench": 6,
      "overall_rank": 8332
+    },
+    {
+     "gw": 9,
+     "points": 42,
+     "total_points": 641,
+     "transfers": 2,
+     "hit_cost": 0,
+     "bench": 11,
+     "overall_rank": 20861
     }
    ],
    "chips": [
@@ -3028,6 +3178,15 @@
      "hit_cost": 0,
      "bench": 5,
      "overall_rank": 324175
+    },
+    {
+     "gw": 9,
+     "points": 39,
+     "total_points": 591,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 4,
+     "overall_rank": 443315
     }
    ],
    "chips": [
@@ -3163,6 +3322,15 @@
      "hit_cost": 0,
      "bench": 7,
      "overall_rank": 613511
+    },
+    {
+     "gw": 9,
+     "points": 44,
+     "total_points": 583,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 15,
+     "overall_rank": 613283
     }
    ],
    "chips": [
@@ -3294,6 +3462,15 @@
      "hit_cost": 0,
      "bench": 11,
      "overall_rank": 669850
+    },
+    {
+     "gw": 9,
+     "points": 43,
+     "total_points": 580,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 2,
+     "overall_rank": 686067
     }
    ],
    "chips": [
@@ -3434,6 +3611,15 @@
      "hit_cost": 0,
      "bench": 5,
      "overall_rank": 729257
+    },
+    {
+     "gw": 9,
+     "points": 41,
+     "total_points": 576,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 2,
+     "overall_rank": 786234
     }
    ],
    "chips": [
@@ -3554,6 +3740,15 @@
      "hit_cost": 0,
      "bench": 12,
      "overall_rank": 806583
+    },
+    {
+     "gw": 9,
+     "points": 47,
+     "total_points": 576,
+     "transfers": 2,
+     "hit_cost": 4,
+     "bench": 15,
+     "overall_rank": 807964
     }
    ],
    "chips": [
@@ -3620,272 +3815,6 @@
      "season": "2025/26",
      "total": 2361,
      "rank": 38397
-    }
-   ]
-  },
-  {
-   "entry": 4698980,
-   "player_name": "Yogev Balilti",
-   "team_name": "Red Devils",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 66,
-     "total_points": 66,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 893714
-    },
-    {
-     "gw": 2,
-     "points": 89,
-     "total_points": 155,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 13,
-     "overall_rank": 1474311
-    },
-    {
-     "gw": 3,
-     "points": 65,
-     "total_points": 220,
-     "transfers": 2,
-     "hit_cost": 0,
-     "bench": 12,
-     "overall_rank": 664410
-    },
-    {
-     "gw": 4,
-     "points": 71,
-     "total_points": 291,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 10,
-     "overall_rank": 1185331
-    },
-    {
-     "gw": 5,
-     "points": 46,
-     "total_points": 337,
-     "transfers": 1,
-     "hit_cost": 0,
-     "bench": 10,
-     "overall_rank": 1408193
-    },
-    {
-     "gw": 6,
-     "points": 58,
-     "total_points": 395,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 8,
-     "overall_rank": 1868501
-    },
-    {
-     "gw": 7,
-     "points": 68,
-     "total_points": 459,
-     "transfers": 3,
-     "hit_cost": 4,
-     "bench": 3,
-     "overall_rank": 2001280
-    },
-    {
-     "gw": 8,
-     "points": 68,
-     "total_points": 527,
-     "transfers": 1,
-     "hit_cost": 0,
-     "bench": 2,
-     "overall_rank": 1010560
-    }
-   ],
-   "chips": [
-    {
-     "name": "bboost",
-     "gw": 1
-    },
-    {
-     "name": "3xc",
-     "gw": 3
-    },
-    {
-     "name": "wildcard",
-     "gw": 4
-    }
-   ],
-   "past": [
-    {
-     "season": "2018/19",
-     "total": 2130,
-     "rank": 624889
-    },
-    {
-     "season": "2019/20",
-     "total": 2155,
-     "rank": 523814
-    },
-    {
-     "season": "2020/21",
-     "total": 2335,
-     "rank": 237862
-    },
-    {
-     "season": "2021/22",
-     "total": 2592,
-     "rank": 22372
-    },
-    {
-     "season": "2022/23",
-     "total": 2483,
-     "rank": 228976
-    },
-    {
-     "season": "2023/24",
-     "total": 2420,
-     "rank": 282611
-    },
-    {
-     "season": "2024/25",
-     "total": 2496,
-     "rank": 137396
-    },
-    {
-     "season": "2025/26",
-     "total": 2128,
-     "rank": 1833039
-    }
-   ]
-  },
-  {
-   "entry": 7894370,
-   "player_name": "Shlomi Anavi",
-   "team_name": "No More Pep",
-   "gws": [
-    {
-     "gw": 1,
-     "points": 36,
-     "total_points": 36,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 2,
-     "overall_rank": 7815956
-    },
-    {
-     "gw": 2,
-     "points": 115,
-     "total_points": 151,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 11,
-     "overall_rank": 1873792
-    },
-    {
-     "gw": 3,
-     "points": 60,
-     "total_points": 211,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 8,
-     "overall_rank": 1218162
-    },
-    {
-     "gw": 4,
-     "points": 90,
-     "total_points": 301,
-     "transfers": 3,
-     "hit_cost": 0,
-     "bench": 1,
-     "overall_rank": 702711
-    },
-    {
-     "gw": 5,
-     "points": 47,
-     "total_points": 344,
-     "transfers": 2,
-     "hit_cost": 4,
-     "bench": 0,
-     "overall_rank": 1041955
-    },
-    {
-     "gw": 6,
-     "points": 63,
-     "total_points": 407,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 4,
-     "overall_rank": 1233316
-    },
-    {
-     "gw": 7,
-     "points": 77,
-     "total_points": 484,
-     "transfers": 0,
-     "hit_cost": 0,
-     "bench": 3,
-     "overall_rank": 857156
-    },
-    {
-     "gw": 8,
-     "points": 41,
-     "total_points": 525,
-     "transfers": 2,
-     "hit_cost": 0,
-     "bench": 3,
-     "overall_rank": 1086804
-    }
-   ],
-   "chips": [
-    {
-     "name": "3xc",
-     "gw": 3
-    },
-    {
-     "name": "wildcard",
-     "gw": 6
-    }
-   ],
-   "past": [
-    {
-     "season": "2018/19",
-     "total": 2022,
-     "rank": 1620957
-    },
-    {
-     "season": "2019/20",
-     "total": 1790,
-     "rank": 4396406
-    },
-    {
-     "season": "2020/21",
-     "total": 2249,
-     "rank": 607637
-    },
-    {
-     "season": "2021/22",
-     "total": 2417,
-     "rank": 265293
-    },
-    {
-     "season": "2022/23",
-     "total": 2440,
-     "rank": 414756
-    },
-    {
-     "season": "2023/24",
-     "total": 2359,
-     "rank": 583749
-    },
-    {
-     "season": "2024/25",
-     "total": 2530,
-     "rank": 67652
-    },
-    {
-     "season": "2025/26",
-     "total": 2272,
-     "rank": 318715
     }
    ]
   },
@@ -3965,6 +3894,15 @@
      "hit_cost": 0,
      "bench": 15,
      "overall_rank": 1189500
+    },
+    {
+     "gw": 9,
+     "points": 42,
+     "total_points": 564,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 4,
+     "overall_rank": 1157638
     }
    ],
    "chips": [
@@ -4085,6 +4023,15 @@
      "hit_cost": 0,
      "bench": 4,
      "overall_rank": 1600954
+    },
+    {
+     "gw": 9,
+     "points": 45,
+     "total_points": 558,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 12,
+     "overall_rank": 1381159
     }
    ],
    "chips": [
@@ -4141,6 +4088,146 @@
      "season": "2025/26",
      "total": 2175,
      "rank": 1182982
+    }
+   ]
+  },
+  {
+   "entry": 7894370,
+   "player_name": "Shlomi Anavi",
+   "team_name": "No More Pep",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 36,
+     "total_points": 36,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 2,
+     "overall_rank": 7815956
+    },
+    {
+     "gw": 2,
+     "points": 115,
+     "total_points": 151,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 11,
+     "overall_rank": 1873792
+    },
+    {
+     "gw": 3,
+     "points": 60,
+     "total_points": 211,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 8,
+     "overall_rank": 1218162
+    },
+    {
+     "gw": 4,
+     "points": 90,
+     "total_points": 301,
+     "transfers": 3,
+     "hit_cost": 0,
+     "bench": 1,
+     "overall_rank": 702711
+    },
+    {
+     "gw": 5,
+     "points": 47,
+     "total_points": 344,
+     "transfers": 2,
+     "hit_cost": 4,
+     "bench": 0,
+     "overall_rank": 1041955
+    },
+    {
+     "gw": 6,
+     "points": 63,
+     "total_points": 407,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 4,
+     "overall_rank": 1233316
+    },
+    {
+     "gw": 7,
+     "points": 77,
+     "total_points": 484,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 3,
+     "overall_rank": 857156
+    },
+    {
+     "gw": 8,
+     "points": 41,
+     "total_points": 525,
+     "transfers": 2,
+     "hit_cost": 0,
+     "bench": 3,
+     "overall_rank": 1086804
+    },
+    {
+     "gw": 9,
+     "points": 32,
+     "total_points": 557,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 11,
+     "overall_rank": 1429172
+    }
+   ],
+   "chips": [
+    {
+     "name": "3xc",
+     "gw": 3
+    },
+    {
+     "name": "wildcard",
+     "gw": 6
+    }
+   ],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 2022,
+     "rank": 1620957
+    },
+    {
+     "season": "2019/20",
+     "total": 1790,
+     "rank": 4396406
+    },
+    {
+     "season": "2020/21",
+     "total": 2249,
+     "rank": 607637
+    },
+    {
+     "season": "2021/22",
+     "total": 2417,
+     "rank": 265293
+    },
+    {
+     "season": "2022/23",
+     "total": 2440,
+     "rank": 414756
+    },
+    {
+     "season": "2023/24",
+     "total": 2359,
+     "rank": 583749
+    },
+    {
+     "season": "2024/25",
+     "total": 2530,
+     "rank": 67652
+    },
+    {
+     "season": "2025/26",
+     "total": 2272,
+     "rank": 318715
     }
    ]
   },
@@ -4220,6 +4307,15 @@
      "hit_cost": 0,
      "bench": 1,
      "overall_rank": 1689670
+    },
+    {
+     "gw": 9,
+     "points": 45,
+     "total_points": 556,
+     "transfers": 2,
+     "hit_cost": 0,
+     "bench": 1,
+     "overall_rank": 1457517
     }
    ],
    "chips": [
@@ -4257,6 +4353,150 @@
      "season": "2025/26",
      "total": 2288,
      "rank": 237193
+    }
+   ]
+  },
+  {
+   "entry": 4698980,
+   "player_name": "Yogev Balilti",
+   "team_name": "Red Devils",
+   "gws": [
+    {
+     "gw": 1,
+     "points": 66,
+     "total_points": 66,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 0,
+     "overall_rank": 893714
+    },
+    {
+     "gw": 2,
+     "points": 89,
+     "total_points": 155,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 13,
+     "overall_rank": 1474311
+    },
+    {
+     "gw": 3,
+     "points": 65,
+     "total_points": 220,
+     "transfers": 2,
+     "hit_cost": 0,
+     "bench": 12,
+     "overall_rank": 664410
+    },
+    {
+     "gw": 4,
+     "points": 71,
+     "total_points": 291,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 10,
+     "overall_rank": 1185331
+    },
+    {
+     "gw": 5,
+     "points": 46,
+     "total_points": 337,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 10,
+     "overall_rank": 1408193
+    },
+    {
+     "gw": 6,
+     "points": 58,
+     "total_points": 395,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 8,
+     "overall_rank": 1868501
+    },
+    {
+     "gw": 7,
+     "points": 68,
+     "total_points": 459,
+     "transfers": 3,
+     "hit_cost": 4,
+     "bench": 3,
+     "overall_rank": 2001280
+    },
+    {
+     "gw": 8,
+     "points": 68,
+     "total_points": 527,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 2,
+     "overall_rank": 1010560
+    },
+    {
+     "gw": 9,
+     "points": 27,
+     "total_points": 554,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 9,
+     "overall_rank": 1547018
+    }
+   ],
+   "chips": [
+    {
+     "name": "bboost",
+     "gw": 1
+    },
+    {
+     "name": "3xc",
+     "gw": 3
+    },
+    {
+     "name": "wildcard",
+     "gw": 4
+    }
+   ],
+   "past": [
+    {
+     "season": "2018/19",
+     "total": 2130,
+     "rank": 624889
+    },
+    {
+     "season": "2019/20",
+     "total": 2155,
+     "rank": 523814
+    },
+    {
+     "season": "2020/21",
+     "total": 2335,
+     "rank": 237862
+    },
+    {
+     "season": "2021/22",
+     "total": 2592,
+     "rank": 22372
+    },
+    {
+     "season": "2022/23",
+     "total": 2483,
+     "rank": 228976
+    },
+    {
+     "season": "2023/24",
+     "total": 2420,
+     "rank": 282611
+    },
+    {
+     "season": "2024/25",
+     "total": 2496,
+     "rank": 137396
+    },
+    {
+     "season": "2025/26",
+     "total": 2128,
+     "rank": 1833039
     }
    ]
   },
@@ -4336,6 +4576,15 @@
      "hit_cost": 0,
      "bench": 3,
      "overall_rank": 1850996
+    },
+    {
+     "gw": 9,
+     "points": 37,
+     "total_points": 545,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 9,
+     "overall_rank": 1918645
     }
    ],
    "chips": [
@@ -4482,6 +4731,15 @@
      "hit_cost": 0,
      "bench": 9,
      "overall_rank": 2341345
+    },
+    {
+     "gw": 9,
+     "points": 33,
+     "total_points": 532,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 7,
+     "overall_rank": 2539242
     }
    ],
    "chips": [
@@ -4612,6 +4870,15 @@
      "hit_cost": 0,
      "bench": 0,
      "overall_rank": 3250100
+    },
+    {
+     "gw": 9,
+     "points": 33,
+     "total_points": 517,
+     "transfers": 0,
+     "hit_cost": 0,
+     "bench": 2,
+     "overall_rank": 3325934
     }
    ],
    "chips": [
@@ -4733,6 +5000,15 @@
      "hit_cost": 0,
      "bench": 7,
      "overall_rank": 3390284
+    },
+    {
+     "gw": 9,
+     "points": 32,
+     "total_points": 514,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 3,
+     "overall_rank": 3510685
     }
    ],
    "chips": [
@@ -4843,6 +5119,15 @@
      "hit_cost": 0,
      "bench": 14,
      "overall_rank": 4316478
+    },
+    {
+     "gw": 9,
+     "points": 40,
+     "total_points": 508,
+     "transfers": 1,
+     "hit_cost": 0,
+     "bench": 21,
+     "overall_rank": 3863486
     }
    ],
    "chips": [
@@ -4993,6 +5278,15 @@
      "hit_cost": 0,
      "bench": 0,
      "overall_rank": 6002416
+    },
+    {
+     "gw": 9,
+     "points": 22,
+     "total_points": 459,
+     "transfers": 3,
+     "hit_cost": 4,
+     "bench": 5,
+     "overall_rank": 6555979
     }
    ],
    "chips": [
