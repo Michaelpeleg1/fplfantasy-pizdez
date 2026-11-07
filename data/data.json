@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T22:34:33.504Z",
+ "generated_at": "2026-11-07T05:31:38.980Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -3428,12 +3428,12 @@
     },
     {
      "gw": 10,
-     "points": 0,
-     "total_points": 667,
+     "points": 16,
+     "total_points": 683,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 5977
+     "overall_rank": 2623
     }
    ],
    "chips": [
@@ -3561,12 +3561,12 @@
     },
     {
      "gw": 10,
-     "points": 0,
-     "total_points": 594,
+     "points": 16,
+     "total_points": 610,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 686748
+     "overall_rank": 412951
     }
    ],
    "chips": [
@@ -3728,12 +3728,12 @@
     },
     {
      "gw": 10,
-     "points": 0,
-     "total_points": 590,
+     "points": 16,
+     "total_points": 606,
      "transfers": 1,
      "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 772716
+     "bench": 1,
+     "overall_rank": 474151
     }
    ],
    "chips": [
@@ -3871,7 +3871,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 488743
+     "overall_rank": 562139
     }
    ],
    "chips": [
@@ -4024,7 +4024,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 647339
+     "overall_rank": 730560
     }
    ],
    "chips": [
@@ -4168,12 +4168,12 @@
     },
     {
      "gw": 10,
-     "points": 0,
-     "total_points": 584,
+     "points": 9,
+     "total_points": 589,
      "transfers": 2,
      "hit_cost": 4,
      "bench": 0,
-     "overall_rank": 965120
+     "overall_rank": 912166
     }
    ],
    "chips": [
@@ -4326,7 +4326,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 864487
+     "overall_rank": 953132
     }
    ],
    "chips": [
@@ -4484,7 +4484,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 1220421
+     "overall_rank": 1328855
     }
    ],
    "chips": [
@@ -4622,7 +4622,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 1377420
+     "overall_rank": 1491371
     }
    ],
    "chips": [
@@ -4751,12 +4751,12 @@
     },
     {
      "gw": 10,
-     "points": 0,
-     "total_points": 570,
+     "points": 2,
+     "total_points": 572,
      "transfers": 1,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 1466909
+     "overall_rank": 1501358
     }
    ],
    "chips": [
@@ -4908,8 +4908,8 @@
      "total_points": 560,
      "transfers": 1,
      "hit_cost": 0,
-     "bench": 0,
-     "overall_rank": 1885441
+     "bench": 1,
+     "overall_rank": 2010773
     }
    ],
    "chips": [
@@ -5057,12 +5057,12 @@
     },
     {
      "gw": 10,
-     "points": 0,
-     "total_points": 546,
+     "points": 16,
+     "total_points": 558,
      "transfers": 3,
      "hit_cost": 4,
      "bench": 0,
-     "overall_rank": 2567119
+     "overall_rank": 2114999
     }
    ],
    "chips": [
@@ -5196,12 +5196,12 @@
     },
     {
      "gw": 10,
-     "points": 0,
-     "total_points": 542,
+     "points": 9,
+     "total_points": 551,
      "transfers": 1,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 2787947
+     "overall_rank": 2447786
     }
    ],
    "chips": [
@@ -5349,7 +5349,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 2368375
+     "overall_rank": 2499269
     }
    ],
    "chips": [
@@ -5513,7 +5513,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 3469937
+     "overall_rank": 3602742
     }
    ],
    "chips": [
@@ -5641,7 +5641,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 0,
-     "overall_rank": 4009983
+     "overall_rank": 4135250
     }
    ],
    "chips": [
@@ -5805,11 +5805,11 @@
     {
      "gw": 10,
      "points": 0,
-     "total_points": 471,
+     "total_points": 467,
      "transfers": 2,
      "hit_cost": 4,
      "bench": 0,
-     "overall_rank": 6809647
+     "overall_rank": 7084799
     }
    ],
    "chips": [
