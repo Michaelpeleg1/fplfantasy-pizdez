@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T22:34:59.112Z",
+ "generated_at": "2026-11-24T05:31:10.950Z",
  "league": {
   "id": 237688,
   "name": "Pizdez 2026/27"
@@ -3679,12 +3679,12 @@
     },
     {
      "gw": 11,
-     "points": 26,
-     "total_points": 757,
+     "points": 28,
+     "total_points": 759,
      "transfers": 2,
      "hit_cost": 0,
-     "bench": 2,
-     "overall_rank": 23869
+     "bench": 3,
+     "overall_rank": 21286
     }
    ],
    "chips": [
@@ -3825,8 +3825,8 @@
      "total_points": 708,
      "transfers": 1,
      "hit_cost": 0,
-     "bench": 2,
-     "overall_rank": 405480
+     "bench": 4,
+     "overall_rank": 413848
     }
    ],
    "chips": [
@@ -4002,7 +4002,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 9,
-     "overall_rank": 605401
+     "overall_rank": 616302
     }
    ],
    "chips": [
@@ -4159,12 +4159,12 @@
     },
     {
      "gw": 11,
-     "points": 21,
-     "total_points": 689,
+     "points": 23,
+     "total_points": 691,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 11,
-     "overall_rank": 781926
+     "overall_rank": 745214
     }
    ],
    "chips": [
@@ -4310,8 +4310,8 @@
      "total_points": 690,
      "transfers": 0,
      "hit_cost": 0,
-     "bench": 4,
-     "overall_rank": 760184
+     "bench": 10,
+     "overall_rank": 772981
     }
    ],
    "chips": [
@@ -4468,8 +4468,8 @@
      "total_points": 678,
      "transfers": 2,
      "hit_cost": 0,
-     "bench": 5,
-     "overall_rank": 1095466
+     "bench": 6,
+     "overall_rank": 1111902
     }
    ],
    "chips": [
@@ -4631,12 +4631,12 @@
     },
     {
      "gw": 11,
-     "points": 26,
-     "total_points": 671,
+     "points": 28,
+     "total_points": 673,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 11,
-     "overall_rank": 1326787
+     "overall_rank": 1278513
     }
    ],
    "chips": [
@@ -4798,7 +4798,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 5,
-     "overall_rank": 1285655
+     "overall_rank": 1303843
     }
    ],
    "chips": [
@@ -4936,12 +4936,12 @@
     },
     {
      "gw": 11,
-     "points": 26,
-     "total_points": 665,
+     "points": 23,
+     "total_points": 662,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 4,
-     "overall_rank": 1527945
+     "overall_rank": 1660013
     }
    ],
    "chips": [
@@ -5103,7 +5103,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 3,
-     "overall_rank": 1820737
+     "overall_rank": 1843864
     }
    ],
    "chips": [
@@ -5245,12 +5245,12 @@
     },
     {
      "gw": 11,
-     "points": 33,
-     "total_points": 656,
+     "points": 34,
+     "total_points": 657,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 3,
-     "overall_rank": 1864615
+     "overall_rank": 1847753
     }
    ],
    "chips": [
@@ -5423,7 +5423,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 9,
-     "overall_rank": 2206363
+     "overall_rank": 2232238
     }
    ],
    "chips": [
@@ -5580,12 +5580,12 @@
     },
     {
      "gw": 11,
-     "points": 30,
-     "total_points": 642,
+     "points": 32,
+     "total_points": 644,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 10,
-     "overall_rank": 2471048
+     "overall_rank": 2408800
     }
    ],
    "chips": [
@@ -5728,12 +5728,12 @@
     },
     {
      "gw": 11,
-     "points": 31,
-     "total_points": 632,
+     "points": 33,
+     "total_points": 634,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 8,
-     "overall_rank": 2932466
+     "overall_rank": 2866469
     }
    ],
    "chips": [
@@ -5890,7 +5890,7 @@
      "transfers": 1,
      "hit_cost": 0,
      "bench": 9,
-     "overall_rank": 2852959
+     "overall_rank": 2883219
     }
    ],
    "chips": [
@@ -6027,7 +6027,7 @@
      "transfers": 0,
      "hit_cost": 0,
      "bench": 3,
-     "overall_rank": 5352136
+     "overall_rank": 5389243
     }
    ],
    "chips": [
@@ -6199,12 +6199,12 @@
     },
     {
      "gw": 11,
-     "points": 59,
-     "total_points": 560,
+     "points": 58,
+     "total_points": 559,
      "transfers": 0,
      "hit_cost": 0,
      "bench": 5,
-     "overall_rank": 6555275
+     "overall_rank": 6633330
     }
    ],
    "chips": [
